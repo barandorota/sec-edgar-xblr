@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+(c) 2010-2018 Financial Accounting Foundation; (c) 2007-2010 XBRL US, Inc.  All Right Reserved.
+Notice: Authorized Uses are Set Forth at http://xbrl.fasb.org/terms/TaxonomiesTermsConditions.html
+  -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+<link:roleRef roleURI="http://fasb.org/us-gaap/role/disclosure/RevenueFromContractWithCustomerTemp05RevenueInitialApplicationPeriodCumulativeEffectTransitionTable" xlink:type="simple" xlink:href="../elts/us-roles-2018-01-31.xsd#RevenueFromContractWithCustomerTemp05RevenueInitialApplicationPeriodCumulativeEffectTransitionTable"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/RevenueFromContractWithCustomerTemp05RevenueInitialApplicationPeriodCumulativeEffectTransitionTable" xlink:type="extended">
+<link:loc xlink:label="loc_RevenueInitialApplicationPeriodCumulativeEffectTransitionLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RevenueInitialApplicationPeriodCumulativeEffectTransitionLineItems"/>
+<link:loc xlink:label="loc_RevenueInitialApplicationPeriodCumulativeEffectTransitionTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RevenueInitialApplicationPeriodCumulativeEffectTransitionTable"/>
+<link:definitionArc priority="10" order="1.0" xbrldt:closed="true" xbrldt:contextElement="segment" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_RevenueInitialApplicationPeriodCumulativeEffectTransitionLineItems" xlink:to="loc_RevenueInitialApplicationPeriodCumulativeEffectTransitionTable" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/RevenueFromContractWithCustomerTemp05RevenueInitialApplicationPeriodCumulativeEffectTransitionTable" xlink:type="extended">
+<link:loc xlink:label="loc_AdjustmentsForNewAccountingPronouncementsAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AdjustmentsForNewAccountingPronouncementsAxis"/>
+<link:loc xlink:label="loc_TypeOfAdoptionMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TypeOfAdoptionMember"/>
+<link:loc xlink:label="loc_InitialApplicationPeriodCumulativeEffectTransitionAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InitialApplicationPeriodCumulativeEffectTransitionAxis"/>
+<link:loc xlink:label="loc_InitialApplicationPeriodCumulativeEffectTransitionDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InitialApplicationPeriodCumulativeEffectTransitionDomain"/>
+<link:definitionArc priority="10" order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="loc_AdjustmentsForNewAccountingPronouncementsAxis" xlink:to="loc_TypeOfAdoptionMember" xlink:type="arc"/>
+<link:definitionArc priority="10" order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="loc_InitialApplicationPeriodCumulativeEffectTransitionAxis" xlink:to="loc_InitialApplicationPeriodCumulativeEffectTransitionDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/RevenueFromContractWithCustomerTemp05RevenueInitialApplicationPeriodCumulativeEffectTransitionTable" xlink:type="extended">
+<link:loc xlink:label="loc_AdjustmentsForNewAccountingPronouncementsAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AdjustmentsForNewAccountingPronouncementsAxis"/>
+<link:loc xlink:label="loc_TypeOfAdoptionMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TypeOfAdoptionMember"/>
+<link:loc xlink:label="loc_InitialApplicationPeriodCumulativeEffectTransitionAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InitialApplicationPeriodCumulativeEffectTransitionAxis"/>
+<link:loc xlink:label="loc_InitialApplicationPeriodCumulativeEffectTransitionDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InitialApplicationPeriodCumulativeEffectTransitionDomain"/>
+<link:definitionArc priority="10" order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_AdjustmentsForNewAccountingPronouncementsAxis" xlink:to="loc_TypeOfAdoptionMember" xlink:type="arc"/>
+<link:definitionArc priority="10" order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_InitialApplicationPeriodCumulativeEffectTransitionAxis" xlink:to="loc_InitialApplicationPeriodCumulativeEffectTransitionDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/RevenueFromContractWithCustomerTemp05RevenueInitialApplicationPeriodCumulativeEffectTransitionTable" xlink:type="extended">
+<link:loc xlink:label="loc_InitialApplicationPeriodCumulativeEffectTransitionDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InitialApplicationPeriodCumulativeEffectTransitionDomain"/>
+<link:loc xlink:label="loc_DifferenceBetweenRevenueGuidanceInEffectBeforeAndAfterTopic606Member" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DifferenceBetweenRevenueGuidanceInEffectBeforeAndAfterTopic606Member"/>
+<link:loc xlink:label="loc_RevenueInitialApplicationPeriodCumulativeEffectTransitionLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RevenueInitialApplicationPeriodCumulativeEffectTransitionLineItems"/>
+<link:loc xlink:label="loc_RevenueFromContractWithCustomerExcludingAssessedTax" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax"/>
+<link:loc xlink:label="loc_CostOfGoodsAndServicesSold" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CostOfGoodsAndServicesSold"/>
+<link:loc xlink:label="loc_CapitalizedContractCostNet" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CapitalizedContractCostNet"/>
+<link:loc xlink:label="loc_OtherLiabilities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherLiabilities"/>
+<link:loc xlink:label="loc_ContractWithCustomerLiability" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ContractWithCustomerLiability"/>
+<link:loc xlink:label="loc_RetainedEarningsAccumulatedDeficit" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RetainedEarningsAccumulatedDeficit"/>
+<link:loc xlink:label="loc_TypeOfAdoptionMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TypeOfAdoptionMember"/>
+<link:loc xlink:label="loc_AccountingStandardsUpdate201409Member" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AccountingStandardsUpdate201409Member"/>
+<link:definitionArc priority="10" order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_InitialApplicationPeriodCumulativeEffectTransitionDomain" xlink:to="loc_DifferenceBetweenRevenueGuidanceInEffectBeforeAndAfterTopic606Member" xlink:type="arc"/>
+<link:definitionArc priority="10" order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RevenueInitialApplicationPeriodCumulativeEffectTransitionLineItems" xlink:to="loc_RevenueFromContractWithCustomerExcludingAssessedTax" xlink:type="arc"/>
+<link:definitionArc priority="10" order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RevenueInitialApplicationPeriodCumulativeEffectTransitionLineItems" xlink:to="loc_CostOfGoodsAndServicesSold" xlink:type="arc"/>
+<link:definitionArc priority="10" order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RevenueInitialApplicationPeriodCumulativeEffectTransitionLineItems" xlink:to="loc_CapitalizedContractCostNet" xlink:type="arc"/>
+<link:definitionArc priority="10" order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RevenueInitialApplicationPeriodCumulativeEffectTransitionLineItems" xlink:to="loc_OtherLiabilities" xlink:type="arc"/>
+<link:definitionArc priority="10" order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RevenueInitialApplicationPeriodCumulativeEffectTransitionLineItems" xlink:to="loc_ContractWithCustomerLiability" xlink:type="arc"/>
+<link:definitionArc priority="10" order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RevenueInitialApplicationPeriodCumulativeEffectTransitionLineItems" xlink:to="loc_RetainedEarningsAccumulatedDeficit" xlink:type="arc"/>
+<link:definitionArc priority="10" order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_TypeOfAdoptionMember" xlink:to="loc_AccountingStandardsUpdate201409Member" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/RevenueFromContractWithCustomerTemp05RevenueInitialApplicationPeriodCumulativeEffectTransitionTable" xlink:type="extended">
+<link:loc xlink:label="loc_RevenueInitialApplicationPeriodCumulativeEffectTransitionTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RevenueInitialApplicationPeriodCumulativeEffectTransitionTable"/>
+<link:loc xlink:label="loc_InitialApplicationPeriodCumulativeEffectTransitionAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InitialApplicationPeriodCumulativeEffectTransitionAxis"/>
+<link:loc xlink:label="loc_AdjustmentsForNewAccountingPronouncementsAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AdjustmentsForNewAccountingPronouncementsAxis"/>
+<link:definitionArc priority="10" order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_RevenueInitialApplicationPeriodCumulativeEffectTransitionTable" xlink:to="loc_InitialApplicationPeriodCumulativeEffectTransitionAxis" xlink:type="arc"/>
+<link:definitionArc priority="10" order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_RevenueInitialApplicationPeriodCumulativeEffectTransitionTable" xlink:to="loc_AdjustmentsForNewAccountingPronouncementsAxis" xlink:type="arc"/>
+</link:definitionLink>
+</link:linkbase>

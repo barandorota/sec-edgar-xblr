@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+(c) 2010-2018 Financial Accounting Foundation; (c) 2007-2010 XBRL US, Inc.  All Right Reserved.
+Notice: Authorized Uses are Set Forth at http://xbrl.fasb.org/terms/TaxonomiesTermsConditions.html
+  --><link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+<link:roleRef roleURI="http://fasb.org/us-gaap/role/disclosure/RelatedPartyDisclosures" xlink:type="simple" xlink:href="../elts/us-roles-2018-01-31.xsd#rpd"/>
+<link:presentationLink xlink:role="http://fasb.org/us-gaap/role/disclosure/RelatedPartyDisclosures" xlink:type="extended">
+<link:loc xlink:label="loc_AffiliatedEntityMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_AffiliatedEntityMember"/>
+<link:loc xlink:label="loc_MajorityOwnedSubsidiaryUnconsolidatedMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MajorityOwnedSubsidiaryUnconsolidatedMember"/>
+<link:loc xlink:label="loc_SubsidiaryOfCommonParentMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SubsidiaryOfCommonParentMember"/>
+<link:loc xlink:label="loc_MajorityShareholderMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MajorityShareholderMember"/>
+<link:loc xlink:label="loc_PrincipalOwnerMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PrincipalOwnerMember"/>
+<link:loc xlink:label="loc_DueFromRelatedPartiesCurrentAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueFromRelatedPartiesCurrentAbstract"/>
+<link:loc xlink:label="loc_AccountsReceivableRelatedPartiesCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AccountsReceivableRelatedPartiesCurrent"/>
+<link:loc xlink:label="loc_NotesReceivableRelatedPartiesCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NotesReceivableRelatedPartiesCurrent"/>
+<link:loc xlink:label="loc_DueFromEmployeesCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueFromEmployeesCurrent"/>
+<link:loc xlink:label="loc_DueFromOfficersOrStockholdersCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueFromOfficersOrStockholdersCurrent"/>
+<link:loc xlink:label="loc_DueFromAffiliateCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueFromAffiliateCurrent"/>
+<link:loc xlink:label="loc_DueFromJointVenturesCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueFromJointVenturesCurrent"/>
+<link:loc xlink:label="loc_DueFromOtherRelatedPartiesCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueFromOtherRelatedPartiesCurrent"/>
+<link:loc xlink:label="loc_DueFromRelatedPartiesCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueFromRelatedPartiesCurrent"/>
+<link:loc xlink:label="loc_DueFromRelatedPartiesNoncurrentAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueFromRelatedPartiesNoncurrentAbstract"/>
+<link:loc xlink:label="loc_AccountsReceivableRelatedPartiesNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AccountsReceivableRelatedPartiesNoncurrent"/>
+<link:loc xlink:label="loc_NotesReceivableRelatedPartiesNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NotesReceivableRelatedPartiesNoncurrent"/>
+<link:loc xlink:label="loc_DueFromEmployeesNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueFromEmployeesNoncurrent"/>
+<link:loc xlink:label="loc_DueFromOfficersOrStockholdersNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueFromOfficersOrStockholdersNoncurrent"/>
+<link:loc xlink:label="loc_DueFromJointVenturesNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueFromJointVenturesNoncurrent"/>
+<link:loc xlink:label="loc_DueFromAffiliateNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueFromAffiliateNoncurrent"/>
+<link:loc xlink:label="loc_DueFromOtherRelatedPartiesNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueFromOtherRelatedPartiesNoncurrent"/>
+<link:loc xlink:label="loc_DueFromRelatedPartiesNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueFromRelatedPartiesNoncurrent"/>
+<link:loc xlink:label="loc_DueFromRelatedPartiesUnclassifiedAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueFromRelatedPartiesUnclassifiedAbstract"/>
+<link:loc xlink:label="loc_AccountsReceivableRelatedParties" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AccountsReceivableRelatedParties"/>
+<link:loc xlink:label="loc_NotesReceivableRelatedParties" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NotesReceivableRelatedParties"/>
+<link:loc xlink:label="loc_LoansAndLeasesReceivableRelatedParties" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_LoansAndLeasesReceivableRelatedParties"/>
+<link:loc xlink:label="loc_DueFromEmployees" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueFromEmployees"/>
+<link:loc xlink:label="loc_DueFromOfficersOrStockholders" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueFromOfficersOrStockholders"/>
+<link:loc xlink:label="loc_DueFromJointVentures" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueFromJointVentures"/>
+<link:loc xlink:label="loc_DueFromAffiliates" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueFromAffiliates"/>
+<link:loc xlink:label="loc_DueFromOtherRelatedParties" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueFromOtherRelatedParties"/>
+<link:loc xlink:label="loc_DueFromRelatedParties" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueFromRelatedParties"/>
+<link:loc xlink:label="loc_DueToRelatedPartiesCurrentAndNoncurrentAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueToRelatedPartiesCurrentAndNoncurrentAbstract"/>
+<link:loc xlink:label="loc_AccountsPayableRelatedPartiesCurrentAndNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AccountsPayableRelatedPartiesCurrentAndNoncurrent"/>
+<link:loc xlink:label="loc_NotesPayableRelatedPartiesCurrentAndNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NotesPayableRelatedPartiesCurrentAndNoncurrent"/>
+<link:loc xlink:label="loc_DueToEmployeesCurrentAndNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueToEmployeesCurrentAndNoncurrent"/>
+<link:loc xlink:label="loc_DueToOfficersOrStockholdersCurrentAndNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueToOfficersOrStockholdersCurrentAndNoncurrent"/>
+<link:loc xlink:label="loc_DueToAffiliateCurrentAndNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueToAffiliateCurrentAndNoncurrent"/>
+<link:loc xlink:label="loc_DueToOtherRelatedPartiesCurrentAndNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueToOtherRelatedPartiesCurrentAndNoncurrent"/>
+<link:loc xlink:label="loc_DueToRelatedPartiesCurrentAndNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueToRelatedPartiesCurrentAndNoncurrent"/>
+<link:loc xlink:label="loc_DueToRelatedPartiesCurrentAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueToRelatedPartiesCurrentAbstract"/>
+<link:loc xlink:label="loc_AccountsPayableRelatedPartiesCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AccountsPayableRelatedPartiesCurrent"/>
+<link:loc xlink:label="loc_NotesPayableRelatedPartiesClassifiedCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NotesPayableRelatedPartiesClassifiedCurrent"/>
+<link:loc xlink:label="loc_DueToEmployeesCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueToEmployeesCurrent"/>
+<link:loc xlink:label="loc_DueToOfficersOrStockholdersCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueToOfficersOrStockholdersCurrent"/>
+<link:loc xlink:label="loc_DueToAffiliateCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueToAffiliateCurrent"/>
+<link:loc xlink:label="loc_DueToOtherRelatedPartiesClassifiedCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueToOtherRelatedPartiesClassifiedCurrent"/>
+<link:loc xlink:label="loc_DueToRelatedPartiesCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueToRelatedPartiesCurrent"/>
+<link:loc xlink:label="loc_DueToRelatedPartiesNoncurrentAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueToRelatedPartiesNoncurrentAbstract"/>
+<link:loc xlink:label="loc_AccountsPayableRelatedPartiesNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AccountsPayableRelatedPartiesNoncurrent"/>
+<link:loc xlink:label="loc_NotesPayableRelatedPartiesNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NotesPayableRelatedPartiesNoncurrent"/>
+<link:loc xlink:label="loc_DueToEmployeesNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueToEmployeesNoncurrent"/>
+<link:loc xlink:label="loc_DueToOfficersOrStockholdersNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueToOfficersOrStockholdersNoncurrent"/>
+<link:loc xlink:label="loc_DueToAffiliateNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueToAffiliateNoncurrent"/>
+<link:loc xlink:label="loc_DueToOtherRelatedPartiesNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueToOtherRelatedPartiesNoncurrent"/>
+<link:loc xlink:label="loc_DueToRelatedPartiesNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DueToRelatedPartiesNoncurrent"/>
+<link:loc xlink:label="loc_ManagementMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ManagementMember"/>
+<link:loc xlink:label="loc_BoardOfDirectorsChairmanMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_BoardOfDirectorsChairmanMember"/>
+<link:loc xlink:label="loc_DirectorMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DirectorMember"/>
+<link:loc xlink:label="loc_ExecutiveOfficerMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ExecutiveOfficerMember"/>
+<link:loc xlink:label="loc_ChiefExecutiveOfficerMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ChiefExecutiveOfficerMember"/>
+<link:loc xlink:label="loc_ChiefFinancialOfficerMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ChiefFinancialOfficerMember"/>
+<link:loc xlink:label="loc_ChiefOperatingOfficerMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ChiefOperatingOfficerMember"/>
+<link:loc xlink:label="loc_ControllerMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ControllerMember"/>
+<link:loc xlink:label="loc_ExecutiveVicePresidentMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ExecutiveVicePresidentMember"/>
+<link:loc xlink:label="loc_VicePresidentMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_VicePresidentMember"/>
+<link:loc xlink:label="loc_PresidentMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PresidentMember"/>
+<link:loc xlink:label="loc_OfficerMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OfficerMember"/>
+<link:loc xlink:label="loc_RelatedPartyTaxExpenseAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTaxExpenseAbstract"/>
+<link:loc xlink:label="loc_RelatedPartyTaxExpenseMethodology" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTaxExpenseMethodology"/>
+<link:loc xlink:label="loc_RelatedPartyTaxExpenseEffectOfChangeInAllocationMethodology" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTaxExpenseEffectOfChangeInAllocationMethodology"/>
+<link:loc xlink:label="loc_RelatedPartyTaxExpenseDueToAffiliatesCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTaxExpenseDueToAffiliatesCurrent"/>
+<link:loc xlink:label="loc_RelatedPartyTaxExpenseDueToAffiliatesDeferred" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTaxExpenseDueToAffiliatesDeferred"/>
+<link:loc xlink:label="loc_RelatedPartyTaxExpenseDueFromAffiliatesCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTaxExpenseDueFromAffiliatesCurrent"/>
+<link:loc xlink:label="loc_RelatedPartyTaxExpenseDueFromAffiliatesDeferred" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTaxExpenseDueFromAffiliatesDeferred"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionAxis"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionDomain"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionLineItems"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionDescriptionOfTransaction" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionDescriptionOfTransaction"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionAmountsOfTransaction" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionAmountsOfTransaction"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionPurchasesFromRelatedParty" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionPurchasesFromRelatedParty"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionRate" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionRate"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionDate" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionDate"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionEffectsOfAnyChangeInMethodOfEstablishingTerms" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionEffectsOfAnyChangeInMethodOfEstablishingTerms"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionTermsAndMannerOfSettlement" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionTermsAndMannerOfSettlement"/>
+<link:loc xlink:label="loc_RevenueFromRelatedParties" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RevenueFromRelatedParties"/>
+<link:loc xlink:label="loc_RelatedPartyCosts" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyCosts"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionOtherRevenuesFromTransactionsWithRelatedParty" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionOtherRevenuesFromTransactionsWithRelatedParty"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionExpensesFromTransactionsWithRelatedParty" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionExpensesFromTransactionsWithRelatedParty"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionSellingGeneralAndAdministrativeExpensesFromTransactionsWithRelatedParty" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionSellingGeneralAndAdministrativeExpensesFromTransactionsWithRelatedParty"/>
+<link:loc xlink:label="loc_InterestExpenseRelatedParty" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestExpenseRelatedParty"/>
+<link:loc xlink:label="loc_InterestIncomeRelatedParty" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestIncomeRelatedParty"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionDueFromToRelatedPartyCurrentAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionDueFromToRelatedPartyCurrentAbstract"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionDueFromToRelatedPartyNoncurrentAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionDueFromToRelatedPartyNoncurrentAbstract"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionDueFromToRelatedPartyAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionDueFromToRelatedPartyAbstract"/>
+<link:loc xlink:label="loc_RelatedPartyDepositLiabilities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyDepositLiabilities"/>
+<link:loc xlink:label="loc_NatureOfCommonOwnershipOrManagementControlRelationships" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NatureOfCommonOwnershipOrManagementControlRelationships"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionArmsLengthBasisOfTransactions" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionArmsLengthBasisOfTransactions"/>
+<link:loc xlink:label="loc_EquityMethodInvestmentOwnershipPercentage" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_EquityMethodInvestmentOwnershipPercentage"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionDueFromToRelatedParty" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionDueFromToRelatedParty"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionDueFromToRelatedPartyCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionDueFromToRelatedPartyCurrent"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionDueFromToRelatedPartyNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionDueFromToRelatedPartyNoncurrent"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionsAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionsAbstract"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionsDisclosureTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionsDisclosureTextBlock"/>
+<link:loc xlink:label="loc_ScheduleOfRelatedPartyTransactionsTableTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ScheduleOfRelatedPartyTransactionsTableTextBlock"/>
+<link:loc xlink:label="loc_ScheduleOfRelatedPartyTransactionsByRelatedPartyTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ScheduleOfRelatedPartyTransactionsByRelatedPartyTable"/>
+<link:loc xlink:label="loc_RelatedPartyTransactionsByRelatedPartyAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyTransactionsByRelatedPartyAxis"/>
+<link:loc xlink:label="loc_RelatedPartyDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RelatedPartyDomain"/>
+<link:loc xlink:label="loc_ImmediateFamilyMemberOfManagementOrPrincipalOwnerMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ImmediateFamilyMemberOfManagementOrPrincipalOwnerMember"/>
+<link:loc xlink:label="loc_TrustForBenefitOfEmployeesMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TrustForBenefitOfEmployeesMember"/>
+<link:loc xlink:label="loc_CorporateJointVentureMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CorporateJointVentureMember"/>
+<link:loc xlink:label="loc_CoVenturerMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CoVenturerMember"/>
+<link:loc xlink:label="loc_EquityMethodInvesteeMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_EquityMethodInvesteeMember"/>
+<link:loc xlink:label="loc_BeneficialOwnerMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_BeneficialOwnerMember"/>
+<link:loc xlink:label="loc_GeneralPartnerMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_GeneralPartnerMember"/>
+<link:loc xlink:label="loc_LimitedPartnerMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_LimitedPartnerMember"/>
+<link:loc xlink:label="loc_UndividedInterestMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UndividedInterestMember"/>
+<link:loc xlink:label="loc_InvestorMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InvestorMember"/>
+<link:loc xlink:label="loc_InvesteeMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InvesteeMember"/>
+<link:loc xlink:label="loc_LimitedLiabilityCompanyMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_LimitedLiabilityCompanyMember"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AffiliatedEntityMember" xlink:to="loc_MajorityOwnedSubsidiaryUnconsolidatedMember" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AffiliatedEntityMember" xlink:to="loc_SubsidiaryOfCommonParentMember" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AffiliatedEntityMember" xlink:to="loc_MajorityShareholderMember" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AffiliatedEntityMember" xlink:to="loc_PrincipalOwnerMember" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesCurrentAbstract" xlink:to="loc_AccountsReceivableRelatedPartiesCurrent" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesCurrentAbstract" xlink:to="loc_NotesReceivableRelatedPartiesCurrent" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesCurrentAbstract" xlink:to="loc_DueFromEmployeesCurrent" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesCurrentAbstract" xlink:to="loc_DueFromOfficersOrStockholdersCurrent" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesCurrentAbstract" xlink:to="loc_DueFromAffiliateCurrent" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesCurrentAbstract" xlink:to="loc_DueFromJointVenturesCurrent" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesCurrentAbstract" xlink:to="loc_DueFromOtherRelatedPartiesCurrent" xlink:type="arc"/>
+<link:presentationArc order="80" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesCurrentAbstract" xlink:to="loc_DueFromRelatedPartiesCurrent" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesNoncurrentAbstract" xlink:to="loc_AccountsReceivableRelatedPartiesNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesNoncurrentAbstract" xlink:to="loc_NotesReceivableRelatedPartiesNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesNoncurrentAbstract" xlink:to="loc_DueFromEmployeesNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesNoncurrentAbstract" xlink:to="loc_DueFromOfficersOrStockholdersNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesNoncurrentAbstract" xlink:to="loc_DueFromJointVenturesNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesNoncurrentAbstract" xlink:to="loc_DueFromAffiliateNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesNoncurrentAbstract" xlink:to="loc_DueFromOtherRelatedPartiesNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="80" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesNoncurrentAbstract" xlink:to="loc_DueFromRelatedPartiesNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesUnclassifiedAbstract" xlink:to="loc_AccountsReceivableRelatedParties" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesUnclassifiedAbstract" xlink:to="loc_NotesReceivableRelatedParties" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesUnclassifiedAbstract" xlink:to="loc_LoansAndLeasesReceivableRelatedParties" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesUnclassifiedAbstract" xlink:to="loc_DueFromEmployees" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesUnclassifiedAbstract" xlink:to="loc_DueFromOfficersOrStockholders" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesUnclassifiedAbstract" xlink:to="loc_DueFromJointVentures" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesUnclassifiedAbstract" xlink:to="loc_DueFromAffiliates" xlink:type="arc"/>
+<link:presentationArc order="80" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesUnclassifiedAbstract" xlink:to="loc_DueFromOtherRelatedParties" xlink:type="arc"/>
+<link:presentationArc order="90" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueFromRelatedPartiesUnclassifiedAbstract" xlink:to="loc_DueFromRelatedParties" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueToRelatedPartiesCurrentAndNoncurrentAbstract" xlink:to="loc_AccountsPayableRelatedPartiesCurrentAndNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueToRelatedPartiesCurrentAndNoncurrentAbstract" xlink:to="loc_NotesPayableRelatedPartiesCurrentAndNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueToRelatedPartiesCurrentAndNoncurrentAbstract" xlink:to="loc_DueToEmployeesCurrentAndNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueToRelatedPartiesCurrentAndNoncurrentAbstract" xlink:to="loc_DueToOfficersOrStockholdersCurrentAndNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueToRelatedPartiesCurrentAndNoncurrentAbstract" xlink:to="loc_DueToAffiliateCurrentAndNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueToRelatedPartiesCurrentAndNoncurrentAbstract" xlink:to="loc_DueToOtherRelatedPartiesCurrentAndNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="70" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueToRelatedPartiesCurrentAndNoncurrentAbstract" xlink:to="loc_DueToRelatedPartiesCurrentAndNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueToRelatedPartiesCurrentAbstract" xlink:to="loc_AccountsPayableRelatedPartiesCurrent" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueToRelatedPartiesCurrentAbstract" xlink:to="loc_NotesPayableRelatedPartiesClassifiedCurrent" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueToRelatedPartiesCurrentAbstract" xlink:to="loc_DueToEmployeesCurrent" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueToRelatedPartiesCurrentAbstract" xlink:to="loc_DueToOfficersOrStockholdersCurrent" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueToRelatedPartiesCurrentAbstract" xlink:to="loc_DueToAffiliateCurrent" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueToRelatedPartiesCurrentAbstract" xlink:to="loc_DueToOtherRelatedPartiesClassifiedCurrent" xlink:type="arc"/>
+<link:presentationArc order="70" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueToRelatedPartiesCurrentAbstract" xlink:to="loc_DueToRelatedPartiesCurrent" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueToRelatedPartiesNoncurrentAbstract" xlink:to="loc_AccountsPayableRelatedPartiesNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueToRelatedPartiesNoncurrentAbstract" xlink:to="loc_NotesPayableRelatedPartiesNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueToRelatedPartiesNoncurrentAbstract" xlink:to="loc_DueToEmployeesNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueToRelatedPartiesNoncurrentAbstract" xlink:to="loc_DueToOfficersOrStockholdersNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueToRelatedPartiesNoncurrentAbstract" xlink:to="loc_DueToAffiliateNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueToRelatedPartiesNoncurrentAbstract" xlink:to="loc_DueToOtherRelatedPartiesNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="70" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DueToRelatedPartiesNoncurrentAbstract" xlink:to="loc_DueToRelatedPartiesNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ManagementMember" xlink:to="loc_BoardOfDirectorsChairmanMember" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ManagementMember" xlink:to="loc_DirectorMember" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ManagementMember" xlink:to="loc_ExecutiveOfficerMember" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ManagementMember" xlink:to="loc_ChiefExecutiveOfficerMember" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ManagementMember" xlink:to="loc_ChiefFinancialOfficerMember" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ManagementMember" xlink:to="loc_ChiefOperatingOfficerMember" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ManagementMember" xlink:to="loc_ControllerMember" xlink:type="arc"/>
+<link:presentationArc order="80" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ManagementMember" xlink:to="loc_ExecutiveVicePresidentMember" xlink:type="arc"/>
+<link:presentationArc order="90" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ManagementMember" xlink:to="loc_VicePresidentMember" xlink:type="arc"/>
+<link:presentationArc order="100" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ManagementMember" xlink:to="loc_PresidentMember" xlink:type="arc"/>
+<link:presentationArc order="110" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ManagementMember" xlink:to="loc_OfficerMember" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTaxExpenseAbstract" xlink:to="loc_RelatedPartyTaxExpenseMethodology" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTaxExpenseAbstract" xlink:to="loc_RelatedPartyTaxExpenseEffectOfChangeInAllocationMethodology" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTaxExpenseAbstract" xlink:to="loc_RelatedPartyTaxExpenseDueToAffiliatesCurrent" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTaxExpenseAbstract" xlink:to="loc_RelatedPartyTaxExpenseDueToAffiliatesDeferred" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTaxExpenseAbstract" xlink:to="loc_RelatedPartyTaxExpenseDueFromAffiliatesCurrent" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTaxExpenseAbstract" xlink:to="loc_RelatedPartyTaxExpenseDueFromAffiliatesDeferred" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionAxis" xlink:to="loc_RelatedPartyTransactionDomain" xlink:type="arc"/>
+<link:presentationArc order="10" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_RelatedPartyTransactionDescriptionOfTransaction" xlink:type="arc"/>
+<link:presentationArc order="20" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_RelatedPartyTransactionAmountsOfTransaction" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_RelatedPartyTransactionPurchasesFromRelatedParty" xlink:type="arc"/>
+<link:presentationArc order="40" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_RelatedPartyTransactionRate" xlink:type="arc"/>
+<link:presentationArc order="50" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_RelatedPartyTransactionDate" xlink:type="arc"/>
+<link:presentationArc order="60" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_RelatedPartyTransactionEffectsOfAnyChangeInMethodOfEstablishingTerms" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_RelatedPartyTransactionTermsAndMannerOfSettlement" xlink:type="arc"/>
+<link:presentationArc order="80" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_RevenueFromRelatedParties" xlink:type="arc"/>
+<link:presentationArc order="90" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_RelatedPartyCosts" xlink:type="arc"/>
+<link:presentationArc order="100" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_RelatedPartyTransactionOtherRevenuesFromTransactionsWithRelatedParty" xlink:type="arc"/>
+<link:presentationArc order="110" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_RelatedPartyTransactionExpensesFromTransactionsWithRelatedParty" xlink:type="arc"/>
+<link:presentationArc order="120" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_RelatedPartyTransactionSellingGeneralAndAdministrativeExpensesFromTransactionsWithRelatedParty" xlink:type="arc"/>
+<link:presentationArc order="130" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_InterestExpenseRelatedParty" xlink:type="arc"/>
+<link:presentationArc order="140" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_InterestIncomeRelatedParty" xlink:type="arc"/>
+<link:presentationArc order="150" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_RelatedPartyTransactionDueFromToRelatedPartyCurrentAbstract" xlink:type="arc"/>
+<link:presentationArc order="160" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_RelatedPartyTransactionDueFromToRelatedPartyNoncurrentAbstract" xlink:type="arc"/>
+<link:presentationArc order="170" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_RelatedPartyTransactionDueFromToRelatedPartyAbstract" xlink:type="arc"/>
+<link:presentationArc order="180" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_RelatedPartyDepositLiabilities" xlink:type="arc"/>
+<link:presentationArc order="190" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_RelatedPartyTaxExpenseAbstract" xlink:type="arc"/>
+<link:presentationArc order="200" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_NatureOfCommonOwnershipOrManagementControlRelationships" xlink:type="arc"/>
+<link:presentationArc order="210" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_RelatedPartyTransactionArmsLengthBasisOfTransactions" xlink:type="arc"/>
+<link:presentationArc order="220" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionLineItems" xlink:to="loc_EquityMethodInvestmentOwnershipPercentage" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionDueFromToRelatedPartyAbstract" xlink:to="loc_DueFromRelatedPartiesUnclassifiedAbstract" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionDueFromToRelatedPartyAbstract" xlink:to="loc_DueToRelatedPartiesCurrentAndNoncurrentAbstract" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionDueFromToRelatedPartyAbstract" xlink:to="loc_RelatedPartyTransactionDueFromToRelatedParty" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionDueFromToRelatedPartyCurrentAbstract" xlink:to="loc_DueFromRelatedPartiesCurrentAbstract" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionDueFromToRelatedPartyCurrentAbstract" xlink:to="loc_DueToRelatedPartiesCurrentAbstract" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionDueFromToRelatedPartyCurrentAbstract" xlink:to="loc_RelatedPartyTransactionDueFromToRelatedPartyCurrent" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionDueFromToRelatedPartyNoncurrentAbstract" xlink:to="loc_DueFromRelatedPartiesNoncurrentAbstract" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionDueFromToRelatedPartyNoncurrentAbstract" xlink:to="loc_DueToRelatedPartiesNoncurrentAbstract" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionDueFromToRelatedPartyNoncurrentAbstract" xlink:to="loc_RelatedPartyTransactionDueFromToRelatedPartyNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionsAbstract" xlink:to="loc_RelatedPartyTransactionsDisclosureTextBlock" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionsDisclosureTextBlock" xlink:to="loc_ScheduleOfRelatedPartyTransactionsTableTextBlock" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ScheduleOfRelatedPartyTransactionsTableTextBlock" xlink:to="loc_ScheduleOfRelatedPartyTransactionsByRelatedPartyTable" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyTransactionsByRelatedPartyAxis" xlink:to="loc_RelatedPartyDomain" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyDomain" xlink:to="loc_AffiliatedEntityMember" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyDomain" xlink:to="loc_ManagementMember" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyDomain" xlink:to="loc_ImmediateFamilyMemberOfManagementOrPrincipalOwnerMember" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyDomain" xlink:to="loc_TrustForBenefitOfEmployeesMember" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyDomain" xlink:to="loc_CorporateJointVentureMember" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyDomain" xlink:to="loc_CoVenturerMember" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyDomain" xlink:to="loc_EquityMethodInvesteeMember" xlink:type="arc"/>
+<link:presentationArc order="80" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyDomain" xlink:to="loc_BeneficialOwnerMember" xlink:type="arc"/>
+<link:presentationArc order="90" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyDomain" xlink:to="loc_GeneralPartnerMember" xlink:type="arc"/>
+<link:presentationArc order="100" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyDomain" xlink:to="loc_LimitedPartnerMember" xlink:type="arc"/>
+<link:presentationArc order="110" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyDomain" xlink:to="loc_UndividedInterestMember" xlink:type="arc"/>
+<link:presentationArc order="120" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyDomain" xlink:to="loc_InvestorMember" xlink:type="arc"/>
+<link:presentationArc order="130" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyDomain" xlink:to="loc_InvesteeMember" xlink:type="arc"/>
+<link:presentationArc order="140" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RelatedPartyDomain" xlink:to="loc_LimitedLiabilityCompanyMember" xlink:type="arc"/>
+<link:presentationArc order="10" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ScheduleOfRelatedPartyTransactionsByRelatedPartyTable" xlink:to="loc_RelatedPartyTransactionsByRelatedPartyAxis" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ScheduleOfRelatedPartyTransactionsByRelatedPartyTable" xlink:to="loc_RelatedPartyTransactionAxis" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ScheduleOfRelatedPartyTransactionsByRelatedPartyTable" xlink:to="loc_RelatedPartyTransactionLineItems" xlink:type="arc"/>
+</link:presentationLink>
+</link:linkbase>

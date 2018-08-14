@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+(c) 2010-2018 Financial Accounting Foundation; (c) 2007-2010 XBRL US, Inc.  All Right Reserved.
+Notice: Authorized Uses are Set Forth at http://xbrl.fasb.org/terms/TaxonomiesTermsConditions.html
+  --><link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+<link:roleRef roleURI="http://fasb.org/us-gaap/role/disclosure/MiscellaneousIndustries" xlink:type="simple" xlink:href="../elts/us-roles-2018-01-31.xsd#oi"/>
+<link:presentationLink xlink:role="http://fasb.org/us-gaap/role/disclosure/MiscellaneousIndustries" xlink:type="extended">
+<link:loc xlink:label="loc_AdvanceRoyaltiesAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AdvanceRoyaltiesAbstract"/>
+<link:loc xlink:label="loc_AdvanceRoyaltiesCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AdvanceRoyaltiesCurrent"/>
+<link:loc xlink:label="loc_AdvanceRoyaltiesNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AdvanceRoyaltiesNoncurrent"/>
+<link:loc xlink:label="loc_AdvanceRoyalties" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AdvanceRoyalties"/>
+<link:loc xlink:label="loc_AgricultureAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AgricultureAbstract"/>
+<link:loc xlink:label="loc_AgricultureTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AgricultureTextBlock"/>
+<link:loc xlink:label="loc_PatronEconomicallyDependentDescription" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PatronEconomicallyDependentDescription"/>
+<link:loc xlink:label="loc_CooperativeInventoryAmount" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CooperativeInventoryAmount"/>
+<link:loc xlink:label="loc_IntermediateLifePlantsAccumulatedCosts" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_IntermediateLifePlantsAccumulatedCosts"/>
+<link:loc xlink:label="loc_IntermediateLifePlantsUsefulLife" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_IntermediateLifePlantsUsefulLife"/>
+<link:loc xlink:label="loc_PatronageSourceEarnings" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PatronageSourceEarnings"/>
+<link:loc xlink:label="loc_NonpatronageSourceEarnings" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NonpatronageSourceEarnings"/>
+<link:loc xlink:label="loc_RetainedPatronageAllocations" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RetainedPatronageAllocations"/>
+<link:loc xlink:label="loc_Retains" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_Retains"/>
+<link:loc xlink:label="loc_AircraftRentalAndLandingFeesAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AircraftRentalAndLandingFeesAbstract"/>
+<link:loc xlink:label="loc_LandingFeesAndOtherRentals" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_LandingFeesAndOtherRentals"/>
+<link:loc xlink:label="loc_AircraftRental" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AircraftRental"/>
+<link:loc xlink:label="loc_AircraftRentalAndLandingFees" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AircraftRentalAndLandingFees"/>
+<link:loc xlink:label="loc_AircraftTypeAxis" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_AircraftTypeAxis"/>
+<link:loc xlink:label="loc_AircraftTypeMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_AircraftTypeMember"/>
+<link:loc xlink:label="loc_B717Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_B717Member"/>
+<link:loc xlink:label="loc_B717200Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_B717200Member"/>
+<link:loc xlink:label="loc_B737Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_B737Member"/>
+<link:loc xlink:label="loc_B737700Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_B737700Member"/>
+<link:loc xlink:label="loc_B737800Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_B737800Member"/>
+<link:loc xlink:label="loc_B737820Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_B737820Member"/>
+<link:loc xlink:label="loc_B737900Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_B737900Member"/>
+<link:loc xlink:label="loc_B737MaxMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_B737MaxMember"/>
+<link:loc xlink:label="loc_B757Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_B757Member"/>
+<link:loc xlink:label="loc_B757200Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_B757200Member"/>
+<link:loc xlink:label="loc_B757223Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_B757223Member"/>
+<link:loc xlink:label="loc_B767Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_B767Member"/>
+<link:loc xlink:label="loc_B767200Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_B767200Member"/>
+<link:loc xlink:label="loc_B767300Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_B767300Member"/>
+<link:loc xlink:label="loc_B767323Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_B767323Member"/>
+<link:loc xlink:label="loc_B777Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_B777Member"/>
+<link:loc xlink:label="loc_B777200Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_B777200Member"/>
+<link:loc xlink:label="loc_B777223Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_B777223Member"/>
+<link:loc xlink:label="loc_B777300Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_B777300Member"/>
+<link:loc xlink:label="loc_A300Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_A300Member"/>
+<link:loc xlink:label="loc_A312Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_A312Member"/>
+<link:loc xlink:label="loc_A320Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_A320Member"/>
+<link:loc xlink:label="loc_A320200Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_A320200Member"/>
+<link:loc xlink:label="loc_A320NeoMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_A320NeoMember"/>
+<link:loc xlink:label="loc_A330Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_A330Member"/>
+<link:loc xlink:label="loc_A330200Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_A330200Member"/>
+<link:loc xlink:label="loc_CRJMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_CRJMember"/>
+<link:loc xlink:label="loc_CRJ200Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_CRJ200Member"/>
+<link:loc xlink:label="loc_CRJ700Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_CRJ700Member"/>
+<link:loc xlink:label="loc_CRJ900Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_CRJ900Member"/>
+<link:loc xlink:label="loc_EMBMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_EMBMember"/>
+<link:loc xlink:label="loc_EMB120Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_EMB120Member"/>
+<link:loc xlink:label="loc_EMB135Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_EMB135Member"/>
+<link:loc xlink:label="loc_EMB145Member" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_EMB145Member"/>
+<link:loc xlink:label="loc_AirlineCashFlowElementsAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AirlineCashFlowElementsAbstract"/>
+<link:loc xlink:label="loc_IncreaseDecreaseCashCollateralFromCounterparties" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_IncreaseDecreaseCashCollateralFromCounterparties"/>
+<link:loc xlink:label="loc_PaymentsForFlightEquipment" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForFlightEquipment"/>
+<link:loc xlink:label="loc_ProceedsFromSaleOfFlightEquipment" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromSaleOfFlightEquipment"/>
+<link:loc xlink:label="loc_AirlineDestinationDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AirlineDestinationDomain"/>
+<link:loc xlink:label="loc_DomesticDestinationMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DomesticDestinationMember"/>
+<link:loc xlink:label="loc_PacificDestinationMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PacificDestinationMember"/>
+<link:loc xlink:label="loc_AtlanticDestinationMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AtlanticDestinationMember"/>
+<link:loc xlink:label="loc_LatinAmericaDestinationMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_LatinAmericaDestinationMember"/>
+<link:loc xlink:label="loc_AirlineDestinationTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AirlineDestinationTable"/>
+<link:loc xlink:label="loc_AirlineDestinationsAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AirlineDestinationsAxis"/>
+<link:loc xlink:label="loc_AirlineDestinationDisclosureLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AirlineDestinationDisclosureLineItems"/>
+<link:loc xlink:label="loc_AirlineExpensesAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AirlineExpensesAbstract"/>
+<link:loc xlink:label="loc_AircraftMaintenanceMaterialsAndRepairs" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AircraftMaintenanceMaterialsAndRepairs"/>
+<link:loc xlink:label="loc_AirlineCapacityPurchaseArrangements" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AirlineCapacityPurchaseArrangements"/>
+<link:loc xlink:label="loc_CostOfServicesCatering" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CostOfServicesCatering"/>
+<link:loc xlink:label="loc_ProfessionalAndContractServicesExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProfessionalAndContractServicesExpense"/>
+<link:loc xlink:label="loc_FuelCostsGrossOfHedging" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_FuelCostsGrossOfHedging"/>
+<link:loc xlink:label="loc_AirlinePropertyPlantAndEquipmentAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AirlinePropertyPlantAndEquipmentAbstract"/>
+<link:loc xlink:label="loc_PropertyPlantAndEquipmentOtherNetAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PropertyPlantAndEquipmentOtherNetAbstract"/>
+<link:loc xlink:label="loc_PropertyPlantAndEquipmentOwnedNetAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PropertyPlantAndEquipmentOwnedNetAbstract"/>
+<link:loc xlink:label="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassFlightEquipmentNetAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassFlightEquipmentNetAbstract"/>
+<link:loc xlink:label="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassOtherPropertyPlantAndEquipmentAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassOtherPropertyPlantAndEquipmentAbstract"/>
+<link:loc xlink:label="loc_FlightEquipmentNetAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_FlightEquipmentNetAbstract"/>
+<link:loc xlink:label="loc_PropertyPlantAndEquipmentNumberOfAircraftSold" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PropertyPlantAndEquipmentNumberOfAircraftSold"/>
+<link:loc xlink:label="loc_AirlineRelatedInventoryGrossAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AirlineRelatedInventoryGrossAbstract"/>
+<link:loc xlink:label="loc_AirlineRelatedInventoryAircraftFuel" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AirlineRelatedInventoryAircraftFuel"/>
+<link:loc xlink:label="loc_AirlineRelatedInventoryAircraftParts" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AirlineRelatedInventoryAircraftParts"/>
+<link:loc xlink:label="loc_AirlineRelatedInventory" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AirlineRelatedInventory"/>
+<link:loc xlink:label="loc_AirlineRelatedInventoryNetAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AirlineRelatedInventoryNetAbstract"/>
+<link:loc xlink:label="loc_AirlineRelatedInventoryValuationReserves" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AirlineRelatedInventoryValuationReserves"/>
+<link:loc xlink:label="loc_AirlineRelatedInventoryNet" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AirlineRelatedInventoryNet"/>
+<link:loc xlink:label="loc_AirlineAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AirlineAbstract"/>
+<link:loc xlink:label="loc_TypesOfCommercialAircraftAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TypesOfCommercialAircraftAbstract"/>
+<link:loc xlink:label="loc_AirlineProductsAndServicesAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AirlineProductsAndServicesAbstract"/>
+<link:loc xlink:label="loc_DepositsOnFlightEquipment" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DepositsOnFlightEquipment"/>
+<link:loc xlink:label="loc_IndefiniteLivedSlotsAndRoutesAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_IndefiniteLivedSlotsAndRoutesAbstract"/>
+<link:loc xlink:label="loc_NumberOfAircraftOperated" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NumberOfAircraftOperated"/>
+<link:loc xlink:label="loc_AirlineDestinationTableTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AirlineDestinationTableTextBlock"/>
+<link:loc xlink:label="loc_AirlineProductsAndServicesTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AirlineProductsAndServicesTable"/>
+<link:loc xlink:label="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassFlightEquipmentGross" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassFlightEquipmentGross"/>
+<link:loc xlink:label="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassFlightEquipmentAccumulatedDepreciation" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassFlightEquipmentAccumulatedDepreciation"/>
+<link:loc xlink:label="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassFlightEquipmentNet" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassFlightEquipmentNet"/>
+<link:loc xlink:label="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassOtherPropertyPlantAndEquipment" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassOtherPropertyPlantAndEquipment"/>
+<link:loc xlink:label="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassPropertyPlantAndEquipmentOtherAccumulatedDepreciation" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassPropertyPlantAndEquipmentOtherAccumulatedDepreciation"/>
+<link:loc xlink:label="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassOtherPropertyPlantAndEquipmentNet" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassOtherPropertyPlantAndEquipmentNet"/>
+<link:loc xlink:label="loc_DirectToTelevisionFilmCostsAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DirectToTelevisionFilmCostsAbstract"/>
+<link:loc xlink:label="loc_DirectToTelevisionFilmCostsPreproduction" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DirectToTelevisionFilmCostsPreproduction"/>
+<link:loc xlink:label="loc_DirectToTelevisionFilmCostsDevelopment" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DirectToTelevisionFilmCostsDevelopment"/>
+<link:loc xlink:label="loc_DirectToTelevisionFilmCostsProduction" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DirectToTelevisionFilmCostsProduction"/>
+<link:loc xlink:label="loc_DirectToTelevisionFilmCostsCompletedAndNotReleased" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DirectToTelevisionFilmCostsCompletedAndNotReleased"/>
+<link:loc xlink:label="loc_DirectToTelevisionFilmCostsReleased" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DirectToTelevisionFilmCostsReleased"/>
+<link:loc xlink:label="loc_DirectToTelevisionFilmCosts" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DirectToTelevisionFilmCosts"/>
+<link:loc xlink:label="loc_EntertainmentCashFlowElementsAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_EntertainmentCashFlowElementsAbstract"/>
+<link:loc xlink:label="loc_IncreaseDecreaseInFilmCosts1" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_IncreaseDecreaseInFilmCosts1"/>
+<link:loc xlink:label="loc_IncreaseDecreaseInParticipationLiabilities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_IncreaseDecreaseInParticipationLiabilities"/>
+<link:loc xlink:label="loc_IncreaseDecreaseInExploitationLiabilities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_IncreaseDecreaseInExploitationLiabilities"/>
+<link:loc xlink:label="loc_PaymentsForFilmCosts" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForFilmCosts"/>
+<link:loc xlink:label="loc_PaymentsForParticipationLiabilities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForParticipationLiabilities"/>
+<link:loc xlink:label="loc_EntertainmentAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_EntertainmentAbstract"/>
+<link:loc xlink:label="loc_EntertainmentTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_EntertainmentTextBlock"/>
+<link:loc xlink:label="loc_BroadcastersLicenseAgreementCommitmentsDescription" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_BroadcastersLicenseAgreementCommitmentsDescription"/>
+<link:loc xlink:label="loc_FilmCostsAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_FilmCostsAbstract"/>
+<link:loc xlink:label="loc_FilmCostDisclosuresAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_FilmCostDisclosuresAbstract"/>
+<link:loc xlink:label="loc_OperatingCycle" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OperatingCycle"/>
+<link:loc xlink:label="loc_AccruedParticipationLiabilitiesDueInNextOperatingCycle" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AccruedParticipationLiabilitiesDueInNextOperatingCycle"/>
+<link:loc xlink:label="loc_ArtistAdvancesAndRoyaltyGuaranteesCommitments" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ArtistAdvancesAndRoyaltyGuaranteesCommitments"/>
+<link:loc xlink:label="loc_ArtistAdvancesCommitmentsAmount" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ArtistAdvancesCommitmentsAmount"/>
+<link:loc xlink:label="loc_RoyaltyGuaranteesCommitmentsAmount" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RoyaltyGuaranteesCommitmentsAmount"/>
+<link:loc xlink:label="loc_FilmCostsAmortizedInNextOperatingCycle" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_FilmCostsAmortizedInNextOperatingCycle"/>
+<link:loc xlink:label="loc_PercentageOfUnamortizedFilmCosts" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PercentageOfUnamortizedFilmCosts"/>
+<link:loc xlink:label="loc_PercentageOfUnamortizedFilmCostsDescription" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PercentageOfUnamortizedFilmCostsDescription"/>
+<link:loc xlink:label="loc_TheatricalFilmCostsAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TheatricalFilmCostsAbstract"/>
+<link:loc xlink:label="loc_FilmCosts" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_FilmCosts"/>
+<link:loc xlink:label="loc_FlightEquipmentGross" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_FlightEquipmentGross"/>
+<link:loc xlink:label="loc_FlightEquipmentAccumulatedDepreciation" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_FlightEquipmentAccumulatedDepreciation"/>
+<link:loc xlink:label="loc_FlightEquipmentNet" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_FlightEquipmentNet"/>
+<link:loc xlink:label="loc_FranchisorCostsAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_FranchisorCostsAbstract"/>
+<link:loc xlink:label="loc_CostsOfFranchisorOwnedOutlets" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CostsOfFranchisorOwnedOutlets"/>
+<link:loc xlink:label="loc_CostsOfFranchisedOutlets" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CostsOfFranchisedOutlets"/>
+<link:loc xlink:label="loc_FranchisorCosts" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_FranchisorCosts"/>
+<link:loc xlink:label="loc_FranchisorsAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_FranchisorsAbstract"/>
+<link:loc xlink:label="loc_FranchisorsTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_FranchisorsTextBlock"/>
+<link:loc xlink:label="loc_SignificantChangesInOperationsAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SignificantChangesInOperationsAbstract"/>
+<link:loc xlink:label="loc_CommitmentsFromFranchiseAgreements" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CommitmentsFromFranchiseAgreements"/>
+<link:loc xlink:label="loc_GainLossOnSaleOfTrustAssetsToPayExpensesAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_GainLossOnSaleOfTrustAssetsToPayExpensesAbstract"/>
+<link:loc xlink:label="loc_SaleOfTrustAssetsToPayExpenses" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SaleOfTrustAssetsToPayExpenses"/>
+<link:loc xlink:label="loc_CostOfTrustAssetsSoldToPayExpenses" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CostOfTrustAssetsSoldToPayExpenses"/>
+<link:loc xlink:label="loc_GainLossOnSaleOfTrustAssetsToPayExpenses" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_GainLossOnSaleOfTrustAssetsToPayExpenses"/>
+<link:loc xlink:label="loc_IndefiniteLivedInternationalSlotsAndRoutes" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_IndefiniteLivedInternationalSlotsAndRoutes"/>
+<link:loc xlink:label="loc_IndefiniteLivedDomesticSlotsAndRoutes" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_IndefiniteLivedDomesticSlotsAndRoutes"/>
+<link:loc xlink:label="loc_IndefiniteLivedSlotsAndRoutes" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_IndefiniteLivedSlotsAndRoutes"/>
+<link:loc xlink:label="loc_OtherIndustriesAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherIndustriesAbstract"/>
+<link:loc xlink:label="loc_TrustsAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TrustsAbstract"/>
+<link:loc xlink:label="loc_ProductOrServiceAxis" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_ProductOrServiceAxis"/>
+<link:loc xlink:label="loc_ProductsAndServicesDomain" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_ProductsAndServicesDomain"/>
+<link:loc xlink:label="loc_MainlineMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MainlineMember"/>
+<link:loc xlink:label="loc_RegionalCarrierMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RegionalCarrierMember"/>
+<link:loc xlink:label="loc_PropertyPlantAndEquipmentOther" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PropertyPlantAndEquipmentOther"/>
+<link:loc xlink:label="loc_PropertyPlantAndEquipmentOtherAccumulatedDepreciation" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PropertyPlantAndEquipmentOtherAccumulatedDepreciation"/>
+<link:loc xlink:label="loc_PropertyPlantAndEquipmentOtherNet" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PropertyPlantAndEquipmentOtherNet"/>
+<link:loc xlink:label="loc_PropertyPlantAndEquipmentOwnedGross" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PropertyPlantAndEquipmentOwnedGross"/>
+<link:loc xlink:label="loc_PropertyPlantAndEquipmentOwnedAccumulatedDepreciation" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PropertyPlantAndEquipmentOwnedAccumulatedDepreciation"/>
+<link:loc xlink:label="loc_PropertyPlantAndEquipmentOwnedNet" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PropertyPlantAndEquipmentOwnedNet"/>
+<link:loc xlink:label="loc_SignificantChangesFranchisesSold" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SignificantChangesFranchisesSold"/>
+<link:loc xlink:label="loc_SignificantChangesFranchisesPurchasedDuringPeriod" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SignificantChangesFranchisesPurchasedDuringPeriod"/>
+<link:loc xlink:label="loc_SignificantChangesFrachisedOutletsInOperation" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SignificantChangesFrachisedOutletsInOperation"/>
+<link:loc xlink:label="loc_SignificantChangesFrachisorOutletsInOperation" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SignificantChangesFrachisorOutletsInOperation"/>
+<link:loc xlink:label="loc_TheatricalFilmCostsPreproduction" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TheatricalFilmCostsPreproduction"/>
+<link:loc xlink:label="loc_TheatricalFilmCostsDevelopment" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TheatricalFilmCostsDevelopment"/>
+<link:loc xlink:label="loc_TheatricalFilmCostsProduction" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TheatricalFilmCostsProduction"/>
+<link:loc xlink:label="loc_TheatricalFilmCostsCompletedAndNotReleased" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TheatricalFilmCostsCompletedAndNotReleased"/>
+<link:loc xlink:label="loc_TheatricalFilmCostsReleased" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TheatricalFilmCostsReleased"/>
+<link:loc xlink:label="loc_TheatricalFilmCosts" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TheatricalFilmCosts"/>
+<link:loc xlink:label="loc_ProceedsFromSaleOfTrustAssetsToPayExpenses" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromSaleOfTrustAssetsToPayExpenses"/>
+<link:loc xlink:label="loc_TypesOfCommercialAircraftTableTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TypesOfCommercialAircraftTableTextBlock"/>
+<link:loc xlink:label="loc_TypesOfCommercialAircraftTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TypesOfCommercialAircraftTable"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AdvanceRoyaltiesAbstract" xlink:to="loc_AdvanceRoyaltiesCurrent" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AdvanceRoyaltiesAbstract" xlink:to="loc_AdvanceRoyaltiesNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AdvanceRoyaltiesAbstract" xlink:to="loc_AdvanceRoyalties" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AgricultureAbstract" xlink:to="loc_AgricultureTextBlock" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AgricultureTextBlock" xlink:to="loc_PatronEconomicallyDependentDescription" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AgricultureTextBlock" xlink:to="loc_CooperativeInventoryAmount" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AgricultureTextBlock" xlink:to="loc_IntermediateLifePlantsAccumulatedCosts" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AgricultureTextBlock" xlink:to="loc_IntermediateLifePlantsUsefulLife" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AgricultureTextBlock" xlink:to="loc_PatronageSourceEarnings" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AgricultureTextBlock" xlink:to="loc_NonpatronageSourceEarnings" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AgricultureTextBlock" xlink:to="loc_RetainedPatronageAllocations" xlink:type="arc"/>
+<link:presentationArc order="80" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AgricultureTextBlock" xlink:to="loc_Retains" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftRentalAndLandingFeesAbstract" xlink:to="loc_LandingFeesAndOtherRentals" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftRentalAndLandingFeesAbstract" xlink:to="loc_AircraftRental" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftRentalAndLandingFeesAbstract" xlink:to="loc_AircraftRentalAndLandingFees" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeAxis" xlink:to="loc_AircraftTypeMember" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_B717Member" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_B717200Member" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_B737Member" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_B737700Member" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_B737800Member" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_B737820Member" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_B737900Member" xlink:type="arc"/>
+<link:presentationArc order="80" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_B737MaxMember" xlink:type="arc"/>
+<link:presentationArc order="90" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_B757Member" xlink:type="arc"/>
+<link:presentationArc order="100" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_B757200Member" xlink:type="arc"/>
+<link:presentationArc order="110" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_B757223Member" xlink:type="arc"/>
+<link:presentationArc order="120" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_B767Member" xlink:type="arc"/>
+<link:presentationArc order="130" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_B767200Member" xlink:type="arc"/>
+<link:presentationArc order="140" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_B767300Member" xlink:type="arc"/>
+<link:presentationArc order="150" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_B767323Member" xlink:type="arc"/>
+<link:presentationArc order="160" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_B777Member" xlink:type="arc"/>
+<link:presentationArc order="170" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_B777200Member" xlink:type="arc"/>
+<link:presentationArc order="180" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_B777223Member" xlink:type="arc"/>
+<link:presentationArc order="190" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_B777300Member" xlink:type="arc"/>
+<link:presentationArc order="200" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_A300Member" xlink:type="arc"/>
+<link:presentationArc order="210" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_A312Member" xlink:type="arc"/>
+<link:presentationArc order="220" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_A320Member" xlink:type="arc"/>
+<link:presentationArc order="230" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_A320200Member" xlink:type="arc"/>
+<link:presentationArc order="240" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_A320NeoMember" xlink:type="arc"/>
+<link:presentationArc order="250" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_A330Member" xlink:type="arc"/>
+<link:presentationArc order="260" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_A330200Member" xlink:type="arc"/>
+<link:presentationArc order="270" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_CRJMember" xlink:type="arc"/>
+<link:presentationArc order="280" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_CRJ200Member" xlink:type="arc"/>
+<link:presentationArc order="290" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_CRJ700Member" xlink:type="arc"/>
+<link:presentationArc order="300" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_CRJ900Member" xlink:type="arc"/>
+<link:presentationArc order="310" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_EMBMember" xlink:type="arc"/>
+<link:presentationArc order="320" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_EMB120Member" xlink:type="arc"/>
+<link:presentationArc order="330" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_EMB135Member" xlink:type="arc"/>
+<link:presentationArc order="340" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AircraftTypeMember" xlink:to="loc_EMB145Member" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineCashFlowElementsAbstract" xlink:to="loc_IncreaseDecreaseCashCollateralFromCounterparties" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineCashFlowElementsAbstract" xlink:to="loc_PaymentsForFlightEquipment" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineCashFlowElementsAbstract" xlink:to="loc_ProceedsFromSaleOfFlightEquipment" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineDestinationDomain" xlink:to="loc_DomesticDestinationMember" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineDestinationDomain" xlink:to="loc_PacificDestinationMember" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineDestinationDomain" xlink:to="loc_AtlanticDestinationMember" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineDestinationDomain" xlink:to="loc_LatinAmericaDestinationMember" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineDestinationTable" xlink:to="loc_AirlineDestinationsAxis" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineDestinationTable" xlink:to="loc_AirlineDestinationDisclosureLineItems" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineDestinationsAxis" xlink:to="loc_AirlineDestinationDomain" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineExpensesAbstract" xlink:to="loc_AircraftRentalAndLandingFeesAbstract" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineExpensesAbstract" xlink:to="loc_AircraftMaintenanceMaterialsAndRepairs" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineExpensesAbstract" xlink:to="loc_AirlineCapacityPurchaseArrangements" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineExpensesAbstract" xlink:to="loc_CostOfServicesCatering" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineExpensesAbstract" xlink:to="loc_ProfessionalAndContractServicesExpense" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineExpensesAbstract" xlink:to="loc_FuelCostsGrossOfHedging" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlinePropertyPlantAndEquipmentAbstract" xlink:to="loc_PropertyPlantAndEquipmentOtherNetAbstract" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlinePropertyPlantAndEquipmentAbstract" xlink:to="loc_PropertyPlantAndEquipmentOwnedNetAbstract" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlinePropertyPlantAndEquipmentAbstract" xlink:to="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassFlightEquipmentNetAbstract" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlinePropertyPlantAndEquipmentAbstract" xlink:to="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassOtherPropertyPlantAndEquipmentAbstract" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlinePropertyPlantAndEquipmentAbstract" xlink:to="loc_FlightEquipmentNetAbstract" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlinePropertyPlantAndEquipmentAbstract" xlink:to="loc_PropertyPlantAndEquipmentNumberOfAircraftSold" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineRelatedInventoryGrossAbstract" xlink:to="loc_AirlineRelatedInventoryAircraftFuel" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineRelatedInventoryGrossAbstract" xlink:to="loc_AirlineRelatedInventoryAircraftParts" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineRelatedInventoryGrossAbstract" xlink:to="loc_AirlineRelatedInventory" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineRelatedInventoryNetAbstract" xlink:to="loc_AirlineRelatedInventoryGrossAbstract" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineRelatedInventoryNetAbstract" xlink:to="loc_AirlineRelatedInventoryValuationReserves" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineRelatedInventoryNetAbstract" xlink:to="loc_AirlineRelatedInventoryNet" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineAbstract" xlink:to="loc_TypesOfCommercialAircraftAbstract" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineAbstract" xlink:to="loc_AirlineProductsAndServicesAbstract" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineAbstract" xlink:to="loc_AirlineRelatedInventoryNetAbstract" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineAbstract" xlink:to="loc_AirlinePropertyPlantAndEquipmentAbstract" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineAbstract" xlink:to="loc_DepositsOnFlightEquipment" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineAbstract" xlink:to="loc_IndefiniteLivedSlotsAndRoutesAbstract" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineAbstract" xlink:to="loc_AirlineExpensesAbstract" xlink:type="arc"/>
+<link:presentationArc order="80" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineAbstract" xlink:to="loc_AirlineCashFlowElementsAbstract" xlink:type="arc"/>
+<link:presentationArc order="90" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineAbstract" xlink:to="loc_NumberOfAircraftOperated" xlink:type="arc"/>
+<link:presentationArc order="100" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineAbstract" xlink:to="loc_AirlineDestinationTableTextBlock" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineDestinationTableTextBlock" xlink:to="loc_AirlineDestinationTable" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineProductsAndServicesAbstract" xlink:to="loc_AirlineProductsAndServicesTable" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassFlightEquipmentNetAbstract" xlink:to="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassFlightEquipmentGross" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassFlightEquipmentNetAbstract" xlink:to="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassFlightEquipmentAccumulatedDepreciation" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassFlightEquipmentNetAbstract" xlink:to="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassFlightEquipmentNet" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassOtherPropertyPlantAndEquipmentAbstract" xlink:to="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassOtherPropertyPlantAndEquipment" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassOtherPropertyPlantAndEquipmentAbstract" xlink:to="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassPropertyPlantAndEquipmentOtherAccumulatedDepreciation" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassOtherPropertyPlantAndEquipmentAbstract" xlink:to="loc_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassOtherPropertyPlantAndEquipmentNet" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DirectToTelevisionFilmCostsAbstract" xlink:to="loc_DirectToTelevisionFilmCostsPreproduction" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DirectToTelevisionFilmCostsAbstract" xlink:to="loc_DirectToTelevisionFilmCostsDevelopment" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DirectToTelevisionFilmCostsAbstract" xlink:to="loc_DirectToTelevisionFilmCostsProduction" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DirectToTelevisionFilmCostsAbstract" xlink:to="loc_DirectToTelevisionFilmCostsCompletedAndNotReleased" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DirectToTelevisionFilmCostsAbstract" xlink:to="loc_DirectToTelevisionFilmCostsReleased" xlink:type="arc"/>
+<link:presentationArc order="60" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DirectToTelevisionFilmCostsAbstract" xlink:to="loc_DirectToTelevisionFilmCosts" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_EntertainmentCashFlowElementsAbstract" xlink:to="loc_IncreaseDecreaseInFilmCosts1" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_EntertainmentCashFlowElementsAbstract" xlink:to="loc_IncreaseDecreaseInParticipationLiabilities" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_EntertainmentCashFlowElementsAbstract" xlink:to="loc_IncreaseDecreaseInExploitationLiabilities" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_EntertainmentCashFlowElementsAbstract" xlink:to="loc_PaymentsForFilmCosts" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_EntertainmentCashFlowElementsAbstract" xlink:to="loc_PaymentsForParticipationLiabilities" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_EntertainmentAbstract" xlink:to="loc_EntertainmentTextBlock" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_EntertainmentTextBlock" xlink:to="loc_BroadcastersLicenseAgreementCommitmentsDescription" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_EntertainmentTextBlock" xlink:to="loc_FilmCostsAbstract" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_EntertainmentTextBlock" xlink:to="loc_FilmCostDisclosuresAbstract" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_EntertainmentTextBlock" xlink:to="loc_EntertainmentCashFlowElementsAbstract" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_EntertainmentTextBlock" xlink:to="loc_OperatingCycle" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_EntertainmentTextBlock" xlink:to="loc_AccruedParticipationLiabilitiesDueInNextOperatingCycle" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_EntertainmentTextBlock" xlink:to="loc_AdvanceRoyaltiesAbstract" xlink:type="arc"/>
+<link:presentationArc order="80" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_EntertainmentTextBlock" xlink:to="loc_ArtistAdvancesAndRoyaltyGuaranteesCommitments" xlink:type="arc"/>
+<link:presentationArc order="90" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_EntertainmentTextBlock" xlink:to="loc_ArtistAdvancesCommitmentsAmount" xlink:type="arc"/>
+<link:presentationArc order="100" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_EntertainmentTextBlock" xlink:to="loc_RoyaltyGuaranteesCommitmentsAmount" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_FilmCostDisclosuresAbstract" xlink:to="loc_FilmCostsAmortizedInNextOperatingCycle" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_FilmCostDisclosuresAbstract" xlink:to="loc_PercentageOfUnamortizedFilmCosts" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_FilmCostDisclosuresAbstract" xlink:to="loc_PercentageOfUnamortizedFilmCostsDescription" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_FilmCostsAbstract" xlink:to="loc_TheatricalFilmCostsAbstract" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_FilmCostsAbstract" xlink:to="loc_DirectToTelevisionFilmCostsAbstract" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_FilmCostsAbstract" xlink:to="loc_FilmCosts" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_FlightEquipmentNetAbstract" xlink:to="loc_FlightEquipmentGross" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_FlightEquipmentNetAbstract" xlink:to="loc_FlightEquipmentAccumulatedDepreciation" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_FlightEquipmentNetAbstract" xlink:to="loc_FlightEquipmentNet" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_FranchisorCostsAbstract" xlink:to="loc_CostsOfFranchisorOwnedOutlets" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_FranchisorCostsAbstract" xlink:to="loc_CostsOfFranchisedOutlets" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_FranchisorCostsAbstract" xlink:to="loc_FranchisorCosts" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_FranchisorsAbstract" xlink:to="loc_FranchisorsTextBlock" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_FranchisorsTextBlock" xlink:to="loc_SignificantChangesInOperationsAbstract" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_FranchisorsTextBlock" xlink:to="loc_CommitmentsFromFranchiseAgreements" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_FranchisorsTextBlock" xlink:to="loc_FranchisorCostsAbstract" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_GainLossOnSaleOfTrustAssetsToPayExpensesAbstract" xlink:to="loc_SaleOfTrustAssetsToPayExpenses" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_GainLossOnSaleOfTrustAssetsToPayExpensesAbstract" xlink:to="loc_CostOfTrustAssetsSoldToPayExpenses" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_GainLossOnSaleOfTrustAssetsToPayExpensesAbstract" xlink:to="loc_GainLossOnSaleOfTrustAssetsToPayExpenses" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_IndefiniteLivedSlotsAndRoutesAbstract" xlink:to="loc_IndefiniteLivedInternationalSlotsAndRoutes" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_IndefiniteLivedSlotsAndRoutesAbstract" xlink:to="loc_IndefiniteLivedDomesticSlotsAndRoutes" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_IndefiniteLivedSlotsAndRoutesAbstract" xlink:to="loc_IndefiniteLivedSlotsAndRoutes" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherIndustriesAbstract" xlink:to="loc_AgricultureAbstract" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherIndustriesAbstract" xlink:to="loc_AirlineAbstract" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherIndustriesAbstract" xlink:to="loc_EntertainmentAbstract" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherIndustriesAbstract" xlink:to="loc_FranchisorsAbstract" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherIndustriesAbstract" xlink:to="loc_TrustsAbstract" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ProductOrServiceAxis" xlink:to="loc_ProductsAndServicesDomain" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ProductsAndServicesDomain" xlink:to="loc_MainlineMember" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ProductsAndServicesDomain" xlink:to="loc_RegionalCarrierMember" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AirlineProductsAndServicesTable" xlink:to="loc_ProductOrServiceAxis" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PropertyPlantAndEquipmentOtherNetAbstract" xlink:to="loc_PropertyPlantAndEquipmentOther" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PropertyPlantAndEquipmentOtherNetAbstract" xlink:to="loc_PropertyPlantAndEquipmentOtherAccumulatedDepreciation" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PropertyPlantAndEquipmentOtherNetAbstract" xlink:to="loc_PropertyPlantAndEquipmentOtherNet" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PropertyPlantAndEquipmentOwnedNetAbstract" xlink:to="loc_PropertyPlantAndEquipmentOwnedGross" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PropertyPlantAndEquipmentOwnedNetAbstract" xlink:to="loc_PropertyPlantAndEquipmentOwnedAccumulatedDepreciation" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PropertyPlantAndEquipmentOwnedNetAbstract" xlink:to="loc_PropertyPlantAndEquipmentOwnedNet" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_SignificantChangesInOperationsAbstract" xlink:to="loc_SignificantChangesFranchisesSold" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_SignificantChangesInOperationsAbstract" xlink:to="loc_SignificantChangesFranchisesPurchasedDuringPeriod" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_SignificantChangesInOperationsAbstract" xlink:to="loc_SignificantChangesFrachisedOutletsInOperation" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_SignificantChangesInOperationsAbstract" xlink:to="loc_SignificantChangesFrachisorOutletsInOperation" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_TheatricalFilmCostsAbstract" xlink:to="loc_TheatricalFilmCostsPreproduction" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_TheatricalFilmCostsAbstract" xlink:to="loc_TheatricalFilmCostsDevelopment" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_TheatricalFilmCostsAbstract" xlink:to="loc_TheatricalFilmCostsProduction" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_TheatricalFilmCostsAbstract" xlink:to="loc_TheatricalFilmCostsCompletedAndNotReleased" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_TheatricalFilmCostsAbstract" xlink:to="loc_TheatricalFilmCostsReleased" xlink:type="arc"/>
+<link:presentationArc order="60" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_TheatricalFilmCostsAbstract" xlink:to="loc_TheatricalFilmCosts" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_TrustsAbstract" xlink:to="loc_GainLossOnSaleOfTrustAssetsToPayExpensesAbstract" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_TrustsAbstract" xlink:to="loc_ProceedsFromSaleOfTrustAssetsToPayExpenses" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_TypesOfCommercialAircraftAbstract" xlink:to="loc_TypesOfCommercialAircraftTableTextBlock" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_TypesOfCommercialAircraftTableTextBlock" xlink:to="loc_TypesOfCommercialAircraftTable" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_TypesOfCommercialAircraftTable" xlink:to="loc_AircraftTypeAxis" xlink:type="arc"/>
+</link:presentationLink>
+</link:linkbase>

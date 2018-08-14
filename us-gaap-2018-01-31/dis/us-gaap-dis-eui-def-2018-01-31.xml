@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+(c) 2010-2018 Financial Accounting Foundation; (c) 2007-2010 XBRL US, Inc.  All Right Reserved.
+Notice: Authorized Uses are Set Forth at http://xbrl.fasb.org/terms/TaxonomiesTermsConditions.html
+  --><link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+<link:roleRef roleURI="http://fasb.org/us-gaap/role/disclosure/ExtraordinaryAndUnusualItemsScheduleOfBusinessInsuranceRecoveriesTable" xlink:type="simple" xlink:href="../elts/us-roles-2018-01-31.xsd#ExtraordinaryAndUnusualItemsScheduleOfBusinessInsuranceRecoveriesTable"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+<link:roleRef roleURI="http://fasb.org/us-gaap/role/disclosure/ExtraordinaryAndUnusualItemsUnusualOrInfrequentItemTable" xlink:type="simple" xlink:href="../elts/us-roles-2018-01-31.xsd#ExtraordinaryAndUnusualItemsUnusualOrInfrequentItemTable"/>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/ExtraordinaryAndUnusualItemsScheduleOfBusinessInsuranceRecoveriesTable" xlink:type="extended">
+<link:loc xlink:label="loc_BusinessInterruptionLossLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_BusinessInterruptionLossLineItems"/>
+<link:loc xlink:label="loc_ScheduleOfBusinessInsuranceRecoveriesTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ScheduleOfBusinessInsuranceRecoveriesTable"/>
+<link:definitionArc order="1.0" xbrldt:closed="true" xbrldt:contextElement="segment" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_BusinessInterruptionLossLineItems" xlink:to="loc_ScheduleOfBusinessInsuranceRecoveriesTable" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/ExtraordinaryAndUnusualItemsScheduleOfBusinessInsuranceRecoveriesTable" xlink:type="extended">
+<link:loc xlink:label="loc_BusinessInterruptionLossAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_BusinessInterruptionLossAxis"/>
+<link:loc xlink:label="loc_BusinessInterruptionLossDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_BusinessInterruptionLossDomain"/>
+<link:loc xlink:label="loc_IncomeStatementLocationAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_IncomeStatementLocationAxis"/>
+<link:loc xlink:label="loc_IncomeStatementLocationDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_IncomeStatementLocationDomain"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="loc_BusinessInterruptionLossAxis" xlink:to="loc_BusinessInterruptionLossDomain" xlink:type="arc"/>
+<link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="loc_IncomeStatementLocationAxis" xlink:to="loc_IncomeStatementLocationDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/ExtraordinaryAndUnusualItemsScheduleOfBusinessInsuranceRecoveriesTable" xlink:type="extended">
+<link:loc xlink:label="loc_BusinessInterruptionLossAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_BusinessInterruptionLossAxis"/>
+<link:loc xlink:label="loc_BusinessInterruptionLossDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_BusinessInterruptionLossDomain"/>
+<link:loc xlink:label="loc_IncomeStatementLocationAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_IncomeStatementLocationAxis"/>
+<link:loc xlink:label="loc_IncomeStatementLocationDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_IncomeStatementLocationDomain"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_BusinessInterruptionLossAxis" xlink:to="loc_BusinessInterruptionLossDomain" xlink:type="arc"/>
+<link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_IncomeStatementLocationAxis" xlink:to="loc_IncomeStatementLocationDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/ExtraordinaryAndUnusualItemsScheduleOfBusinessInsuranceRecoveriesTable" xlink:type="extended">
+<link:loc xlink:label="loc_BusinessInterruptionLossLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_BusinessInterruptionLossLineItems"/>
+<link:loc xlink:label="loc_BusinessInterruptionLossesNatureOfEvent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_BusinessInterruptionLossesNatureOfEvent"/>
+<link:loc xlink:label="loc_GainOnBusinessInterruptionInsuranceRecovery" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_GainOnBusinessInterruptionInsuranceRecovery"/>
+<link:loc xlink:label="loc_IncomeStatementLocationDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_IncomeStatementLocationDomain"/>
+<link:loc xlink:label="loc_SalesMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SalesMember"/>
+<link:loc xlink:label="loc_TradingRevenueMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TradingRevenueMember"/>
+<link:loc xlink:label="loc_CostOfSalesMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CostOfSalesMember"/>
+<link:loc xlink:label="loc_PrincipalOrProprietaryTransactionsMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PrincipalOrProprietaryTransactionsMember"/>
+<link:loc xlink:label="loc_AssetManagementIncomeMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AssetManagementIncomeMember"/>
+<link:loc xlink:label="loc_OtherIncomeMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherIncomeMember"/>
+<link:loc xlink:label="loc_InterestIncomeMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestIncomeMember"/>
+<link:loc xlink:label="loc_InvestmentIncomeMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InvestmentIncomeMember"/>
+<link:loc xlink:label="loc_OperatingIncomeLossMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OperatingIncomeLossMember"/>
+<link:loc xlink:label="loc_OtherOperatingIncomeExpenseMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherOperatingIncomeExpenseMember"/>
+<link:loc xlink:label="loc_InterestExpenseMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestExpenseMember"/>
+<link:loc xlink:label="loc_OperatingExpenseMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OperatingExpenseMember"/>
+<link:loc xlink:label="loc_OtherExpenseMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherExpenseMember"/>
+<link:loc xlink:label="loc_NonoperatingIncomeExpenseMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NonoperatingIncomeExpenseMember"/>
+<link:loc xlink:label="loc_OtherNonoperatingIncomeExpenseMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherNonoperatingIncomeExpenseMember"/>
+<link:loc xlink:label="loc_ForeignCurrencyGainLossMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ForeignCurrencyGainLossMember"/>
+<link:loc xlink:label="loc_SaleOfSubsidiaryGainLossMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SaleOfSubsidiaryGainLossMember"/>
+<link:loc xlink:label="loc_SellingGeneralAndAdministrativeExpensesMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SellingGeneralAndAdministrativeExpensesMember"/>
+<link:loc xlink:label="loc_SellingAndMarketingExpenseMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SellingAndMarketingExpenseMember"/>
+<link:loc xlink:label="loc_GeneralAndAdministrativeExpenseMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_GeneralAndAdministrativeExpenseMember"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_BusinessInterruptionLossLineItems" xlink:to="loc_BusinessInterruptionLossesNatureOfEvent" xlink:type="arc"/>
+<link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_BusinessInterruptionLossLineItems" xlink:to="loc_GainOnBusinessInterruptionInsuranceRecovery" xlink:type="arc"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_IncomeStatementLocationDomain" xlink:to="loc_SalesMember" xlink:type="arc"/>
+<link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_IncomeStatementLocationDomain" xlink:to="loc_TradingRevenueMember" xlink:type="arc"/>
+<link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_IncomeStatementLocationDomain" xlink:to="loc_CostOfSalesMember" xlink:type="arc"/>
+<link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_IncomeStatementLocationDomain" xlink:to="loc_PrincipalOrProprietaryTransactionsMember" xlink:type="arc"/>
+<link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_IncomeStatementLocationDomain" xlink:to="loc_AssetManagementIncomeMember" xlink:type="arc"/>
+<link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_IncomeStatementLocationDomain" xlink:to="loc_OtherIncomeMember" xlink:type="arc"/>
+<link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_IncomeStatementLocationDomain" xlink:to="loc_InterestIncomeMember" xlink:type="arc"/>
+<link:definitionArc order="8.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_IncomeStatementLocationDomain" xlink:to="loc_InvestmentIncomeMember" xlink:type="arc"/>
+<link:definitionArc order="9.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_IncomeStatementLocationDomain" xlink:to="loc_OperatingIncomeLossMember" xlink:type="arc"/>
+<link:definitionArc order="10.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_IncomeStatementLocationDomain" xlink:to="loc_OtherOperatingIncomeExpenseMember" xlink:type="arc"/>
+<link:definitionArc order="11.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_IncomeStatementLocationDomain" xlink:to="loc_InterestExpenseMember" xlink:type="arc"/>
+<link:definitionArc order="12.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_IncomeStatementLocationDomain" xlink:to="loc_OperatingExpenseMember" xlink:type="arc"/>
+<link:definitionArc order="13.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_IncomeStatementLocationDomain" xlink:to="loc_OtherExpenseMember" xlink:type="arc"/>
+<link:definitionArc order="14.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_IncomeStatementLocationDomain" xlink:to="loc_NonoperatingIncomeExpenseMember" xlink:type="arc"/>
+<link:definitionArc order="15.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_IncomeStatementLocationDomain" xlink:to="loc_OtherNonoperatingIncomeExpenseMember" xlink:type="arc"/>
+<link:definitionArc order="16.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_IncomeStatementLocationDomain" xlink:to="loc_ForeignCurrencyGainLossMember" xlink:type="arc"/>
+<link:definitionArc order="17.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_IncomeStatementLocationDomain" xlink:to="loc_SaleOfSubsidiaryGainLossMember" xlink:type="arc"/>
+<link:definitionArc order="18.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_IncomeStatementLocationDomain" xlink:to="loc_SellingGeneralAndAdministrativeExpensesMember" xlink:type="arc"/>
+<link:definitionArc order="19.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SellingGeneralAndAdministrativeExpensesMember" xlink:to="loc_SellingAndMarketingExpenseMember" xlink:type="arc"/>
+<link:definitionArc order="20.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SellingGeneralAndAdministrativeExpensesMember" xlink:to="loc_GeneralAndAdministrativeExpenseMember" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/ExtraordinaryAndUnusualItemsScheduleOfBusinessInsuranceRecoveriesTable" xlink:type="extended">
+<link:loc xlink:label="loc_ScheduleOfBusinessInsuranceRecoveriesTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ScheduleOfBusinessInsuranceRecoveriesTable"/>
+<link:loc xlink:label="loc_BusinessInterruptionLossAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_BusinessInterruptionLossAxis"/>
+<link:loc xlink:label="loc_IncomeStatementLocationAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_IncomeStatementLocationAxis"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_ScheduleOfBusinessInsuranceRecoveriesTable" xlink:to="loc_BusinessInterruptionLossAxis" xlink:type="arc"/>
+<link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_ScheduleOfBusinessInsuranceRecoveriesTable" xlink:to="loc_IncomeStatementLocationAxis" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/ExtraordinaryAndUnusualItemsUnusualOrInfrequentItemTable" xlink:type="extended">
+<link:loc xlink:label="loc_UnusualOrInfrequentItemLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualOrInfrequentItemLineItems"/>
+<link:loc xlink:label="loc_UnusualOrInfrequentItemTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualOrInfrequentItemTable"/>
+<link:definitionArc order="1.0" xbrldt:closed="true" xbrldt:contextElement="segment" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_UnusualOrInfrequentItemLineItems" xlink:to="loc_UnusualOrInfrequentItemTable" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/ExtraordinaryAndUnusualItemsUnusualOrInfrequentItemTable" xlink:type="extended">
+<link:loc xlink:label="loc_UnusualOrInfrequentItemAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualOrInfrequentItemAxis"/>
+<link:loc xlink:label="loc_UnusualOrInfrequentItemDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualOrInfrequentItemDomain"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="loc_UnusualOrInfrequentItemAxis" xlink:to="loc_UnusualOrInfrequentItemDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/ExtraordinaryAndUnusualItemsUnusualOrInfrequentItemTable" xlink:type="extended">
+<link:loc xlink:label="loc_UnusualOrInfrequentItemAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualOrInfrequentItemAxis"/>
+<link:loc xlink:label="loc_UnusualOrInfrequentItemDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualOrInfrequentItemDomain"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_UnusualOrInfrequentItemAxis" xlink:to="loc_UnusualOrInfrequentItemDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/ExtraordinaryAndUnusualItemsUnusualOrInfrequentItemTable" xlink:type="extended">
+<link:loc xlink:label="loc_UnusualOrInfrequentItemDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualOrInfrequentItemDomain"/>
+<link:loc xlink:label="loc_NaturalDisastersAndOtherCasualtyEventsMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NaturalDisastersAndOtherCasualtyEventsMember"/>
+<link:loc xlink:label="loc_UnusualOrInfrequentItemLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualOrInfrequentItemLineItems"/>
+<link:loc xlink:label="loc_UnusualOrInfrequentItemNatureOfEventOrTransaction" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualOrInfrequentItemNatureOfEventOrTransaction"/>
+<link:loc xlink:label="loc_UnusualOrInfrequentItemNetGainLossAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualOrInfrequentItemNetGainLossAbstract"/>
+<link:loc xlink:label="loc_UnusualOrInfrequentItemEarningsPerShareImpactGross" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualOrInfrequentItemEarningsPerShareImpactGross"/>
+<link:loc xlink:label="loc_UnusualOrInfrequentItemEarningsPerShareImpactNet" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualOrInfrequentItemEarningsPerShareImpactNet"/>
+<link:loc xlink:label="loc_UnusualOrInfrequentTaxEffect" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualOrInfrequentTaxEffect"/>
+<link:loc xlink:label="loc_ExtraordinaryItemsAdjustmentIncludedInIncomeFromContinuingOperationsNature" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ExtraordinaryItemsAdjustmentIncludedInIncomeFromContinuingOperationsNature"/>
+<link:loc xlink:label="loc_ExtraordinaryItemsAdjustmentIncludedInIncomeFromOperationsGainLossAmount" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ExtraordinaryItemsAdjustmentIncludedInIncomeFromOperationsGainLossAmount"/>
+<link:loc xlink:label="loc_UnusualOrInfrequentItemNetOfInsuranceProceedsAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualOrInfrequentItemNetOfInsuranceProceedsAbstract"/>
+<link:loc xlink:label="loc_UnusualOrInfrequentItemGainGross" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualOrInfrequentItemGainGross"/>
+<link:loc xlink:label="loc_DiscontinuedApplicationOfSpecializedAccountingForRegulatedOperations" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DiscontinuedApplicationOfSpecializedAccountingForRegulatedOperations"/>
+<link:loc xlink:label="loc_UnusualOrInfrequentItemNetGainLoss" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualOrInfrequentItemNetGainLoss"/>
+<link:loc xlink:label="loc_UnusualOrInfrequentItemLossGross" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualOrInfrequentItemLossGross"/>
+<link:loc xlink:label="loc_UnusualOrInfrequentItemInsuranceProceeds" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualOrInfrequentItemInsuranceProceeds"/>
+<link:loc xlink:label="loc_UnusualOrInfrequentItemNetOfInsuranceProceeds" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualOrInfrequentItemNetOfInsuranceProceeds"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_UnusualOrInfrequentItemDomain" xlink:to="loc_NaturalDisastersAndOtherCasualtyEventsMember" xlink:type="arc"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_UnusualOrInfrequentItemLineItems" xlink:to="loc_UnusualOrInfrequentItemNatureOfEventOrTransaction" xlink:type="arc"/>
+<link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_UnusualOrInfrequentItemLineItems" xlink:to="loc_UnusualOrInfrequentItemNetGainLossAbstract" xlink:type="arc"/>
+<link:definitionArc order="10.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_UnusualOrInfrequentItemLineItems" xlink:to="loc_UnusualOrInfrequentItemEarningsPerShareImpactGross" xlink:type="arc"/>
+<link:definitionArc order="11.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_UnusualOrInfrequentItemLineItems" xlink:to="loc_UnusualOrInfrequentItemEarningsPerShareImpactNet" xlink:type="arc"/>
+<link:definitionArc order="12.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_UnusualOrInfrequentItemLineItems" xlink:to="loc_UnusualOrInfrequentTaxEffect" xlink:type="arc"/>
+<link:definitionArc order="13.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_UnusualOrInfrequentItemLineItems" xlink:to="loc_ExtraordinaryItemsAdjustmentIncludedInIncomeFromContinuingOperationsNature" xlink:type="arc"/>
+<link:definitionArc order="14.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_UnusualOrInfrequentItemLineItems" xlink:to="loc_ExtraordinaryItemsAdjustmentIncludedInIncomeFromOperationsGainLossAmount" xlink:type="arc"/>
+<link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_UnusualOrInfrequentItemNetGainLossAbstract" xlink:to="loc_UnusualOrInfrequentItemNetOfInsuranceProceedsAbstract" xlink:type="arc"/>
+<link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_UnusualOrInfrequentItemNetGainLossAbstract" xlink:to="loc_UnusualOrInfrequentItemGainGross" xlink:type="arc"/>
+<link:definitionArc order="8.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_UnusualOrInfrequentItemNetGainLossAbstract" xlink:to="loc_DiscontinuedApplicationOfSpecializedAccountingForRegulatedOperations" xlink:type="arc"/>
+<link:definitionArc order="9.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_UnusualOrInfrequentItemNetGainLossAbstract" xlink:to="loc_UnusualOrInfrequentItemNetGainLoss" xlink:type="arc"/>
+<link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_UnusualOrInfrequentItemNetOfInsuranceProceedsAbstract" xlink:to="loc_UnusualOrInfrequentItemLossGross" xlink:type="arc"/>
+<link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_UnusualOrInfrequentItemNetOfInsuranceProceedsAbstract" xlink:to="loc_UnusualOrInfrequentItemInsuranceProceeds" xlink:type="arc"/>
+<link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_UnusualOrInfrequentItemNetOfInsuranceProceedsAbstract" xlink:to="loc_UnusualOrInfrequentItemNetOfInsuranceProceeds" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/ExtraordinaryAndUnusualItemsUnusualOrInfrequentItemTable" xlink:type="extended">
+<link:loc xlink:label="loc_UnusualOrInfrequentItemTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualOrInfrequentItemTable"/>
+<link:loc xlink:label="loc_UnusualOrInfrequentItemAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualOrInfrequentItemAxis"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_UnusualOrInfrequentItemTable" xlink:to="loc_UnusualOrInfrequentItemAxis" xlink:type="arc"/>
+</link:definitionLink>
+</link:linkbase>

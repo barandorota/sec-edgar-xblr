@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+(c) 2010-2018 Financial Accounting Foundation; (c) 2007-2010 XBRL US, Inc.  All Right Reserved.
+Notice: Authorized Uses are Set Forth at http://xbrl.fasb.org/terms/TaxonomiesTermsConditions.html
+  --><link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+<link:roleRef roleURI="http://fasb.org/us-gaap/role/disclosure/OtherExpenses" xlink:type="simple" xlink:href="../elts/us-roles-2018-01-31.xsd#otherexp"/>
+<link:presentationLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherExpenses" xlink:type="extended">
+<link:loc xlink:label="loc_OtherIncomeAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherIncomeAbstract"/>
+<link:loc xlink:label="loc_OtherOperatingIncome" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherOperatingIncome"/>
+<link:loc xlink:label="loc_OtherRecurringIncome" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherRecurringIncome"/>
+<link:loc xlink:label="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ComponentOfOperatingOtherCostAndExpenseLineItems"/>
+<link:loc xlink:label="loc_OtherCostAndExpenseDisclosureOperating" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherCostAndExpenseDisclosureOperating"/>
+<link:loc xlink:label="loc_AccretionExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AccretionExpense"/>
+<link:loc xlink:label="loc_AdvertisingExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AdvertisingExpense"/>
+<link:loc xlink:label="loc_BusinessDevelopment" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_BusinessDevelopment"/>
+<link:loc xlink:label="loc_CapitalLeasesIncomeStatementInterestExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CapitalLeasesIncomeStatementInterestExpense"/>
+<link:loc xlink:label="loc_ClearanceFees" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ClearanceFees"/>
+<link:loc xlink:label="loc_CommunicationsAndInformationTechnology" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CommunicationsAndInformationTechnology"/>
+<link:loc xlink:label="loc_CommunicationsInformationTechnologyAndOccupancy" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CommunicationsInformationTechnologyAndOccupancy"/>
+<link:loc xlink:label="loc_CooperativeAdvertisingExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CooperativeAdvertisingExpense"/>
+<link:loc xlink:label="loc_EnvironmentalRemediationExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_EnvironmentalRemediationExpense"/>
+<link:loc xlink:label="loc_ExchangeFees" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ExchangeFees"/>
+<link:loc xlink:label="loc_ExpenseRelatedToDistributionOrServicingAndUnderwritingFees" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ExpenseRelatedToDistributionOrServicingAndUnderwritingFees"/>
+<link:loc xlink:label="loc_FederalDepositInsuranceCorporationPremiumExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_FederalDepositInsuranceCorporationPremiumExpense"/>
+<link:loc xlink:label="loc_FloorBrokerage" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_FloorBrokerage"/>
+<link:loc xlink:label="loc_FloorBrokerageExchangeAndClearanceFees" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_FloorBrokerageExchangeAndClearanceFees"/>
+<link:loc xlink:label="loc_LoanPortfolioExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_LoanPortfolioExpense"/>
+<link:loc xlink:label="loc_LoanProcessingFee" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_LoanProcessingFee"/>
+<link:loc xlink:label="loc_MarketingExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MarketingExpense"/>
+<link:loc xlink:label="loc_MarketingAndAdvertisingExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MarketingAndAdvertisingExpense"/>
+<link:loc xlink:label="loc_NoninterestExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NoninterestExpense"/>
+<link:loc xlink:label="loc_NoninterestExpenseCommissionExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NoninterestExpenseCommissionExpense"/>
+<link:loc xlink:label="loc_NoninterestExpenseDirectorsFees" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NoninterestExpenseDirectorsFees"/>
+<link:loc xlink:label="loc_NoninterestExpenseInvestmentAdvisoryFees" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NoninterestExpenseInvestmentAdvisoryFees"/>
+<link:loc xlink:label="loc_NoninterestExpenseOfferingCost" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NoninterestExpenseOfferingCost"/>
+<link:loc xlink:label="loc_NoninterestExpensePrintingAndFulfillment" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NoninterestExpensePrintingAndFulfillment"/>
+<link:loc xlink:label="loc_NoninterestExpenseRelatedToPerformanceFees" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NoninterestExpenseRelatedToPerformanceFees"/>
+<link:loc xlink:label="loc_NoninterestExpenseTransferAgentAndCustodianFees" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NoninterestExpenseTransferAgentAndCustodianFees"/>
+<link:loc xlink:label="loc_OccupancyNet" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OccupancyNet"/>
+<link:loc xlink:label="loc_LeaseAndRentalExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_LeaseAndRentalExpense"/>
+<link:loc xlink:label="loc_OrderFlowFees" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OrderFlowFees"/>
+<link:loc xlink:label="loc_OtherCostAndExpenseOperating" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherCostAndExpenseOperating"/>
+<link:loc xlink:label="loc_OtherNoninterestExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherNoninterestExpense"/>
+<link:loc xlink:label="loc_OtherNonrecurringExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherNonrecurringExpense"/>
+<link:loc xlink:label="loc_OtherResearchAndDevelopmentExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherResearchAndDevelopmentExpense"/>
+<link:loc xlink:label="loc_OtherSellingAndMarketingExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherSellingAndMarketingExpense"/>
+<link:loc xlink:label="loc_PostageExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PostageExpense"/>
+<link:loc xlink:label="loc_PreOpeningCosts" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PreOpeningCosts"/>
+<link:loc xlink:label="loc_ProductionAndDistributionCosts" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProductionAndDistributionCosts"/>
+<link:loc xlink:label="loc_ProductionTaxExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProductionTaxExpense"/>
+<link:loc xlink:label="loc_ProfessionalFees" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProfessionalFees"/>
+<link:loc xlink:label="loc_RealEstateInsurance" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RealEstateInsurance"/>
+<link:loc xlink:label="loc_RealEstateTaxExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RealEstateTaxExpense"/>
+<link:loc xlink:label="loc_RealEstateTaxesAndInsurance" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RealEstateTaxesAndInsurance"/>
+<link:loc xlink:label="loc_RoyaltyExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RoyaltyExpense"/>
+<link:loc xlink:label="loc_SalesCommissionsAndFees" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SalesCommissionsAndFees"/>
+<link:loc xlink:label="loc_SellingExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SellingExpense"/>
+<link:loc xlink:label="loc_SuppliesAndPostageExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SuppliesAndPostageExpense"/>
+<link:loc xlink:label="loc_SuppliesExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SuppliesExpense"/>
+<link:loc xlink:label="loc_TaxesAndLicenses" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TaxesAndLicenses"/>
+<link:loc xlink:label="loc_TaxesExcludingIncomeAndExciseTaxes" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TaxesExcludingIncomeAndExciseTaxes"/>
+<link:loc xlink:label="loc_TravelAndEntertainmentExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TravelAndEntertainmentExpense"/>
+<link:loc xlink:label="loc_ComponentOfOtherExpenseNonoperatingLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ComponentOfOtherExpenseNonoperatingLineItems"/>
+<link:loc xlink:label="loc_GoodwillImpairmentLoss" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_GoodwillImpairmentLoss"/>
+<link:loc xlink:label="loc_ImpairmentOfIntangibleAssetsExcludingGoodwill" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ImpairmentOfIntangibleAssetsExcludingGoodwill"/>
+<link:loc xlink:label="loc_OtherNonoperatingExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherNonoperatingExpense"/>
+<link:loc xlink:label="loc_ImpairmentOfInvestments" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ImpairmentOfInvestments"/>
+<link:loc xlink:label="loc_OtherExpenseDisclosureNonoperating" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherExpenseDisclosureNonoperating"/>
+<link:loc xlink:label="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ComponentOfOtherIncomeNonoperatingLineItems"/>
+<link:loc xlink:label="loc_PublicUtilitiesAllowanceForFundsUsedDuringConstructionCapitalizedInterest" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PublicUtilitiesAllowanceForFundsUsedDuringConstructionCapitalizedInterest"/>
+<link:loc xlink:label="loc_AmortizationOfIntangibleAssets" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AmortizationOfIntangibleAssets"/>
+<link:loc xlink:label="loc_OtherAmortizationOfDeferredCharges" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherAmortizationOfDeferredCharges"/>
+<link:loc xlink:label="loc_AmortizationOfRegulatoryAsset" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AmortizationOfRegulatoryAsset"/>
+<link:loc xlink:label="loc_GainLossFromPriceRiskManagementActivity" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_GainLossFromPriceRiskManagementActivity"/>
+<link:loc xlink:label="loc_GainLossOnDispositionOfAssets1" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_GainLossOnDispositionOfAssets1"/>
+<link:loc xlink:label="loc_GainLossOnSaleOfProperty" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_GainLossOnSaleOfProperty"/>
+<link:loc xlink:label="loc_GainLossOnSaleOfOtherAssets" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_GainLossOnSaleOfOtherAssets"/>
+<link:loc xlink:label="loc_GainLossOnDispositionOfAssets" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_GainLossOnDispositionOfAssets"/>
+<link:loc xlink:label="loc_GainLossOnInvestments" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_GainLossOnInvestments"/>
+<link:loc xlink:label="loc_GainLossOnSaleOfAccountsReceivable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_GainLossOnSaleOfAccountsReceivable"/>
+<link:loc xlink:label="loc_GainLossOnSaleOfDerivatives" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_GainLossOnSaleOfDerivatives"/>
+<link:loc xlink:label="loc_IncomeLossFromEquityMethodInvestments" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_IncomeLossFromEquityMethodInvestments"/>
+<link:loc xlink:label="loc_IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions"/>
+<link:loc xlink:label="loc_InsuredEventGainLoss" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InsuredEventGainLoss"/>
+<link:loc xlink:label="loc_InterestIncomeExpenseNonoperatingNet" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestIncomeExpenseNonoperatingNet"/>
+<link:loc xlink:label="loc_InterestIncomeOther" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestIncomeOther"/>
+<link:loc xlink:label="loc_InvestmentIncomeDividend" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InvestmentIncomeDividend"/>
+<link:loc xlink:label="loc_InvestmentIncomeInterestAndDividend" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InvestmentIncomeInterestAndDividend"/>
+<link:loc xlink:label="loc_OtherIncomeDisclosureNonoperating" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherIncomeDisclosureNonoperating"/>
+<link:loc xlink:label="loc_RealEstatePartnershipInvestmentSubsidiariesNetIncomeLossBeforeTax" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RealEstatePartnershipInvestmentSubsidiariesNetIncomeLossBeforeTax"/>
+<link:loc xlink:label="loc_UnrealizedGainLossOnDerivatives" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnrealizedGainLossOnDerivatives"/>
+<link:loc xlink:label="loc_OtherNonoperatingIncome" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherNonoperatingIncome"/>
+<link:loc xlink:label="loc_OtherNonrecurringGain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherNonrecurringGain"/>
+<link:loc xlink:label="loc_InterestAndOtherIncomeAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestAndOtherIncomeAbstract"/>
+<link:loc xlink:label="loc_InterestIncomeSecuritiesMortgageBacked" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestIncomeSecuritiesMortgageBacked"/>
+<link:loc xlink:label="loc_InterestIncomeSecuritiesCorporateDebtOperating" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestIncomeSecuritiesCorporateDebtOperating"/>
+<link:loc xlink:label="loc_InterestIncomeSecuritiesStateAndMunicipal" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestIncomeSecuritiesStateAndMunicipal"/>
+<link:loc xlink:label="loc_InterestIncomeSecuritiesUSTreasury" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestIncomeSecuritiesUSTreasury"/>
+<link:loc xlink:label="loc_InterestIncomeSecuritiesOtherUSGovernment" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestIncomeSecuritiesOtherUSGovernment"/>
+<link:loc xlink:label="loc_InterestIncomeMoneyMarketDeposits" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestIncomeMoneyMarketDeposits"/>
+<link:loc xlink:label="loc_InterestIncomeOtherDomesticDeposits" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestIncomeOtherDomesticDeposits"/>
+<link:loc xlink:label="loc_InterestIncomeForeignDeposits" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestIncomeForeignDeposits"/>
+<link:loc xlink:label="loc_InterestAndOtherIncome" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestAndOtherIncome"/>
+<link:loc xlink:label="loc_OtherExpenseDisclosureNonoperatingAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherExpenseDisclosureNonoperatingAbstract"/>
+<link:loc xlink:label="loc_ScheduleOfOtherNonoperatingExpenseByComponentTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ScheduleOfOtherNonoperatingExpenseByComponentTextBlock"/>
+<link:loc xlink:label="loc_OtherIncomeAndExpensesAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherIncomeAndExpensesAbstract"/>
+<link:loc xlink:label="loc_OtherIncomeAndOtherExpenseDisclosureTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherIncomeAndOtherExpenseDisclosureTextBlock"/>
+<link:loc xlink:label="loc_OtherOperatingIncomeAndExpenseTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherOperatingIncomeAndExpenseTextBlock"/>
+<link:loc xlink:label="loc_ScheduleOfOtherOperatingCostAndExpenseByComponentTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ScheduleOfOtherOperatingCostAndExpenseByComponentTextBlock"/>
+<link:loc xlink:label="loc_OtherNonoperatingIncomeAndExpenseTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherNonoperatingIncomeAndExpenseTextBlock"/>
+<link:loc xlink:label="loc_ScheduleOfOtherNonoperatingIncomeExpenseTableTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ScheduleOfOtherNonoperatingIncomeExpenseTableTextBlock"/>
+<link:loc xlink:label="loc_OtherIncomeDisclosureNonoperatingAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherIncomeDisclosureNonoperatingAbstract"/>
+<link:loc xlink:label="loc_InterestAndOtherIncomeTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestAndOtherIncomeTextBlock"/>
+<link:loc xlink:label="loc_InterestAndOtherIncomeTableTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestAndOtherIncomeTableTextBlock"/>
+<link:loc xlink:label="loc_ScheduleOfOtherNonoperatingIncomeByComponentTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ScheduleOfOtherNonoperatingIncomeByComponentTextBlock"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherIncomeAbstract" xlink:to="loc_OtherOperatingIncome" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherIncomeAbstract" xlink:to="loc_OtherRecurringIncome" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_OtherCostAndExpenseDisclosureOperating" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_AccretionExpense" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_AdvertisingExpense" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_BusinessDevelopment" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_CapitalLeasesIncomeStatementInterestExpense" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_ClearanceFees" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_CommunicationsAndInformationTechnology" xlink:type="arc"/>
+<link:presentationArc order="80" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_CommunicationsInformationTechnologyAndOccupancy" xlink:type="arc"/>
+<link:presentationArc order="90" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_CooperativeAdvertisingExpense" xlink:type="arc"/>
+<link:presentationArc order="100" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_EnvironmentalRemediationExpense" xlink:type="arc"/>
+<link:presentationArc order="110" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_ExchangeFees" xlink:type="arc"/>
+<link:presentationArc order="120" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_ExpenseRelatedToDistributionOrServicingAndUnderwritingFees" xlink:type="arc"/>
+<link:presentationArc order="130" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_FederalDepositInsuranceCorporationPremiumExpense" xlink:type="arc"/>
+<link:presentationArc order="140" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_FloorBrokerage" xlink:type="arc"/>
+<link:presentationArc order="150" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_FloorBrokerageExchangeAndClearanceFees" xlink:type="arc"/>
+<link:presentationArc order="160" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_LoanPortfolioExpense" xlink:type="arc"/>
+<link:presentationArc order="170" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_LoanProcessingFee" xlink:type="arc"/>
+<link:presentationArc order="180" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_MarketingExpense" xlink:type="arc"/>
+<link:presentationArc order="190" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_MarketingAndAdvertisingExpense" xlink:type="arc"/>
+<link:presentationArc order="200" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_NoninterestExpense" xlink:type="arc"/>
+<link:presentationArc order="210" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_NoninterestExpenseCommissionExpense" xlink:type="arc"/>
+<link:presentationArc order="220" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_NoninterestExpenseDirectorsFees" xlink:type="arc"/>
+<link:presentationArc order="230" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_NoninterestExpenseInvestmentAdvisoryFees" xlink:type="arc"/>
+<link:presentationArc order="240" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_NoninterestExpenseOfferingCost" xlink:type="arc"/>
+<link:presentationArc order="250" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_NoninterestExpensePrintingAndFulfillment" xlink:type="arc"/>
+<link:presentationArc order="260" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_NoninterestExpenseRelatedToPerformanceFees" xlink:type="arc"/>
+<link:presentationArc order="270" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_NoninterestExpenseTransferAgentAndCustodianFees" xlink:type="arc"/>
+<link:presentationArc order="280" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_OccupancyNet" xlink:type="arc"/>
+<link:presentationArc order="290" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_LeaseAndRentalExpense" xlink:type="arc"/>
+<link:presentationArc order="300" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_OrderFlowFees" xlink:type="arc"/>
+<link:presentationArc order="310" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_OtherCostAndExpenseOperating" xlink:type="arc"/>
+<link:presentationArc order="320" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_OtherNoninterestExpense" xlink:type="arc"/>
+<link:presentationArc order="330" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_OtherNonrecurringExpense" xlink:type="arc"/>
+<link:presentationArc order="340" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_OtherResearchAndDevelopmentExpense" xlink:type="arc"/>
+<link:presentationArc order="350" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_OtherSellingAndMarketingExpense" xlink:type="arc"/>
+<link:presentationArc order="360" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_PostageExpense" xlink:type="arc"/>
+<link:presentationArc order="370" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_PreOpeningCosts" xlink:type="arc"/>
+<link:presentationArc order="380" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_ProductionAndDistributionCosts" xlink:type="arc"/>
+<link:presentationArc order="390" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_ProductionTaxExpense" xlink:type="arc"/>
+<link:presentationArc order="400" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_ProfessionalFees" xlink:type="arc"/>
+<link:presentationArc order="410" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_RealEstateInsurance" xlink:type="arc"/>
+<link:presentationArc order="420" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_RealEstateTaxExpense" xlink:type="arc"/>
+<link:presentationArc order="430" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_RealEstateTaxesAndInsurance" xlink:type="arc"/>
+<link:presentationArc order="440" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_RoyaltyExpense" xlink:type="arc"/>
+<link:presentationArc order="450" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_SalesCommissionsAndFees" xlink:type="arc"/>
+<link:presentationArc order="460" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_SellingExpense" xlink:type="arc"/>
+<link:presentationArc order="470" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_SuppliesAndPostageExpense" xlink:type="arc"/>
+<link:presentationArc order="480" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_SuppliesExpense" xlink:type="arc"/>
+<link:presentationArc order="490" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_TaxesAndLicenses" xlink:type="arc"/>
+<link:presentationArc order="500" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_TaxesExcludingIncomeAndExciseTaxes" xlink:type="arc"/>
+<link:presentationArc order="510" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:to="loc_TravelAndEntertainmentExpense" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherExpenseNonoperatingLineItems" xlink:to="loc_GoodwillImpairmentLoss" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherExpenseNonoperatingLineItems" xlink:to="loc_ImpairmentOfIntangibleAssetsExcludingGoodwill" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherExpenseNonoperatingLineItems" xlink:to="loc_OtherNonoperatingExpense" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherExpenseNonoperatingLineItems" xlink:to="loc_ImpairmentOfInvestments" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherExpenseNonoperatingLineItems" xlink:to="loc_OtherExpenseDisclosureNonoperating" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_PublicUtilitiesAllowanceForFundsUsedDuringConstructionCapitalizedInterest" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_AmortizationOfIntangibleAssets" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_OtherAmortizationOfDeferredCharges" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_AmortizationOfRegulatoryAsset" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_GainLossFromPriceRiskManagementActivity" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_GainLossOnDispositionOfAssets1" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_GainLossOnSaleOfProperty" xlink:type="arc"/>
+<link:presentationArc order="80" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_GainLossOnSaleOfOtherAssets" xlink:type="arc"/>
+<link:presentationArc order="90" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_GainLossOnDispositionOfAssets" xlink:type="arc"/>
+<link:presentationArc order="100" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_GainLossOnInvestments" xlink:type="arc"/>
+<link:presentationArc order="110" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_GainLossOnSaleOfAccountsReceivable" xlink:type="arc"/>
+<link:presentationArc order="120" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_GainLossOnSaleOfDerivatives" xlink:type="arc"/>
+<link:presentationArc order="130" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_IncomeLossFromEquityMethodInvestments" xlink:type="arc"/>
+<link:presentationArc order="140" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_IncomeLossFromEquityMethodInvestmentsNetOfDividendsOrDistributions" xlink:type="arc"/>
+<link:presentationArc order="150" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_InsuredEventGainLoss" xlink:type="arc"/>
+<link:presentationArc order="160" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_InterestIncomeExpenseNonoperatingNet" xlink:type="arc"/>
+<link:presentationArc order="170" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_InterestIncomeOther" xlink:type="arc"/>
+<link:presentationArc order="180" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_InvestmentIncomeDividend" xlink:type="arc"/>
+<link:presentationArc order="190" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_InvestmentIncomeInterestAndDividend" xlink:type="arc"/>
+<link:presentationArc order="200" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_OtherIncomeDisclosureNonoperating" xlink:type="arc"/>
+<link:presentationArc order="210" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_RealEstatePartnershipInvestmentSubsidiariesNetIncomeLossBeforeTax" xlink:type="arc"/>
+<link:presentationArc order="220" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_UnrealizedGainLossOnDerivatives" xlink:type="arc"/>
+<link:presentationArc order="230" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_OtherNonoperatingIncome" xlink:type="arc"/>
+<link:presentationArc order="240" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:to="loc_OtherNonrecurringGain" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_InterestAndOtherIncomeAbstract" xlink:to="loc_InterestIncomeSecuritiesMortgageBacked" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_InterestAndOtherIncomeAbstract" xlink:to="loc_InterestIncomeSecuritiesCorporateDebtOperating" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_InterestAndOtherIncomeAbstract" xlink:to="loc_InterestIncomeSecuritiesStateAndMunicipal" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_InterestAndOtherIncomeAbstract" xlink:to="loc_InterestIncomeSecuritiesUSTreasury" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_InterestAndOtherIncomeAbstract" xlink:to="loc_InterestIncomeSecuritiesOtherUSGovernment" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_InterestAndOtherIncomeAbstract" xlink:to="loc_InterestIncomeMoneyMarketDeposits" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_InterestAndOtherIncomeAbstract" xlink:to="loc_InterestIncomeOtherDomesticDeposits" xlink:type="arc"/>
+<link:presentationArc order="80" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_InterestAndOtherIncomeAbstract" xlink:to="loc_InterestIncomeForeignDeposits" xlink:type="arc"/>
+<link:presentationArc order="90" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_InterestAndOtherIncomeAbstract" xlink:to="loc_InterestAndOtherIncome" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherExpenseDisclosureNonoperatingAbstract" xlink:to="loc_ScheduleOfOtherNonoperatingExpenseByComponentTextBlock" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ScheduleOfOtherNonoperatingExpenseByComponentTextBlock" xlink:to="loc_ComponentOfOtherExpenseNonoperatingLineItems" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherIncomeAndExpensesAbstract" xlink:to="loc_OtherIncomeAndOtherExpenseDisclosureTextBlock" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherIncomeAndOtherExpenseDisclosureTextBlock" xlink:to="loc_OtherOperatingIncomeAndExpenseTextBlock" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherOperatingIncomeAndExpenseTextBlock" xlink:to="loc_ScheduleOfOtherOperatingCostAndExpenseByComponentTextBlock" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ScheduleOfOtherOperatingCostAndExpenseByComponentTextBlock" xlink:to="loc_ComponentOfOperatingOtherCostAndExpenseLineItems" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ScheduleOfOtherOperatingCostAndExpenseByComponentTextBlock" xlink:to="loc_OtherIncomeAbstract" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherIncomeAndOtherExpenseDisclosureTextBlock" xlink:to="loc_OtherNonoperatingIncomeAndExpenseTextBlock" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherNonoperatingIncomeAndExpenseTextBlock" xlink:to="loc_ScheduleOfOtherNonoperatingIncomeExpenseTableTextBlock" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ScheduleOfOtherNonoperatingIncomeExpenseTableTextBlock" xlink:to="loc_OtherIncomeDisclosureNonoperatingAbstract" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ScheduleOfOtherNonoperatingIncomeExpenseTableTextBlock" xlink:to="loc_OtherExpenseDisclosureNonoperatingAbstract" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherIncomeAndOtherExpenseDisclosureTextBlock" xlink:to="loc_InterestAndOtherIncomeTextBlock" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_InterestAndOtherIncomeTextBlock" xlink:to="loc_InterestAndOtherIncomeTableTextBlock" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_InterestAndOtherIncomeTableTextBlock" xlink:to="loc_InterestAndOtherIncomeAbstract" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherIncomeDisclosureNonoperatingAbstract" xlink:to="loc_ScheduleOfOtherNonoperatingIncomeByComponentTextBlock" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ScheduleOfOtherNonoperatingIncomeByComponentTextBlock" xlink:to="loc_ComponentOfOtherIncomeNonoperatingLineItems" xlink:type="arc"/>
+</link:presentationLink>
+</link:linkbase>

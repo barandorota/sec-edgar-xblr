@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+(c) 2010-2018 Financial Accounting Foundation; (c) 2007-2010 XBRL US, Inc.  All Right Reserved.
+Notice: Authorized Uses are Set Forth at http://xbrl.fasb.org/terms/TaxonomiesTermsConditions.html
+  --><link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+<link:roleRef roleURI="http://fasb.org/us-gaap/role/disclosure/DeferredCostsCapitalizedPrepaidAndOtherAssets" xlink:type="simple" xlink:href="../elts/us-roles-2018-01-31.xsd#dccpoa"/>
+<link:presentationLink xlink:role="http://fasb.org/us-gaap/role/disclosure/DeferredCostsCapitalizedPrepaidAndOtherAssets" xlink:type="extended">
+<link:loc xlink:label="loc_AssetsHeldInTrustAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AssetsHeldInTrustAbstract"/>
+<link:loc xlink:label="loc_AssetsHeldInTrustCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AssetsHeldInTrustCurrent"/>
+<link:loc xlink:label="loc_AssetsHeldInTrustNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AssetsHeldInTrustNoncurrent"/>
+<link:loc xlink:label="loc_AssetsHeldInTrust" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AssetsHeldInTrust"/>
+<link:loc xlink:label="loc_CreditCardOriginationCostsAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CreditCardOriginationCostsAbstract"/>
+<link:loc xlink:label="loc_DeferredCostsCreditCardOriginationCostsAmount" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DeferredCostsCreditCardOriginationCostsAmount"/>
+<link:loc xlink:label="loc_DeferredCostsCreditCardOriginationCostsAmortization" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DeferredCostsCreditCardOriginationCostsAmortization"/>
+<link:loc xlink:label="loc_DeferredCostsAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DeferredCostsAbstract"/>
+<link:loc xlink:label="loc_OtherDeferredCostsAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherDeferredCostsAbstract"/>
+<link:loc xlink:label="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureAbstract"/>
+<link:loc xlink:label="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock"/>
+<link:loc xlink:label="loc_DeferredCostsLeasingNetAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DeferredCostsLeasingNetAbstract"/>
+<link:loc xlink:label="loc_PrepaidExpenseAndOtherAssetsCurrentAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PrepaidExpenseAndOtherAssetsCurrentAbstract"/>
+<link:loc xlink:label="loc_OtherAssetsAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherAssetsAbstract"/>
+<link:loc xlink:label="loc_OtherAssetsMiscellaneousAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherAssetsMiscellaneousAbstract"/>
+<link:loc xlink:label="loc_DepositAssetsDisclosureAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DepositAssetsDisclosureAbstract"/>
+<link:loc xlink:label="loc_OtherAssetsNoncurrentDisclosureAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherAssetsNoncurrentDisclosureAbstract"/>
+<link:loc xlink:label="loc_OtherAssetsUnclassifiedAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherAssetsUnclassifiedAbstract"/>
+<link:loc xlink:label="loc_OtherAssetsSignificantAdditionsOrDeletionsAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherAssetsSignificantAdditionsOrDeletionsAbstract"/>
+<link:loc xlink:label="loc_PreproductionCostsRelatedToLongTermSupplyArrangementsAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PreproductionCostsRelatedToLongTermSupplyArrangementsAbstract"/>
+<link:loc xlink:label="loc_PrepaidExpenseAndOtherAssetsNoncurrentAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PrepaidExpenseAndOtherAssetsNoncurrentAbstract"/>
+<link:loc xlink:label="loc_DeferredIncomeTaxesAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DeferredIncomeTaxesAbstract"/>
+<link:loc xlink:label="loc_InterestReceivableAndOtherAssetsAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestReceivableAndOtherAssetsAbstract"/>
+<link:loc xlink:label="loc_MaterialsSuppliesAndOther" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MaterialsSuppliesAndOther"/>
+<link:loc xlink:label="loc_SettlementAssetsCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SettlementAssetsCurrent"/>
+<link:loc xlink:label="loc_DeferredCostsAndOtherAssets" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DeferredCostsAndOtherAssets"/>
+<link:loc xlink:label="loc_AssetsNoncurrentOtherThanNoncurrentInvestmentsAndPropertyPlantAndEquipment" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AssetsNoncurrentOtherThanNoncurrentInvestmentsAndPropertyPlantAndEquipment"/>
+<link:loc xlink:label="loc_DisclosureTextBlockSupplementAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DisclosureTextBlockSupplementAbstract"/>
+<link:loc xlink:label="loc_TableTextBlockSupplementAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TableTextBlockSupplementAbstract"/>
+<link:loc xlink:label="loc_DeferredCostsLeasingGross" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DeferredCostsLeasingGross"/>
+<link:loc xlink:label="loc_DeferredCostsLeasingAccumulatedAmortization" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DeferredCostsLeasingAccumulatedAmortization"/>
+<link:loc xlink:label="loc_DeferredCostsLeasingNet" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DeferredCostsLeasingNet"/>
+<link:loc xlink:label="loc_DeferredIncomeTaxesAndOtherAssetsCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DeferredIncomeTaxesAndOtherAssetsCurrent"/>
+<link:loc xlink:label="loc_DeferredIncomeTaxesAndOtherAssetsNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DeferredIncomeTaxesAndOtherAssetsNoncurrent"/>
+<link:loc xlink:label="loc_DeferredIncomeTaxesAndOtherTaxReceivableCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DeferredIncomeTaxesAndOtherTaxReceivableCurrent"/>
+<link:loc xlink:label="loc_DepositAssetsAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DepositAssetsAbstract"/>
+<link:loc xlink:label="loc_OtherDepositAssetRelatedText" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherDepositAssetRelatedText"/>
+<link:loc xlink:label="loc_SecurityDeposit" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SecurityDeposit"/>
+<link:loc xlink:label="loc_DepositContractsAssets" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DepositContractsAssets"/>
+<link:loc xlink:label="loc_RetainageDeposit" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RetainageDeposit"/>
+<link:loc xlink:label="loc_MarginDepositAssets" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MarginDepositAssets"/>
+<link:loc xlink:label="loc_EscrowDeposit" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_EscrowDeposit"/>
+<link:loc xlink:label="loc_DepositsWithClearingOrganizationsAndOthersSecurities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DepositsWithClearingOrganizationsAndOthersSecurities"/>
+<link:loc xlink:label="loc_EarnestMoneyDeposits" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_EarnestMoneyDeposits"/>
+<link:loc xlink:label="loc_DepositAssets" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DepositAssets"/>
+<link:loc xlink:label="loc_OtherAssetsDisclosureTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherAssetsDisclosureTextBlock"/>
+<link:loc xlink:label="loc_OtherCurrentAssetsTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherCurrentAssetsTextBlock"/>
+<link:loc xlink:label="loc_InterestReceivable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestReceivable"/>
+<link:loc xlink:label="loc_OtherAssets" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherAssets"/>
+<link:loc xlink:label="loc_InterestReceivableAndOtherAssets" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestReceivableAndOtherAssets"/>
+<link:loc xlink:label="loc_OtherAssetsCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherAssetsCurrent"/>
+<link:loc xlink:label="loc_OtherAssetsNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherAssetsNoncurrent"/>
+<link:loc xlink:label="loc_OtherAssetsMiscellaneousCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherAssetsMiscellaneousCurrent"/>
+<link:loc xlink:label="loc_OtherAssetsMiscellaneousNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherAssetsMiscellaneousNoncurrent"/>
+<link:loc xlink:label="loc_OtherAssetsMiscellaneous" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherAssetsMiscellaneous"/>
+<link:loc xlink:label="loc_ScheduleOfOtherAssetsNoncurrentTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ScheduleOfOtherAssetsNoncurrentTextBlock"/>
+<link:loc xlink:label="loc_OtherAssetsNoncurrentAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherAssetsNoncurrentAbstract"/>
+<link:loc xlink:label="loc_CapitalizedSoftwareDevelopmentCostsForSoftwareSoldToCustomers" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CapitalizedSoftwareDevelopmentCostsForSoftwareSoldToCustomers"/>
+<link:loc xlink:label="loc_CustomerFunds" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CustomerFunds"/>
+<link:loc xlink:label="loc_CashSurrenderValueOfLifeInsurance" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CashSurrenderValueOfLifeInsurance"/>
+<link:loc xlink:label="loc_EstimatedInsuranceRecoveries" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_EstimatedInsuranceRecoveries"/>
+<link:loc xlink:label="loc_DeferredCompensationPlanAssets" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DeferredCompensationPlanAssets"/>
+<link:loc xlink:label="loc_LeveragedLeaseInvestment" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_LeveragedLeaseInvestment"/>
+<link:loc xlink:label="loc_DemandSideManagementProgramCostsNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DemandSideManagementProgramCostsNoncurrent"/>
+<link:loc xlink:label="loc_AdditionsToOtherAssetsDescription" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AdditionsToOtherAssetsDescription"/>
+<link:loc xlink:label="loc_AdditionsToOtherAssetsAmount" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AdditionsToOtherAssetsAmount"/>
+<link:loc xlink:label="loc_ReductionsInOtherAssetsDescription" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ReductionsInOtherAssetsDescription"/>
+<link:loc xlink:label="loc_ReductionsInOtherAssetsAmount" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ReductionsInOtherAssetsAmount"/>
+<link:loc xlink:label="loc_RestrictedInvestments" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RestrictedInvestments"/>
+<link:loc xlink:label="loc_OtherRestrictedAssets" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherRestrictedAssets"/>
+<link:loc xlink:label="loc_PrepaidExpenseCurrentAndNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PrepaidExpenseCurrentAndNoncurrent"/>
+<link:loc xlink:label="loc_IncentiveToLessee" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_IncentiveToLessee"/>
+<link:loc xlink:label="loc_DeferredRentReceivablesNet" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DeferredRentReceivablesNet"/>
+<link:loc xlink:label="loc_OtherDeferredCostsNetAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherDeferredCostsNetAbstract"/>
+<link:loc xlink:label="loc_OtherAmortizationOfDeferredCharges" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherAmortizationOfDeferredCharges"/>
+<link:loc xlink:label="loc_OtherDeferredCostsGross" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherDeferredCostsGross"/>
+<link:loc xlink:label="loc_AccumulatedAmortizationOfOtherDeferredCosts" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AccumulatedAmortizationOfOtherDeferredCosts"/>
+<link:loc xlink:label="loc_OtherDeferredCostsNet" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherDeferredCostsNet"/>
+<link:loc xlink:label="loc_PrepaidExpenseCurrentAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PrepaidExpenseCurrentAbstract"/>
+<link:loc xlink:label="loc_PrepaidExpenseAndOtherAssetsCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PrepaidExpenseAndOtherAssetsCurrent"/>
+<link:loc xlink:label="loc_PrepaidExpenseAndOtherAssetsNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PrepaidExpenseAndOtherAssetsNoncurrent"/>
+<link:loc xlink:label="loc_PrepaidExpenseNoncurrentAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PrepaidExpenseNoncurrentAbstract"/>
+<link:loc xlink:label="loc_PrepaidInsurance" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PrepaidInsurance"/>
+<link:loc xlink:label="loc_PrepaidRent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PrepaidRent"/>
+<link:loc xlink:label="loc_PrepaidAdvertising" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PrepaidAdvertising"/>
+<link:loc xlink:label="loc_PrepaidRoyalties" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PrepaidRoyalties"/>
+<link:loc xlink:label="loc_Supplies" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_Supplies"/>
+<link:loc xlink:label="loc_PrepaidInterest" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PrepaidInterest"/>
+<link:loc xlink:label="loc_PrepaidTaxes" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PrepaidTaxes"/>
+<link:loc xlink:label="loc_OtherPrepaidExpenseCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherPrepaidExpenseCurrent"/>
+<link:loc xlink:label="loc_PrepaidExpenseCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PrepaidExpenseCurrent"/>
+<link:loc xlink:label="loc_PrepaidExpenseOtherNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PrepaidExpenseOtherNoncurrent"/>
+<link:loc xlink:label="loc_PrepaidMineralRoyaltiesNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PrepaidMineralRoyaltiesNoncurrent"/>
+<link:loc xlink:label="loc_PrepaidExpenseNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PrepaidExpenseNoncurrent"/>
+<link:loc xlink:label="loc_PreproductionCostsRelatedToLongTermSupplyArrangementsCostsCapitalized" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PreproductionCostsRelatedToLongTermSupplyArrangementsCostsCapitalized"/>
+<link:loc xlink:label="loc_PreproductionCostsRelatedToLongTermSupplyArrangementsAssetForMoldsDiesAndToolsOwned" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PreproductionCostsRelatedToLongTermSupplyArrangementsAssetForMoldsDiesAndToolsOwned"/>
+<link:loc xlink:label="loc_PreproductionCostsRelatedToLongTermSupplyArrangementsAssetForMoldsDiesAndToolsNotOwned" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PreproductionCostsRelatedToLongTermSupplyArrangementsAssetForMoldsDiesAndToolsNotOwned"/>
+<link:loc xlink:label="loc_ScheduleOfOtherAssetsTableTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ScheduleOfOtherAssetsTableTextBlock"/>
+<link:loc xlink:label="loc_ScheduleOfOtherAssetsAndOtherLiabilitiesTableTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ScheduleOfOtherAssetsAndOtherLiabilitiesTableTextBlock"/>
+<link:loc xlink:label="loc_ScheduleOfOtherCurrentAssetsTableTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ScheduleOfOtherCurrentAssetsTableTextBlock"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AssetsHeldInTrustAbstract" xlink:to="loc_AssetsHeldInTrustCurrent" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AssetsHeldInTrustAbstract" xlink:to="loc_AssetsHeldInTrustNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_AssetsHeldInTrustAbstract" xlink:to="loc_AssetsHeldInTrust" xlink:type="arc"/>
+<link:presentationArc order="10" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditCardOriginationCostsAbstract" xlink:to="loc_DeferredCostsCreditCardOriginationCostsAmount" xlink:type="arc"/>
+<link:presentationArc order="20" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditCardOriginationCostsAbstract" xlink:to="loc_DeferredCostsCreditCardOriginationCostsAmortization" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsAbstract" xlink:to="loc_OtherDeferredCostsAbstract" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureAbstract" xlink:to="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock" xlink:to="loc_DeferredCostsAbstract" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock" xlink:to="loc_DeferredCostsLeasingNetAbstract" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock" xlink:to="loc_PrepaidExpenseAndOtherAssetsCurrentAbstract" xlink:type="arc"/>
+<link:presentationArc order="40" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock" xlink:to="loc_CreditCardOriginationCostsAbstract" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock" xlink:to="loc_OtherAssetsAbstract" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock" xlink:to="loc_OtherAssetsMiscellaneousAbstract" xlink:type="arc"/>
+<link:presentationArc order="70" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock" xlink:to="loc_DepositAssetsDisclosureAbstract" xlink:type="arc"/>
+<link:presentationArc order="80" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock" xlink:to="loc_OtherAssetsNoncurrentDisclosureAbstract" xlink:type="arc"/>
+<link:presentationArc order="90" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock" xlink:to="loc_OtherAssetsUnclassifiedAbstract" xlink:type="arc"/>
+<link:presentationArc order="100" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock" xlink:to="loc_OtherAssetsSignificantAdditionsOrDeletionsAbstract" xlink:type="arc"/>
+<link:presentationArc order="110" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock" xlink:to="loc_PreproductionCostsRelatedToLongTermSupplyArrangementsAbstract" xlink:type="arc"/>
+<link:presentationArc order="120" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock" xlink:to="loc_AssetsHeldInTrustAbstract" xlink:type="arc"/>
+<link:presentationArc order="130" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock" xlink:to="loc_PrepaidExpenseAndOtherAssetsNoncurrentAbstract" xlink:type="arc"/>
+<link:presentationArc order="140" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock" xlink:to="loc_DeferredIncomeTaxesAbstract" xlink:type="arc"/>
+<link:presentationArc order="150" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock" xlink:to="loc_InterestReceivableAndOtherAssetsAbstract" xlink:type="arc"/>
+<link:presentationArc order="160" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock" xlink:to="loc_MaterialsSuppliesAndOther" xlink:type="arc"/>
+<link:presentationArc order="170" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock" xlink:to="loc_SettlementAssetsCurrent" xlink:type="arc"/>
+<link:presentationArc order="180" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock" xlink:to="loc_DeferredCostsAndOtherAssets" xlink:type="arc"/>
+<link:presentationArc order="190" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureTextBlock" xlink:to="loc_AssetsNoncurrentOtherThanNoncurrentInvestmentsAndPropertyPlantAndEquipment" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureAbstract" xlink:to="loc_DisclosureTextBlockSupplementAbstract" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsCapitalizedPrepaidAndOtherAssetsDisclosureAbstract" xlink:to="loc_TableTextBlockSupplementAbstract" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsLeasingNetAbstract" xlink:to="loc_DeferredCostsLeasingGross" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsLeasingNetAbstract" xlink:to="loc_DeferredCostsLeasingAccumulatedAmortization" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredCostsLeasingNetAbstract" xlink:to="loc_DeferredCostsLeasingNet" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredIncomeTaxesAbstract" xlink:to="loc_DeferredIncomeTaxesAndOtherAssetsCurrent" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredIncomeTaxesAbstract" xlink:to="loc_DeferredIncomeTaxesAndOtherAssetsNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DeferredIncomeTaxesAbstract" xlink:to="loc_DeferredIncomeTaxesAndOtherTaxReceivableCurrent" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DepositAssetsDisclosureAbstract" xlink:to="loc_DepositAssetsAbstract" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DepositAssetsDisclosureAbstract" xlink:to="loc_OtherDepositAssetRelatedText" xlink:type="arc"/>
+<link:presentationArc order="10" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DepositAssetsAbstract" xlink:to="loc_SecurityDeposit" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DepositAssetsAbstract" xlink:to="loc_DepositContractsAssets" xlink:type="arc"/>
+<link:presentationArc order="30" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DepositAssetsAbstract" xlink:to="loc_RetainageDeposit" xlink:type="arc"/>
+<link:presentationArc order="40" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DepositAssetsAbstract" xlink:to="loc_MarginDepositAssets" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DepositAssetsAbstract" xlink:to="loc_EscrowDeposit" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DepositAssetsAbstract" xlink:to="loc_DepositsWithClearingOrganizationsAndOthersSecurities" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DepositAssetsAbstract" xlink:to="loc_EarnestMoneyDeposits" xlink:type="arc"/>
+<link:presentationArc order="80" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DepositAssetsAbstract" xlink:to="loc_DepositAssets" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DisclosureTextBlockSupplementAbstract" xlink:to="loc_OtherAssetsDisclosureTextBlock" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_DisclosureTextBlockSupplementAbstract" xlink:to="loc_OtherCurrentAssetsTextBlock" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_InterestReceivableAndOtherAssetsAbstract" xlink:to="loc_InterestReceivable" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_InterestReceivableAndOtherAssetsAbstract" xlink:to="loc_OtherAssets" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_InterestReceivableAndOtherAssetsAbstract" xlink:to="loc_InterestReceivableAndOtherAssets" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsAbstract" xlink:to="loc_OtherAssetsCurrent" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsAbstract" xlink:to="loc_OtherAssetsNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsAbstract" xlink:to="loc_OtherAssets" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsMiscellaneousAbstract" xlink:to="loc_OtherAssetsMiscellaneousCurrent" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsMiscellaneousAbstract" xlink:to="loc_OtherAssetsMiscellaneousNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsMiscellaneousAbstract" xlink:to="loc_OtherAssetsMiscellaneous" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsNoncurrentDisclosureAbstract" xlink:to="loc_ScheduleOfOtherAssetsNoncurrentTextBlock" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsNoncurrentDisclosureAbstract" xlink:to="loc_OtherAssetsNoncurrentAbstract" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsNoncurrentAbstract" xlink:to="loc_CapitalizedSoftwareDevelopmentCostsForSoftwareSoldToCustomers" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsNoncurrentAbstract" xlink:to="loc_CustomerFunds" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsNoncurrentAbstract" xlink:to="loc_CashSurrenderValueOfLifeInsurance" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsNoncurrentAbstract" xlink:to="loc_EstimatedInsuranceRecoveries" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsNoncurrentAbstract" xlink:to="loc_DeferredCompensationPlanAssets" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsNoncurrentAbstract" xlink:to="loc_LeveragedLeaseInvestment" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsNoncurrentAbstract" xlink:to="loc_DemandSideManagementProgramCostsNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="80" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsNoncurrentAbstract" xlink:to="loc_OtherAssetsMiscellaneousNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsSignificantAdditionsOrDeletionsAbstract" xlink:to="loc_AdditionsToOtherAssetsDescription" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsSignificantAdditionsOrDeletionsAbstract" xlink:to="loc_AdditionsToOtherAssetsAmount" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsSignificantAdditionsOrDeletionsAbstract" xlink:to="loc_ReductionsInOtherAssetsDescription" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsSignificantAdditionsOrDeletionsAbstract" xlink:to="loc_ReductionsInOtherAssetsAmount" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsUnclassifiedAbstract" xlink:to="loc_RestrictedInvestments" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsUnclassifiedAbstract" xlink:to="loc_OtherRestrictedAssets" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsUnclassifiedAbstract" xlink:to="loc_PrepaidExpenseCurrentAndNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsUnclassifiedAbstract" xlink:to="loc_DeferredCostsLeasingNet" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsUnclassifiedAbstract" xlink:to="loc_IncentiveToLessee" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsUnclassifiedAbstract" xlink:to="loc_DeferredRentReceivablesNet" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherAssetsUnclassifiedAbstract" xlink:to="loc_OtherAssetsMiscellaneous" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherDeferredCostsAbstract" xlink:to="loc_OtherDeferredCostsNetAbstract" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherDeferredCostsAbstract" xlink:to="loc_OtherAmortizationOfDeferredCharges" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherDeferredCostsNetAbstract" xlink:to="loc_OtherDeferredCostsGross" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherDeferredCostsNetAbstract" xlink:to="loc_AccumulatedAmortizationOfOtherDeferredCosts" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_OtherDeferredCostsNetAbstract" xlink:to="loc_OtherDeferredCostsNet" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PrepaidExpenseAndOtherAssetsCurrentAbstract" xlink:to="loc_PrepaidExpenseCurrentAbstract" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PrepaidExpenseAndOtherAssetsCurrentAbstract" xlink:to="loc_OtherAssetsCurrent" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PrepaidExpenseAndOtherAssetsCurrentAbstract" xlink:to="loc_PrepaidExpenseAndOtherAssetsCurrent" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PrepaidExpenseAndOtherAssetsNoncurrentAbstract" xlink:to="loc_OtherAssetsNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PrepaidExpenseAndOtherAssetsNoncurrentAbstract" xlink:to="loc_PrepaidExpenseAndOtherAssetsNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PrepaidExpenseAndOtherAssetsNoncurrentAbstract" xlink:to="loc_PrepaidExpenseNoncurrentAbstract" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PrepaidExpenseCurrentAbstract" xlink:to="loc_PrepaidInsurance" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PrepaidExpenseCurrentAbstract" xlink:to="loc_PrepaidRent" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PrepaidExpenseCurrentAbstract" xlink:to="loc_PrepaidAdvertising" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PrepaidExpenseCurrentAbstract" xlink:to="loc_PrepaidRoyalties" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PrepaidExpenseCurrentAbstract" xlink:to="loc_Supplies" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PrepaidExpenseCurrentAbstract" xlink:to="loc_PrepaidInterest" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PrepaidExpenseCurrentAbstract" xlink:to="loc_PrepaidTaxes" xlink:type="arc"/>
+<link:presentationArc order="80" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PrepaidExpenseCurrentAbstract" xlink:to="loc_OtherPrepaidExpenseCurrent" xlink:type="arc"/>
+<link:presentationArc order="90" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PrepaidExpenseCurrentAbstract" xlink:to="loc_PrepaidExpenseCurrent" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PrepaidExpenseNoncurrentAbstract" xlink:to="loc_PrepaidExpenseOtherNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PrepaidExpenseNoncurrentAbstract" xlink:to="loc_PrepaidMineralRoyaltiesNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PrepaidExpenseNoncurrentAbstract" xlink:to="loc_PrepaidExpenseNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="10" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PreproductionCostsRelatedToLongTermSupplyArrangementsAbstract" xlink:to="loc_PreproductionCostsRelatedToLongTermSupplyArrangementsCostsCapitalized" xlink:type="arc"/>
+<link:presentationArc order="20" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PreproductionCostsRelatedToLongTermSupplyArrangementsAbstract" xlink:to="loc_PreproductionCostsRelatedToLongTermSupplyArrangementsAssetForMoldsDiesAndToolsOwned" xlink:type="arc"/>
+<link:presentationArc order="30" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_PreproductionCostsRelatedToLongTermSupplyArrangementsAbstract" xlink:to="loc_PreproductionCostsRelatedToLongTermSupplyArrangementsAssetForMoldsDiesAndToolsNotOwned" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_TableTextBlockSupplementAbstract" xlink:to="loc_ScheduleOfOtherAssetsTableTextBlock" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_TableTextBlockSupplementAbstract" xlink:to="loc_ScheduleOfOtherAssetsAndOtherLiabilitiesTableTextBlock" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_TableTextBlockSupplementAbstract" xlink:to="loc_ScheduleOfOtherCurrentAssetsTableTextBlock" xlink:type="arc"/>
+</link:presentationLink>
+</link:linkbase>

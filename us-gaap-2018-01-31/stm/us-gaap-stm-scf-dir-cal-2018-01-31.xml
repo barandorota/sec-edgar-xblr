@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+(c) 2010-2018 Financial Accounting Foundation; (c) 2007-2010 XBRL US, Inc.  All Right Reserved.
+Notice: Authorized Uses are Set Forth at http://xbrl.fasb.org/terms/TaxonomiesTermsConditions.html
+  --><link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+<link:roleRef roleURI="http://fasb.org/us-gaap/role/statement/StatementOfCashFlowsDirect" xlink:type="simple" xlink:href="../elts/us-roles-2018-01-31.xsd#scf-dir"/>
+<link:calculationLink xlink:role="http://fasb.org/us-gaap/role/statement/StatementOfCashFlowsDirect" xlink:type="extended">
+<link:loc xlink:label="loc_CashPeriodIncreaseDecrease" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CashPeriodIncreaseDecrease"/>
+<link:loc xlink:label="loc_CashPeriodIncreaseDecreaseExcludingExchangeRateEffect" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CashPeriodIncreaseDecreaseExcludingExchangeRateEffect"/>
+<link:loc xlink:label="loc_NetCashProvidedByUsedInOperatingActivities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NetCashProvidedByUsedInOperatingActivities"/>
+<link:loc xlink:label="loc_NetCashProvidedByUsedInOperatingActivitiesContinuingOperations" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NetCashProvidedByUsedInOperatingActivitiesContinuingOperations"/>
+<link:loc xlink:label="loc_ProceedsFromOperatingActivities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromOperatingActivities"/>
+<link:loc xlink:label="loc_ProceedsFromCustomers" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromCustomers"/>
+<link:loc xlink:label="loc_ProceedsFromCustomersForProgressPayments" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromCustomersForProgressPayments"/>
+<link:loc xlink:label="loc_ProceedsFromDepositsFromCustomers" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromDepositsFromCustomers"/>
+<link:loc xlink:label="loc_ProceedsFromFeesReceived" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromFeesReceived"/>
+<link:loc xlink:label="loc_ProceedsFromLicenseFeesReceived" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromLicenseFeesReceived"/>
+<link:loc xlink:label="loc_ProceedsFromInterestAndDividendsReceived" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromInterestAndDividendsReceived"/>
+<link:loc xlink:label="loc_ProceedsFromInterestReceived" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromInterestReceived"/>
+<link:loc xlink:label="loc_ProceedsFromDividendsReceived" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromDividendsReceived"/>
+<link:loc xlink:label="loc_ProceedsFromIncomeTaxRefunds" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromIncomeTaxRefunds"/>
+<link:loc xlink:label="loc_ProceedsFromCommissionsReceived" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromCommissionsReceived"/>
+<link:loc xlink:label="loc_ProceedsFromRoyaltiesReceived" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromRoyaltiesReceived"/>
+<link:loc xlink:label="loc_ProceedsFromRentsReceived" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromRentsReceived"/>
+<link:loc xlink:label="loc_ProceedsFromFinancingRevenueReceivedUnderLeases" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromFinancingRevenueReceivedUnderLeases"/>
+<link:loc xlink:label="loc_ProceedsFromRefundsFromSuppliersOfMaterial" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromRefundsFromSuppliersOfMaterial"/>
+<link:loc xlink:label="loc_ProceedsFromInsuranceSettlementOperatingActivities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromInsuranceSettlementOperatingActivities"/>
+<link:loc xlink:label="loc_ProceedsFromLegalSettlements" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromLegalSettlements"/>
+<link:loc xlink:label="loc_ProceedsFromInsurancePremiumsCollected" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromInsurancePremiumsCollected"/>
+<link:loc xlink:label="loc_ProceedsFromSaleOfRealEstate" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromSaleOfRealEstate"/>
+<link:loc xlink:label="loc_ProceedsFromSaleOfSecuritiesOperatingActivities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromSaleOfSecuritiesOperatingActivities"/>
+<link:loc xlink:label="loc_ProceedsFromMaturitiesPrepaymentsAndCallsOfSecuritiesOperatingActivities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromMaturitiesPrepaymentsAndCallsOfSecuritiesOperatingActivities"/>
+<link:loc xlink:label="loc_ProceedsFromSaleOfOtherAssets1" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromSaleOfOtherAssets1"/>
+<link:loc xlink:label="loc_ProceedsFromGrantors" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromGrantors"/>
+<link:loc xlink:label="loc_ProceedsFromCollaborators" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromCollaborators"/>
+<link:loc xlink:label="loc_ProceedsFromTimeDepositsAccepted" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromTimeDepositsAccepted"/>
+<link:loc xlink:label="loc_ProceedsFromLoans" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromLoans"/>
+<link:loc xlink:label="loc_ProceedsFromDepositsWithOtherInstitutions" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromDepositsWithOtherInstitutions"/>
+<link:loc xlink:label="loc_ProceedsFromSaleOfMortgageLoansHeldForSale" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromSaleOfMortgageLoansHeldForSale"/>
+<link:loc xlink:label="loc_ProceedsFromCollectionOfMortgageLoansHeldForSale" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromCollectionOfMortgageLoansHeldForSale"/>
+<link:loc xlink:label="loc_ProceedsFromOtherOperatingActivities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromOtherOperatingActivities"/>
+<link:loc xlink:label="loc_ProceedsFromSaleOfTrustAssetsToPayExpenses" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProceedsFromSaleOfTrustAssetsToPayExpenses"/>
+<link:loc xlink:label="loc_PaymentsForOperatingActivities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForOperatingActivities"/>
+<link:loc xlink:label="loc_PaymentsToSuppliersAndEmployees" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsToSuppliersAndEmployees"/>
+<link:loc xlink:label="loc_PaymentsToSuppliers" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsToSuppliers"/>
+<link:loc xlink:label="loc_PaymentsToEmployees" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsToEmployees"/>
+<link:loc xlink:label="loc_PaymentsForDeposits" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForDeposits"/>
+<link:loc xlink:label="loc_PaymentsForRent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForRent"/>
+<link:loc xlink:label="loc_InterestPaidNet" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InterestPaidNet"/>
+<link:loc xlink:label="loc_IncomeTaxesPaid" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_IncomeTaxesPaid"/>
+<link:loc xlink:label="loc_ExcessTaxBenefitFromShareBasedCompensationOperatingActivities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ExcessTaxBenefitFromShareBasedCompensationOperatingActivities"/>
+<link:loc xlink:label="loc_PaymentsForOtherTaxes" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForOtherTaxes"/>
+<link:loc xlink:label="loc_PaymentsForFees" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForFees"/>
+<link:loc xlink:label="loc_PaymentForAdministrativeFees" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentForAdministrativeFees"/>
+<link:loc xlink:label="loc_PaymentForIncentiveFee" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentForIncentiveFee"/>
+<link:loc xlink:label="loc_PaymentForManagementFee" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentForManagementFee"/>
+<link:loc xlink:label="loc_PaymentsForCommissions" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForCommissions"/>
+<link:loc xlink:label="loc_PaymentsForBrokerageFees" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForBrokerageFees"/>
+<link:loc xlink:label="loc_PaymentsForRoyalties" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForRoyalties"/>
+<link:loc xlink:label="loc_PaymentsForLegalSettlements" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForLegalSettlements"/>
+<link:loc xlink:label="loc_PaymentsForEnvironmentalLiabilities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForEnvironmentalLiabilities"/>
+<link:loc xlink:label="loc_PaymentsForReinsurance" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForReinsurance"/>
+<link:loc xlink:label="loc_PaymentsForLossesAndLossAdjustmentExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForLossesAndLossAdjustmentExpense"/>
+<link:loc xlink:label="loc_PaymentsForUnderwritingExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForUnderwritingExpense"/>
+<link:loc xlink:label="loc_PaymentsForMergerRelatedCosts" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForMergerRelatedCosts"/>
+<link:loc xlink:label="loc_PaymentsForRestructuring" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForRestructuring"/>
+<link:loc xlink:label="loc_PaymentsForOriginationOfMortgageLoansHeldForSale" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForOriginationOfMortgageLoansHeldForSale"/>
+<link:loc xlink:label="loc_PaymentsToPurchaseMortgageLoansHeldForSale" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsToPurchaseMortgageLoansHeldForSale"/>
+<link:loc xlink:label="loc_PaymentsForPurchaseOfSecuritiesOperatingActivities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForPurchaseOfSecuritiesOperatingActivities"/>
+<link:loc xlink:label="loc_PaymentsForPurchaseOfOtherAssets1" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForPurchaseOfOtherAssets1"/>
+<link:loc xlink:label="loc_PaymentsForDepositsWithOtherInstitutions" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForDepositsWithOtherInstitutions"/>
+<link:loc xlink:label="loc_PaymentsForTimeDeposits" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForTimeDeposits"/>
+<link:loc xlink:label="loc_PaymentsForLoans" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForLoans"/>
+<link:loc xlink:label="loc_PensionAndOtherPostretirementBenefitContributions" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PensionAndOtherPostretirementBenefitContributions"/>
+<link:loc xlink:label="loc_PensionContributions" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PensionContributions"/>
+<link:loc xlink:label="loc_OtherPostretirementBenefitsPayments" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OtherPostretirementBenefitsPayments"/>
+<link:loc xlink:label="loc_PaymentsForPostemploymentBenefits" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForPostemploymentBenefits"/>
+<link:loc xlink:label="loc_AssetRetirementObligationCashPaidToSettle" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AssetRetirementObligationCashPaidToSettle"/>
+<link:loc xlink:label="loc_PaymentForContingentConsiderationLiabilityOperatingActivities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentForContingentConsiderationLiabilityOperatingActivities"/>
+<link:loc xlink:label="loc_PaymentToAcquireLifeInsurancePolicyOperatingActivities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentToAcquireLifeInsurancePolicyOperatingActivities"/>
+<link:loc xlink:label="loc_PaymentsForOtherOperatingActivities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PaymentsForOtherOperatingActivities"/>
+<link:loc xlink:label="loc_CashProvidedByUsedInOperatingActivitiesDiscontinuedOperations" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CashProvidedByUsedInOperatingActivitiesDiscontinuedOperations"/>
+<link:loc xlink:label="loc_NetCashProvidedByUsedInInvestingActivities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NetCashProvidedByUsedInInvestingActivities"/>
+<link:loc xlink:label="loc_NetCashProvidedByUsedInFinancingActivities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NetCashProvidedByUsedInFinancingActivities"/>
+<link:loc xlink:label="loc_EffectOfExchangeRateOnCash" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_EffectOfExchangeRateOnCash"/>
+<link:loc xlink:label="loc_EffectOfExchangeRateOnCashContinuingOperations" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_EffectOfExchangeRateOnCashContinuingOperations"/>
+<link:loc xlink:label="loc_EffectOfExchangeRateOnCashDiscontinuedOperations" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_EffectOfExchangeRateOnCashDiscontinuedOperations"/>
+<link:calculationArc order="10" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_CashPeriodIncreaseDecrease" xlink:to="loc_CashPeriodIncreaseDecreaseExcludingExchangeRateEffect" xlink:type="arc"/>
+<link:calculationArc order="10" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_CashPeriodIncreaseDecreaseExcludingExchangeRateEffect" xlink:to="loc_NetCashProvidedByUsedInOperatingActivities" xlink:type="arc"/>
+<link:calculationArc order="10" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivities" xlink:to="loc_NetCashProvidedByUsedInOperatingActivitiesContinuingOperations" xlink:type="arc"/>
+<link:calculationArc order="10" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivitiesContinuingOperations" xlink:to="loc_ProceedsFromOperatingActivities" xlink:type="arc"/>
+<link:calculationArc order="10" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromCustomers" xlink:type="arc"/>
+<link:calculationArc order="20" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromCustomersForProgressPayments" xlink:type="arc"/>
+<link:calculationArc order="30" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromDepositsFromCustomers" xlink:type="arc"/>
+<link:calculationArc order="40" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromFeesReceived" xlink:type="arc"/>
+<link:calculationArc order="50" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromLicenseFeesReceived" xlink:type="arc"/>
+<link:calculationArc order="60" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromInterestAndDividendsReceived" xlink:type="arc"/>
+<link:calculationArc order="10" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromInterestAndDividendsReceived" xlink:to="loc_ProceedsFromInterestReceived" xlink:type="arc"/>
+<link:calculationArc order="20" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromInterestAndDividendsReceived" xlink:to="loc_ProceedsFromDividendsReceived" xlink:type="arc"/>
+<link:calculationArc order="70" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromIncomeTaxRefunds" xlink:type="arc"/>
+<link:calculationArc order="80" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromCommissionsReceived" xlink:type="arc"/>
+<link:calculationArc order="90" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromRoyaltiesReceived" xlink:type="arc"/>
+<link:calculationArc order="100" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromRentsReceived" xlink:type="arc"/>
+<link:calculationArc order="110" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromFinancingRevenueReceivedUnderLeases" xlink:type="arc"/>
+<link:calculationArc order="120" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromRefundsFromSuppliersOfMaterial" xlink:type="arc"/>
+<link:calculationArc order="130" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromInsuranceSettlementOperatingActivities" xlink:type="arc"/>
+<link:calculationArc order="140" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromLegalSettlements" xlink:type="arc"/>
+<link:calculationArc order="150" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromInsurancePremiumsCollected" xlink:type="arc"/>
+<link:calculationArc order="160" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromSaleOfRealEstate" xlink:type="arc"/>
+<link:calculationArc order="170" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromSaleOfSecuritiesOperatingActivities" xlink:type="arc"/>
+<link:calculationArc order="180" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromMaturitiesPrepaymentsAndCallsOfSecuritiesOperatingActivities" xlink:type="arc"/>
+<link:calculationArc order="190" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromSaleOfOtherAssets1" xlink:type="arc"/>
+<link:calculationArc order="200" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromGrantors" xlink:type="arc"/>
+<link:calculationArc order="210" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromCollaborators" xlink:type="arc"/>
+<link:calculationArc order="220" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromTimeDepositsAccepted" xlink:type="arc"/>
+<link:calculationArc order="230" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromLoans" xlink:type="arc"/>
+<link:calculationArc order="240" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromDepositsWithOtherInstitutions" xlink:type="arc"/>
+<link:calculationArc order="250" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromSaleOfMortgageLoansHeldForSale" xlink:type="arc"/>
+<link:calculationArc order="260" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromCollectionOfMortgageLoansHeldForSale" xlink:type="arc"/>
+<link:calculationArc order="270" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromOtherOperatingActivities" xlink:type="arc"/>
+<link:calculationArc order="280" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ProceedsFromOperatingActivities" xlink:to="loc_ProceedsFromSaleOfTrustAssetsToPayExpenses" xlink:type="arc"/>
+<link:calculationArc order="20" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivitiesContinuingOperations" xlink:to="loc_PaymentsForOperatingActivities" xlink:type="arc"/>
+<link:calculationArc order="10" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsToSuppliersAndEmployees" xlink:type="arc"/>
+<link:calculationArc order="10" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsToSuppliersAndEmployees" xlink:to="loc_PaymentsToSuppliers" xlink:type="arc"/>
+<link:calculationArc order="20" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsToSuppliersAndEmployees" xlink:to="loc_PaymentsToEmployees" xlink:type="arc"/>
+<link:calculationArc order="20" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForDeposits" xlink:type="arc"/>
+<link:calculationArc order="30" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForRent" xlink:type="arc"/>
+<link:calculationArc order="40" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_InterestPaidNet" xlink:type="arc"/>
+<link:calculationArc order="50" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_IncomeTaxesPaid" xlink:type="arc"/>
+<link:calculationArc order="60" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_ExcessTaxBenefitFromShareBasedCompensationOperatingActivities" xlink:type="arc"/>
+<link:calculationArc order="70" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForOtherTaxes" xlink:type="arc"/>
+<link:calculationArc order="80" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForFees" xlink:type="arc"/>
+<link:calculationArc order="10" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForFees" xlink:to="loc_PaymentForAdministrativeFees" xlink:type="arc"/>
+<link:calculationArc order="20" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForFees" xlink:to="loc_PaymentForIncentiveFee" xlink:type="arc"/>
+<link:calculationArc order="30" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForFees" xlink:to="loc_PaymentForManagementFee" xlink:type="arc"/>
+<link:calculationArc order="90" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForCommissions" xlink:type="arc"/>
+<link:calculationArc order="100" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForBrokerageFees" xlink:type="arc"/>
+<link:calculationArc order="110" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForRoyalties" xlink:type="arc"/>
+<link:calculationArc order="120" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForLegalSettlements" xlink:type="arc"/>
+<link:calculationArc order="130" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForEnvironmentalLiabilities" xlink:type="arc"/>
+<link:calculationArc order="140" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForReinsurance" xlink:type="arc"/>
+<link:calculationArc order="150" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForLossesAndLossAdjustmentExpense" xlink:type="arc"/>
+<link:calculationArc order="160" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForUnderwritingExpense" xlink:type="arc"/>
+<link:calculationArc order="170" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForMergerRelatedCosts" xlink:type="arc"/>
+<link:calculationArc order="180" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForRestructuring" xlink:type="arc"/>
+<link:calculationArc order="190" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForOriginationOfMortgageLoansHeldForSale" xlink:type="arc"/>
+<link:calculationArc order="200" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsToPurchaseMortgageLoansHeldForSale" xlink:type="arc"/>
+<link:calculationArc order="210" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForPurchaseOfSecuritiesOperatingActivities" xlink:type="arc"/>
+<link:calculationArc order="220" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForPurchaseOfOtherAssets1" xlink:type="arc"/>
+<link:calculationArc order="230" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForDepositsWithOtherInstitutions" xlink:type="arc"/>
+<link:calculationArc order="240" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForTimeDeposits" xlink:type="arc"/>
+<link:calculationArc order="250" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForLoans" xlink:type="arc"/>
+<link:calculationArc order="260" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PensionAndOtherPostretirementBenefitContributions" xlink:type="arc"/>
+<link:calculationArc order="10" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PensionAndOtherPostretirementBenefitContributions" xlink:to="loc_PensionContributions" xlink:type="arc"/>
+<link:calculationArc order="20" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PensionAndOtherPostretirementBenefitContributions" xlink:to="loc_OtherPostretirementBenefitsPayments" xlink:type="arc"/>
+<link:calculationArc order="270" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForPostemploymentBenefits" xlink:type="arc"/>
+<link:calculationArc order="280" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_AssetRetirementObligationCashPaidToSettle" xlink:type="arc"/>
+<link:calculationArc order="290" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentForContingentConsiderationLiabilityOperatingActivities" xlink:type="arc"/>
+<link:calculationArc order="300" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentToAcquireLifeInsurancePolicyOperatingActivities" xlink:type="arc"/>
+<link:calculationArc order="310" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_PaymentsForOperatingActivities" xlink:to="loc_PaymentsForOtherOperatingActivities" xlink:type="arc"/>
+<link:calculationArc order="20" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivities" xlink:to="loc_CashProvidedByUsedInOperatingActivitiesDiscontinuedOperations" xlink:type="arc"/>
+<link:calculationArc order="20" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_CashPeriodIncreaseDecreaseExcludingExchangeRateEffect" xlink:to="loc_NetCashProvidedByUsedInInvestingActivities" xlink:type="arc"/>
+<link:calculationArc order="30" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_CashPeriodIncreaseDecreaseExcludingExchangeRateEffect" xlink:to="loc_NetCashProvidedByUsedInFinancingActivities" xlink:type="arc"/>
+<link:calculationArc order="20" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_CashPeriodIncreaseDecrease" xlink:to="loc_EffectOfExchangeRateOnCash" xlink:type="arc"/>
+<link:calculationArc order="10" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_EffectOfExchangeRateOnCash" xlink:to="loc_EffectOfExchangeRateOnCashContinuingOperations" xlink:type="arc"/>
+<link:calculationArc order="20" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_EffectOfExchangeRateOnCash" xlink:to="loc_EffectOfExchangeRateOnCashDiscontinuedOperations" xlink:type="arc"/>
+</link:calculationLink>
+</link:linkbase>

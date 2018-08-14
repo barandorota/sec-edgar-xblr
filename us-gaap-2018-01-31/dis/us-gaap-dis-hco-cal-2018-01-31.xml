@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+(c) 2010-2018 Financial Accounting Foundation; (c) 2007-2010 XBRL US, Inc.  All Right Reserved.
+Notice: Authorized Uses are Set Forth at http://xbrl.fasb.org/terms/TaxonomiesTermsConditions.html
+  --><link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+<link:roleRef roleURI="http://fasb.org/us-gaap/role/disclosure/HealthCareOrganizations" xlink:type="simple" xlink:href="../elts/us-roles-2018-01-31.xsd#hco"/>
+<link:calculationLink xlink:role="http://fasb.org/us-gaap/role/disclosure/HealthCareOrganizations" xlink:type="extended">
+<link:loc xlink:label="loc_HealthCareOrganizationExpensesNet" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_HealthCareOrganizationExpensesNet"/>
+<link:loc xlink:label="loc_HealthCareOrganizationHealthCareCostsGross" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_HealthCareOrganizationHealthCareCostsGross"/>
+<link:loc xlink:label="loc_HealthCareOrganizationStopLossInsurancePremiumExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_HealthCareOrganizationStopLossInsurancePremiumExpense"/>
+<link:loc xlink:label="loc_HealthCareOrganizationContractAcquisitionExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_HealthCareOrganizationContractAcquisitionExpense"/>
+<link:loc xlink:label="loc_HealthCareOrganizationStopLossInsuranceRecoveries" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_HealthCareOrganizationStopLossInsuranceRecoveries"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyAccrualDiscounted" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyAccrualDiscounted"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyAccrualDiscountedCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyAccrualDiscountedCurrent"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyAccrualDiscountedNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyAccrualDiscountedNoncurrent"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyAccrualUndiscounted" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyAccrualUndiscounted"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyAccrualUndiscountedCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyAccrualUndiscountedCurrent"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyAccrualUndiscountedNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyAccrualUndiscountedNoncurrent"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyPeriodIncreaseDecrease" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyPeriodIncreaseDecrease"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyPeriodCost" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyPeriodCost"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyPremiumCosts" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyPremiumCosts"/>
+<link:calculationArc order="10" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_HealthCareOrganizationExpensesNet" xlink:to="loc_HealthCareOrganizationHealthCareCostsGross" xlink:type="arc"/>
+<link:calculationArc order="10" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_HealthCareOrganizationHealthCareCostsGross" xlink:to="loc_HealthCareOrganizationStopLossInsurancePremiumExpense" xlink:type="arc"/>
+<link:calculationArc order="20" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_HealthCareOrganizationHealthCareCostsGross" xlink:to="loc_HealthCareOrganizationContractAcquisitionExpense" xlink:type="arc"/>
+<link:calculationArc order="20" weight="-1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_HealthCareOrganizationExpensesNet" xlink:to="loc_HealthCareOrganizationStopLossInsuranceRecoveries" xlink:type="arc"/>
+<link:calculationArc order="10" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_MalpracticeLossContingencyAccrualDiscounted" xlink:to="loc_MalpracticeLossContingencyAccrualDiscountedCurrent" xlink:type="arc"/>
+<link:calculationArc order="20" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_MalpracticeLossContingencyAccrualDiscounted" xlink:to="loc_MalpracticeLossContingencyAccrualDiscountedNoncurrent" xlink:type="arc"/>
+<link:calculationArc order="10" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_MalpracticeLossContingencyAccrualUndiscounted" xlink:to="loc_MalpracticeLossContingencyAccrualUndiscountedCurrent" xlink:type="arc"/>
+<link:calculationArc order="20" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_MalpracticeLossContingencyAccrualUndiscounted" xlink:to="loc_MalpracticeLossContingencyAccrualUndiscountedNoncurrent" xlink:type="arc"/>
+<link:calculationArc order="10" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_MalpracticeLossContingencyPeriodIncreaseDecrease" xlink:to="loc_MalpracticeLossContingencyPeriodCost" xlink:type="arc"/>
+<link:calculationArc order="20" weight="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_MalpracticeLossContingencyPeriodIncreaseDecrease" xlink:to="loc_MalpracticeLossContingencyPremiumCosts" xlink:type="arc"/>
+</link:calculationLink>
+</link:linkbase>

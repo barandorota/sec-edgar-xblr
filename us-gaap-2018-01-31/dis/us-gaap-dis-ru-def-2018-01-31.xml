@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+(c) 2010-2018 Financial Accounting Foundation; (c) 2007-2010 XBRL US, Inc.  All Right Reserved.
+Notice: Authorized Uses are Set Forth at http://xbrl.fasb.org/terms/TaxonomiesTermsConditions.html
+  --><link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+<link:roleRef roleURI="http://fasb.org/us-gaap/role/disclosure/RisksAndUncertaintiesUnusualRiskOrUncertaintyTable" xlink:type="simple" xlink:href="../elts/us-roles-2018-01-31.xsd#RisksAndUncertaintiesUnusualRiskOrUncertaintyTable"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+<link:roleRef roleURI="http://fasb.org/us-gaap/role/disclosure/RisksAndUncertaintiesConcentrationRiskTable" xlink:type="simple" xlink:href="../elts/us-roles-2018-01-31.xsd#RisksAndUncertaintiesConcentrationRiskTable"/>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/RisksAndUncertaintiesConcentrationRiskTable" xlink:type="extended">
+<link:loc xlink:label="loc_ConcentrationRiskLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ConcentrationRiskLineItems"/>
+<link:loc xlink:label="loc_ConcentrationRiskTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ConcentrationRiskTable"/>
+<link:definitionArc order="1.0" xbrldt:closed="true" xbrldt:contextElement="segment" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_ConcentrationRiskLineItems" xlink:to="loc_ConcentrationRiskTable" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/RisksAndUncertaintiesConcentrationRiskTable" xlink:type="extended">
+<link:loc xlink:label="loc_ConcentrationRiskByBenchmarkAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ConcentrationRiskByBenchmarkAxis"/>
+<link:loc xlink:label="loc_ConcentrationRiskBenchmarkDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ConcentrationRiskBenchmarkDomain"/>
+<link:loc xlink:label="loc_ConcentrationRiskByTypeAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ConcentrationRiskByTypeAxis"/>
+<link:loc xlink:label="loc_ConcentrationRiskTypeDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ConcentrationRiskTypeDomain"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="loc_ConcentrationRiskByBenchmarkAxis" xlink:to="loc_ConcentrationRiskBenchmarkDomain" xlink:type="arc"/>
+<link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="loc_ConcentrationRiskByTypeAxis" xlink:to="loc_ConcentrationRiskTypeDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/RisksAndUncertaintiesConcentrationRiskTable" xlink:type="extended">
+<link:loc xlink:label="loc_ConcentrationRiskByBenchmarkAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ConcentrationRiskByBenchmarkAxis"/>
+<link:loc xlink:label="loc_ConcentrationRiskBenchmarkDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ConcentrationRiskBenchmarkDomain"/>
+<link:loc xlink:label="loc_ConcentrationRiskByTypeAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ConcentrationRiskByTypeAxis"/>
+<link:loc xlink:label="loc_ConcentrationRiskTypeDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ConcentrationRiskTypeDomain"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_ConcentrationRiskByBenchmarkAxis" xlink:to="loc_ConcentrationRiskBenchmarkDomain" xlink:type="arc"/>
+<link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_ConcentrationRiskByTypeAxis" xlink:to="loc_ConcentrationRiskTypeDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/RisksAndUncertaintiesConcentrationRiskTable" xlink:type="extended">
+<link:loc xlink:label="loc_ConcentrationRiskBenchmarkDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ConcentrationRiskBenchmarkDomain"/>
+<link:loc xlink:label="loc_AssetsTotalMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AssetsTotalMember"/>
+<link:loc xlink:label="loc_AccountsReceivableMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AccountsReceivableMember"/>
+<link:loc xlink:label="loc_LiabilitiesTotalMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_LiabilitiesTotalMember"/>
+<link:loc xlink:label="loc_StockholdersEquityTotalMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_StockholdersEquityTotalMember"/>
+<link:loc xlink:label="loc_NetAssetsGeographicAreaMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NetAssetsGeographicAreaMember"/>
+<link:loc xlink:label="loc_NetAssetsSegmentMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NetAssetsSegmentMember"/>
+<link:loc xlink:label="loc_SalesRevenueGoodsNetMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SalesRevenueGoodsNetMember"/>
+<link:loc xlink:label="loc_SalesRevenueNetMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SalesRevenueNetMember"/>
+<link:loc xlink:label="loc_SalesRevenueProductLineMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SalesRevenueProductLineMember"/>
+<link:loc xlink:label="loc_SalesRevenueSegmentMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SalesRevenueSegmentMember"/>
+<link:loc xlink:label="loc_SalesRevenueServicesNetMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SalesRevenueServicesNetMember"/>
+<link:loc xlink:label="loc_RevenueRightsGrantedMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RevenueRightsGrantedMember"/>
+<link:loc xlink:label="loc_CostOfGoodsTotalMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CostOfGoodsTotalMember"/>
+<link:loc xlink:label="loc_CostOfGoodsSegmentMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CostOfGoodsSegmentMember"/>
+<link:loc xlink:label="loc_CostOfGoodsProductLineMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CostOfGoodsProductLineMember"/>
+<link:loc xlink:label="loc_NumberOfEmployeesTotalMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NumberOfEmployeesTotalMember"/>
+<link:loc xlink:label="loc_NumberOfEmployeesGeographicAreaMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NumberOfEmployeesGeographicAreaMember"/>
+<link:loc xlink:label="loc_WorkforceSubjectToCollectiveBargainingArrangementsMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_WorkforceSubjectToCollectiveBargainingArrangementsMember"/>
+<link:loc xlink:label="loc_WorkforceSubjectToCollectiveBargainingArrangementsExpiringWithinOneYearMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_WorkforceSubjectToCollectiveBargainingArrangementsExpiringWithinOneYearMember"/>
+<link:loc xlink:label="loc_RevenueFromContractWithCustomerMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RevenueFromContractWithCustomerMember"/>
+<link:loc xlink:label="loc_ConcentrationRiskTypeDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ConcentrationRiskTypeDomain"/>
+<link:loc xlink:label="loc_UnionizedEmployeesConcentrationRiskMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnionizedEmployeesConcentrationRiskMember"/>
+<link:loc xlink:label="loc_GeographicConcentrationRiskMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_GeographicConcentrationRiskMember"/>
+<link:loc xlink:label="loc_LaborForceConcentrationRiskMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_LaborForceConcentrationRiskMember"/>
+<link:loc xlink:label="loc_CustomerConcentrationRiskMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CustomerConcentrationRiskMember"/>
+<link:loc xlink:label="loc_CreditAvailabilityConcentrationRiskMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CreditAvailabilityConcentrationRiskMember"/>
+<link:loc xlink:label="loc_GovernmentContractsConcentrationRiskMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_GovernmentContractsConcentrationRiskMember"/>
+<link:loc xlink:label="loc_SupplierConcentrationRiskMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SupplierConcentrationRiskMember"/>
+<link:loc xlink:label="loc_LenderConcentrationRiskMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_LenderConcentrationRiskMember"/>
+<link:loc xlink:label="loc_CreditConcentrationRiskMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CreditConcentrationRiskMember"/>
+<link:loc xlink:label="loc_ProductConcentrationRiskMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProductConcentrationRiskMember"/>
+<link:loc xlink:label="loc_RevenueFromRightsConcentrationRiskMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RevenueFromRightsConcentrationRiskMember"/>
+<link:loc xlink:label="loc_ConcentrationRiskLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ConcentrationRiskLineItems"/>
+<link:loc xlink:label="loc_ConcentrationRiskAdditionalCharacteristic" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ConcentrationRiskAdditionalCharacteristic"/>
+<link:loc xlink:label="loc_ConcentrationRiskPercentage1" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ConcentrationRiskPercentage1"/>
+<link:loc xlink:label="loc_ConcentrationRiskBenchmarkDescription" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ConcentrationRiskBenchmarkDescription"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskBenchmarkDomain" xlink:to="loc_AssetsTotalMember" xlink:type="arc"/>
+<link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskBenchmarkDomain" xlink:to="loc_AccountsReceivableMember" xlink:type="arc"/>
+<link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskBenchmarkDomain" xlink:to="loc_LiabilitiesTotalMember" xlink:type="arc"/>
+<link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskBenchmarkDomain" xlink:to="loc_StockholdersEquityTotalMember" xlink:type="arc"/>
+<link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskBenchmarkDomain" xlink:to="loc_NetAssetsGeographicAreaMember" xlink:type="arc"/>
+<link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskBenchmarkDomain" xlink:to="loc_NetAssetsSegmentMember" xlink:type="arc"/>
+<link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskBenchmarkDomain" xlink:to="loc_SalesRevenueGoodsNetMember" xlink:type="arc"/>
+<link:definitionArc order="8.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskBenchmarkDomain" xlink:to="loc_SalesRevenueNetMember" xlink:type="arc"/>
+<link:definitionArc order="9.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskBenchmarkDomain" xlink:to="loc_SalesRevenueProductLineMember" xlink:type="arc"/>
+<link:definitionArc order="10.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskBenchmarkDomain" xlink:to="loc_SalesRevenueSegmentMember" xlink:type="arc"/>
+<link:definitionArc order="11.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskBenchmarkDomain" xlink:to="loc_SalesRevenueServicesNetMember" xlink:type="arc"/>
+<link:definitionArc order="12.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskBenchmarkDomain" xlink:to="loc_RevenueRightsGrantedMember" xlink:type="arc"/>
+<link:definitionArc order="13.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskBenchmarkDomain" xlink:to="loc_CostOfGoodsTotalMember" xlink:type="arc"/>
+<link:definitionArc order="14.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskBenchmarkDomain" xlink:to="loc_CostOfGoodsSegmentMember" xlink:type="arc"/>
+<link:definitionArc order="15.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskBenchmarkDomain" xlink:to="loc_CostOfGoodsProductLineMember" xlink:type="arc"/>
+<link:definitionArc order="16.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskBenchmarkDomain" xlink:to="loc_NumberOfEmployeesTotalMember" xlink:type="arc"/>
+<link:definitionArc order="17.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskBenchmarkDomain" xlink:to="loc_NumberOfEmployeesGeographicAreaMember" xlink:type="arc"/>
+<link:definitionArc order="18.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskBenchmarkDomain" xlink:to="loc_WorkforceSubjectToCollectiveBargainingArrangementsMember" xlink:type="arc"/>
+<link:definitionArc order="19.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskBenchmarkDomain" xlink:to="loc_WorkforceSubjectToCollectiveBargainingArrangementsExpiringWithinOneYearMember" xlink:type="arc"/>
+<link:definitionArc order="20.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskBenchmarkDomain" xlink:to="loc_RevenueFromContractWithCustomerMember" xlink:type="arc"/>
+<link:definitionArc order="21.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskTypeDomain" xlink:to="loc_UnionizedEmployeesConcentrationRiskMember" xlink:type="arc"/>
+<link:definitionArc order="22.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskTypeDomain" xlink:to="loc_GeographicConcentrationRiskMember" xlink:type="arc"/>
+<link:definitionArc order="23.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskTypeDomain" xlink:to="loc_LaborForceConcentrationRiskMember" xlink:type="arc"/>
+<link:definitionArc order="24.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskTypeDomain" xlink:to="loc_CustomerConcentrationRiskMember" xlink:type="arc"/>
+<link:definitionArc order="25.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskTypeDomain" xlink:to="loc_CreditAvailabilityConcentrationRiskMember" xlink:type="arc"/>
+<link:definitionArc order="26.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskTypeDomain" xlink:to="loc_GovernmentContractsConcentrationRiskMember" xlink:type="arc"/>
+<link:definitionArc order="27.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskTypeDomain" xlink:to="loc_SupplierConcentrationRiskMember" xlink:type="arc"/>
+<link:definitionArc order="28.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskTypeDomain" xlink:to="loc_LenderConcentrationRiskMember" xlink:type="arc"/>
+<link:definitionArc order="29.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskTypeDomain" xlink:to="loc_CreditConcentrationRiskMember" xlink:type="arc"/>
+<link:definitionArc order="30.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskTypeDomain" xlink:to="loc_ProductConcentrationRiskMember" xlink:type="arc"/>
+<link:definitionArc order="31.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskTypeDomain" xlink:to="loc_RevenueFromRightsConcentrationRiskMember" xlink:type="arc"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskLineItems" xlink:to="loc_ConcentrationRiskAdditionalCharacteristic" xlink:type="arc"/>
+<link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskLineItems" xlink:to="loc_ConcentrationRiskPercentage1" xlink:type="arc"/>
+<link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ConcentrationRiskLineItems" xlink:to="loc_ConcentrationRiskBenchmarkDescription" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/RisksAndUncertaintiesConcentrationRiskTable" xlink:type="extended">
+<link:loc xlink:label="loc_ConcentrationRiskTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ConcentrationRiskTable"/>
+<link:loc xlink:label="loc_ConcentrationRiskByBenchmarkAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ConcentrationRiskByBenchmarkAxis"/>
+<link:loc xlink:label="loc_ConcentrationRiskByTypeAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ConcentrationRiskByTypeAxis"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_ConcentrationRiskTable" xlink:to="loc_ConcentrationRiskByBenchmarkAxis" xlink:type="arc"/>
+<link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_ConcentrationRiskTable" xlink:to="loc_ConcentrationRiskByTypeAxis" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/RisksAndUncertaintiesUnusualRiskOrUncertaintyTable" xlink:type="extended">
+<link:loc xlink:label="loc_UnusualRiskOrUncertaintyLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualRiskOrUncertaintyLineItems"/>
+<link:loc xlink:label="loc_UnusualRiskOrUncertaintyTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualRiskOrUncertaintyTable"/>
+<link:definitionArc order="1.0" xbrldt:closed="true" xbrldt:contextElement="segment" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_UnusualRiskOrUncertaintyLineItems" xlink:to="loc_UnusualRiskOrUncertaintyTable" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/RisksAndUncertaintiesUnusualRiskOrUncertaintyTable" xlink:type="extended">
+<link:loc xlink:label="loc_UnusualRiskOrUncertaintyByNatureAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualRiskOrUncertaintyByNatureAxis"/>
+<link:loc xlink:label="loc_UnusualRiskOrUncertaintyNatureDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualRiskOrUncertaintyNatureDomain"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="loc_UnusualRiskOrUncertaintyByNatureAxis" xlink:to="loc_UnusualRiskOrUncertaintyNatureDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/RisksAndUncertaintiesUnusualRiskOrUncertaintyTable" xlink:type="extended">
+<link:loc xlink:label="loc_UnusualRiskOrUncertaintyByNatureAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualRiskOrUncertaintyByNatureAxis"/>
+<link:loc xlink:label="loc_UnusualRiskOrUncertaintyNatureDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualRiskOrUncertaintyNatureDomain"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_UnusualRiskOrUncertaintyByNatureAxis" xlink:to="loc_UnusualRiskOrUncertaintyNatureDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/RisksAndUncertaintiesUnusualRiskOrUncertaintyTable" xlink:type="extended">
+<link:loc xlink:label="loc_UnusualRiskOrUncertaintyLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualRiskOrUncertaintyLineItems"/>
+<link:loc xlink:label="loc_UnusualRiskOrUncertaintyImpact" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualRiskOrUncertaintyImpact"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_UnusualRiskOrUncertaintyLineItems" xlink:to="loc_UnusualRiskOrUncertaintyImpact" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/RisksAndUncertaintiesUnusualRiskOrUncertaintyTable" xlink:type="extended">
+<link:loc xlink:label="loc_UnusualRiskOrUncertaintyTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualRiskOrUncertaintyTable"/>
+<link:loc xlink:label="loc_UnusualRiskOrUncertaintyByNatureAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_UnusualRiskOrUncertaintyByNatureAxis"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_UnusualRiskOrUncertaintyTable" xlink:to="loc_UnusualRiskOrUncertaintyByNatureAxis" xlink:type="arc"/>
+</link:definitionLink>
+</link:linkbase>

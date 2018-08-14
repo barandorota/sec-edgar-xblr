@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+(c) 2010-2018 Financial Accounting Foundation; (c) 2007-2010 XBRL US, Inc.  All Right Reserved.
+Notice: Authorized Uses are Set Forth at http://xbrl.fasb.org/terms/TaxonomiesTermsConditions.html
+  --><link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+<link:roleRef roleURI="http://fasb.org/us-gaap/role/disclosure/HealthCareOrganizations" xlink:type="simple" xlink:href="../elts/us-roles-2018-01-31.xsd#hco"/>
+<link:presentationLink xlink:role="http://fasb.org/us-gaap/role/disclosure/HealthCareOrganizations" xlink:type="extended">
+<link:loc xlink:label="loc_CharityCareAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CharityCareAbstract"/>
+<link:loc xlink:label="loc_CharityCareDirectAndIndirectCostBasisAmount" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CharityCareDirectAndIndirectCostBasisAmount"/>
+<link:loc xlink:label="loc_CharityCareOtherMeasurementBasisAmount" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CharityCareOtherMeasurementBasisAmount"/>
+<link:loc xlink:label="loc_CharityCareReimbursementsReceived" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CharityCareReimbursementsReceived"/>
+<link:loc xlink:label="loc_CharityCareDisclosureTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CharityCareDisclosureTextBlock"/>
+<link:loc xlink:label="loc_CharityCareMethodology" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CharityCareMethodology"/>
+<link:loc xlink:label="loc_ContinuingCareRetirementCommunitiesAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ContinuingCareRetirementCommunitiesAbstract"/>
+<link:loc xlink:label="loc_ContinuingCareRetirementCommunitiesDescription" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ContinuingCareRetirementCommunitiesDescription"/>
+<link:loc xlink:label="loc_ContinuingCareRetirementCommunitiesObligationForFutureServiceAmount" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ContinuingCareRetirementCommunitiesObligationForFutureServiceAmount"/>
+<link:loc xlink:label="loc_ContinuingCareRetirementCommunitiesObligationForFutureServiceInterestRate" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ContinuingCareRetirementCommunitiesObligationForFutureServiceInterestRate"/>
+<link:loc xlink:label="loc_ContinuingCareRetirementCommunitiesAdvanceFeesObligationForFutureServicesAmount" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ContinuingCareRetirementCommunitiesAdvanceFeesObligationForFutureServicesAmount"/>
+<link:loc xlink:label="loc_CreditRatingAMBestAxis" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_CreditRatingAMBestAxis"/>
+<link:loc xlink:label="loc_CreditRatingAMBestDomain" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_CreditRatingAMBestDomain"/>
+<link:loc xlink:label="loc_AMBestAPlusPlusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_AMBestAPlusPlusRatingMember"/>
+<link:loc xlink:label="loc_AMBestAPlusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_AMBestAPlusRatingMember"/>
+<link:loc xlink:label="loc_AMBestARatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_AMBestARatingMember"/>
+<link:loc xlink:label="loc_AMBestAMinusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_AMBestAMinusRatingMember"/>
+<link:loc xlink:label="loc_AMBestBPlusPlusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_AMBestBPlusPlusRatingMember"/>
+<link:loc xlink:label="loc_AMBestBPlusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_AMBestBPlusRatingMember"/>
+<link:loc xlink:label="loc_AMBestBRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_AMBestBRatingMember"/>
+<link:loc xlink:label="loc_AMBestBMinusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_AMBestBMinusRatingMember"/>
+<link:loc xlink:label="loc_AMBestCPlusPlusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_AMBestCPlusPlusRatingMember"/>
+<link:loc xlink:label="loc_AMBestCPlusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_AMBestCPlusRatingMember"/>
+<link:loc xlink:label="loc_AMBestCRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_AMBestCRatingMember"/>
+<link:loc xlink:label="loc_AMBestCMinusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_AMBestCMinusRatingMember"/>
+<link:loc xlink:label="loc_AMBestDRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_AMBestDRatingMember"/>
+<link:loc xlink:label="loc_AMBestERatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_AMBestERatingMember"/>
+<link:loc xlink:label="loc_AMBestFRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_AMBestFRatingMember"/>
+<link:loc xlink:label="loc_AMBestSRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_AMBestSRatingMember"/>
+<link:loc xlink:label="loc_CreditRatingFitchAxis" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_CreditRatingFitchAxis"/>
+<link:loc xlink:label="loc_ExternalCreditRatingFitchMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_ExternalCreditRatingFitchMember"/>
+<link:loc xlink:label="loc_CreditRatingMoodysAxis" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_CreditRatingMoodysAxis"/>
+<link:loc xlink:label="loc_ExternalCreditRatingMoodysMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_ExternalCreditRatingMoodysMember"/>
+<link:loc xlink:label="loc_CreditRatingStandardPoorsAxis" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_CreditRatingStandardPoorsAxis"/>
+<link:loc xlink:label="loc_ExternalCreditRatingStandardPoorsMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_ExternalCreditRatingStandardPoorsMember"/>
+<link:loc xlink:label="loc_FitchAAARatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchAAARatingMember"/>
+<link:loc xlink:label="loc_FitchAAPlusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchAAPlusRatingMember"/>
+<link:loc xlink:label="loc_FitchAARatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchAARatingMember"/>
+<link:loc xlink:label="loc_FitchAAMinusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchAAMinusRatingMember"/>
+<link:loc xlink:label="loc_FitchAPlusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchAPlusRatingMember"/>
+<link:loc xlink:label="loc_FitchARatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchARatingMember"/>
+<link:loc xlink:label="loc_FitchAMinusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchAMinusRatingMember"/>
+<link:loc xlink:label="loc_FitchBBBPlusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchBBBPlusRatingMember"/>
+<link:loc xlink:label="loc_FitchBBBRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchBBBRatingMember"/>
+<link:loc xlink:label="loc_FitchBBBMinusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchBBBMinusRatingMember"/>
+<link:loc xlink:label="loc_FitchBBPlusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchBBPlusRatingMember"/>
+<link:loc xlink:label="loc_FitchBBRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchBBRatingMember"/>
+<link:loc xlink:label="loc_FitchBBMinusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchBBMinusRatingMember"/>
+<link:loc xlink:label="loc_FitchBPlusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchBPlusRatingMember"/>
+<link:loc xlink:label="loc_FitchBRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchBRatingMember"/>
+<link:loc xlink:label="loc_FitchBMinusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchBMinusRatingMember"/>
+<link:loc xlink:label="loc_FitchCCCPlusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchCCCPlusRatingMember"/>
+<link:loc xlink:label="loc_FitchCCCRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchCCCRatingMember"/>
+<link:loc xlink:label="loc_FitchCCCMinusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchCCCMinusRatingMember"/>
+<link:loc xlink:label="loc_FitchCCRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchCCRatingMember"/>
+<link:loc xlink:label="loc_FitchCRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchCRatingMember"/>
+<link:loc xlink:label="loc_FitchDRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_FitchDRatingMember"/>
+<link:loc xlink:label="loc_MoodysAaaRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MoodysAaaRatingMember"/>
+<link:loc xlink:label="loc_MoodysAa1RatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MoodysAa1RatingMember"/>
+<link:loc xlink:label="loc_MoodysAa2RatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MoodysAa2RatingMember"/>
+<link:loc xlink:label="loc_MoodysAa3RatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MoodysAa3RatingMember"/>
+<link:loc xlink:label="loc_MoodysA1RatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MoodysA1RatingMember"/>
+<link:loc xlink:label="loc_MoodysA2RatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MoodysA2RatingMember"/>
+<link:loc xlink:label="loc_MoodysA3RatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MoodysA3RatingMember"/>
+<link:loc xlink:label="loc_MoodysBaa1RatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MoodysBaa1RatingMember"/>
+<link:loc xlink:label="loc_MoodysBaa2RatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MoodysBaa2RatingMember"/>
+<link:loc xlink:label="loc_MoodysBaa3RatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MoodysBaa3RatingMember"/>
+<link:loc xlink:label="loc_MoodysBa1RatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MoodysBa1RatingMember"/>
+<link:loc xlink:label="loc_MoodysBa2RatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MoodysBa2RatingMember"/>
+<link:loc xlink:label="loc_MoodysBa3RatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MoodysBa3RatingMember"/>
+<link:loc xlink:label="loc_MoodysB1RatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MoodysB1RatingMember"/>
+<link:loc xlink:label="loc_MoodysB2RatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MoodysB2RatingMember"/>
+<link:loc xlink:label="loc_MoodysB3RatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MoodysB3RatingMember"/>
+<link:loc xlink:label="loc_MoodysCaa1RatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MoodysCaa1RatingMember"/>
+<link:loc xlink:label="loc_MoodysCaa2RatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MoodysCaa2RatingMember"/>
+<link:loc xlink:label="loc_MoodysCaa3RatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MoodysCaa3RatingMember"/>
+<link:loc xlink:label="loc_MoodysCaRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MoodysCaRatingMember"/>
+<link:loc xlink:label="loc_MoodysCRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MoodysCRatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsAAARatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsAAARatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsAAPlusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsAAPlusRatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsAARatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsAARatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsAAMinusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsAAMinusRatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsAPlusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsAPlusRatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsARatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsARatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsAMinusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsAMinusRatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsBBBPlusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsBBBPlusRatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsBBBRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsBBBRatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsBBBMinusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsBBBMinusRatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsBBPlusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsBBPlusRatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsBBRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsBBRatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsBBMinusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsBBMinusRatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsBPlusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsBPlusRatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsBRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsBRatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsBMinusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsBMinusRatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsCCCPlusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsCCCPlusRatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsCCCRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsCCCRatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsCCCMinusRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsCCCMinusRatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsCCRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsCCRatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsCRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsCRatingMember"/>
+<link:loc xlink:label="loc_StandardPoorsDRatingMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_StandardPoorsDRatingMember"/>
+<link:loc xlink:label="loc_HealthCareOrganizationExpensesGrossAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_HealthCareOrganizationExpensesGrossAbstract"/>
+<link:loc xlink:label="loc_HealthCareOrganizationStopLossInsurancePremiumExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_HealthCareOrganizationStopLossInsurancePremiumExpense"/>
+<link:loc xlink:label="loc_HealthCareOrganizationContractAcquisitionExpense" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_HealthCareOrganizationContractAcquisitionExpense"/>
+<link:loc xlink:label="loc_HealthCareOrganizationHealthCareCostsGross" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_HealthCareOrganizationHealthCareCostsGross"/>
+<link:loc xlink:label="loc_HealthCareOrganizationExpensesNetAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_HealthCareOrganizationExpensesNetAbstract"/>
+<link:loc xlink:label="loc_HealthCareOrganizationStopLossInsuranceRecoveries" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_HealthCareOrganizationStopLossInsuranceRecoveries"/>
+<link:loc xlink:label="loc_HealthCareOrganizationExpensesNet" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_HealthCareOrganizationExpensesNet"/>
+<link:loc xlink:label="loc_HealthCareOrganizationsAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_HealthCareOrganizationsAbstract"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyDisclosureTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyDisclosureTextBlock"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyAccrualAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyAccrualAbstract"/>
+<link:loc xlink:label="loc_InsuranceReceivableForMalpracticeAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InsuranceReceivableForMalpracticeAbstract"/>
+<link:loc xlink:label="loc_MovementInMalpracticeLossContingencyRollForward" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MovementInMalpracticeLossContingencyRollForward"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyPeriodCostNetRecognizedInIncomeStatementAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyPeriodCostNetRecognizedInIncomeStatementAbstract"/>
+<link:loc xlink:label="loc_MalpracticeInsuranceAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeInsuranceAbstract"/>
+<link:loc xlink:label="loc_ScheduleOfHealthCareTrustFundAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ScheduleOfHealthCareTrustFundAbstract"/>
+<link:loc xlink:label="loc_ContractualAdjustmentsAndThirdPartySettlementsPolicyPolicyTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ContractualAdjustmentsAndThirdPartySettlementsPolicyPolicyTextBlock"/>
+<link:loc xlink:label="loc_BusinessAndContractualArrangementsDisclosureTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_BusinessAndContractualArrangementsDisclosureTextBlock"/>
+<link:loc xlink:label="loc_HealthCareOrganizationAccountsReceivableDueFromThirdPartyPayorRetroactiveAdjustment" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_HealthCareOrganizationAccountsReceivableDueFromThirdPartyPayorRetroactiveAdjustment"/>
+<link:loc xlink:label="loc_HealthCareTrustFundAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_HealthCareTrustFundAxis"/>
+<link:loc xlink:label="loc_HealthCareTrustFundNameDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_HealthCareTrustFundNameDomain"/>
+<link:loc xlink:label="loc_HealthCareTrustFundLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_HealthCareTrustFundLineItems"/>
+<link:loc xlink:label="loc_HealthCareTrustFundDescription" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_HealthCareTrustFundDescription"/>
+<link:loc xlink:label="loc_HealthCareTrustFundAssetsLimitedAsToUseCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_HealthCareTrustFundAssetsLimitedAsToUseCurrent"/>
+<link:loc xlink:label="loc_HealthCareTrustFundAssetsLimitedAsToUseNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_HealthCareTrustFundAssetsLimitedAsToUseNoncurrent"/>
+<link:loc xlink:label="loc_HealthCareTrustFundTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_HealthCareTrustFundTable"/>
+<link:loc xlink:label="loc_InsuranceReceivableForMalpracticeCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InsuranceReceivableForMalpracticeCurrent"/>
+<link:loc xlink:label="loc_InsuranceReceivableForMalpracticeNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InsuranceReceivableForMalpracticeNoncurrent"/>
+<link:loc xlink:label="loc_InsuranceReceivableForMalpractice" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_InsuranceReceivableForMalpractice"/>
+<link:loc xlink:label="loc_ScheduleOfMalpracticeInsuranceTypeAndTierIdentifierAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ScheduleOfMalpracticeInsuranceTypeAndTierIdentifierAxis"/>
+<link:loc xlink:label="loc_TypeAndTierIdentifierDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TypeAndTierIdentifierDomain"/>
+<link:loc xlink:label="loc_MalpracticeInsuranceDescription" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeInsuranceDescription"/>
+<link:loc xlink:label="loc_MalpracticeInsuranceMethodOfAccountingForInvestmentInCaptiveInsurer" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeInsuranceMethodOfAccountingForInvestmentInCaptiveInsurer"/>
+<link:loc xlink:label="loc_ScheduleOfMalpracticeInsuranceTextBlock" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ScheduleOfMalpracticeInsuranceTextBlock"/>
+<link:loc xlink:label="loc_ScheduleOfMalpracticeInsuranceTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ScheduleOfMalpracticeInsuranceTable"/>
+<link:loc xlink:label="loc_MalpracticeInsuranceLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeInsuranceLineItems"/>
+<link:loc xlink:label="loc_MalpracticeInsuranceOccurrenceOrClaimsMade" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeInsuranceOccurrenceOrClaimsMade"/>
+<link:loc xlink:label="loc_MalpracticeInsuranceRetrospectivelyRated" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeInsuranceRetrospectivelyRated"/>
+<link:loc xlink:label="loc_MalpracticeInsuranceCoverageFloor" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeInsuranceCoverageFloor"/>
+<link:loc xlink:label="loc_MalpracticeInsuranceAnnualCoverageLimit" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeInsuranceAnnualCoverageLimit"/>
+<link:loc xlink:label="loc_MalpracticeInsuranceMaximumCoveragePerIncident" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeInsuranceMaximumCoveragePerIncident"/>
+<link:loc xlink:label="loc_MalpracticeInsuranceDeductible1" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeInsuranceDeductible1"/>
+<link:loc xlink:label="loc_MalpracticeInsuranceSelfInsuredStatus" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeInsuranceSelfInsuredStatus"/>
+<link:loc xlink:label="loc_MalpracticeInsuranceThirdPartyCoverage" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeInsuranceThirdPartyCoverage"/>
+<link:loc xlink:label="loc_MalpracticeInsuranceOwnershipInCaptiveInsurer" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeInsuranceOwnershipInCaptiveInsurer"/>
+<link:loc xlink:label="loc_MalpracticeInsuranceNameOfCaptiveInsurer" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeInsuranceNameOfCaptiveInsurer"/>
+<link:loc xlink:label="loc_MalpracticeInsurancePercentageOfOwnershipInCaptiveInsurer" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeInsurancePercentageOfOwnershipInCaptiveInsurer"/>
+<link:loc xlink:label="loc_MalpracticeInsurancePercentageOfPremiumsPaidToCaptiveInsurer" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeInsurancePercentageOfPremiumsPaidToCaptiveInsurer"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyAccrualUndiscountedAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyAccrualUndiscountedAbstract"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyAccrualDiscountedAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyAccrualDiscountedAbstract"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyAccrualNotRecognized1" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyAccrualNotRecognized1"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyNumberOfClaims" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyNumberOfClaims"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyLettersOfCreditAndSuretyBonds" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyLettersOfCreditAndSuretyBonds"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyAccrualDiscountedCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyAccrualDiscountedCurrent"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyAccrualDiscountedNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyAccrualDiscountedNoncurrent"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyAccrualDiscounted" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyAccrualDiscounted"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyAccrualUndiscountedCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyAccrualUndiscountedCurrent"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyAccrualUndiscountedNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyAccrualUndiscountedNoncurrent"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyAccrualUndiscounted" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyAccrualUndiscounted"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyClaimsIncurredNetAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyClaimsIncurredNetAbstract"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyClaimsIncurredInPeriod" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyClaimsIncurredInPeriod"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyClaimsIncurredInPriorPeriods" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyClaimsIncurredInPriorPeriods"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyReturnOfPremiums" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyReturnOfPremiums"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyInsuranceRecoveries" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyInsuranceRecoveries"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyClaimsIncurredNet" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyClaimsIncurredNet"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyDescription" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyDescription"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyPeriodCost" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyPeriodCost"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyPremiumCosts" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyPremiumCosts"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyPeriodIncreaseDecrease" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyPeriodIncreaseDecrease"/>
+<link:loc xlink:label="loc_MalpracticeLossContingencyAccrualUndiscounted_1" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MalpracticeLossContingencyAccrualUndiscounted"/>
+<link:loc xlink:label="loc_RangeAxis" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_RangeAxis"/>
+<link:loc xlink:label="loc_RangeMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_RangeMember"/>
+<link:loc xlink:label="loc_MaximumMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MaximumMember"/>
+<link:loc xlink:label="loc_MinimumMember" xlink:type="locator" xlink:href="http://xbrl.fasb.org/srt/2018/elts/srt-2018-01-31.xsd#srt_MinimumMember"/>
+<link:loc xlink:label="loc_ProfessionalMalpracticeLiabilityMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ProfessionalMalpracticeLiabilityMember"/>
+<link:loc xlink:label="loc_DirectorsAndOfficersLiabilityInsuranceMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DirectorsAndOfficersLiabilityInsuranceMember"/>
+<link:loc xlink:label="loc_GeneralLiabilityMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_GeneralLiabilityMember"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CharityCareAbstract" xlink:to="loc_CharityCareDirectAndIndirectCostBasisAmount" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CharityCareAbstract" xlink:to="loc_CharityCareOtherMeasurementBasisAmount" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CharityCareAbstract" xlink:to="loc_CharityCareReimbursementsReceived" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CharityCareAbstract" xlink:to="loc_CharityCareDisclosureTextBlock" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CharityCareAbstract" xlink:to="loc_CharityCareMethodology" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ContinuingCareRetirementCommunitiesAbstract" xlink:to="loc_ContinuingCareRetirementCommunitiesDescription" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ContinuingCareRetirementCommunitiesAbstract" xlink:to="loc_ContinuingCareRetirementCommunitiesObligationForFutureServiceAmount" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ContinuingCareRetirementCommunitiesAbstract" xlink:to="loc_ContinuingCareRetirementCommunitiesObligationForFutureServiceInterestRate" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ContinuingCareRetirementCommunitiesAbstract" xlink:to="loc_ContinuingCareRetirementCommunitiesAdvanceFeesObligationForFutureServicesAmount" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditRatingAMBestAxis" xlink:to="loc_CreditRatingAMBestDomain" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditRatingAMBestDomain" xlink:to="loc_AMBestAPlusPlusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditRatingAMBestDomain" xlink:to="loc_AMBestAPlusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditRatingAMBestDomain" xlink:to="loc_AMBestARatingMember" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditRatingAMBestDomain" xlink:to="loc_AMBestAMinusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditRatingAMBestDomain" xlink:to="loc_AMBestBPlusPlusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditRatingAMBestDomain" xlink:to="loc_AMBestBPlusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditRatingAMBestDomain" xlink:to="loc_AMBestBRatingMember" xlink:type="arc"/>
+<link:presentationArc order="80" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditRatingAMBestDomain" xlink:to="loc_AMBestBMinusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="90" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditRatingAMBestDomain" xlink:to="loc_AMBestCPlusPlusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="100" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditRatingAMBestDomain" xlink:to="loc_AMBestCPlusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="110" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditRatingAMBestDomain" xlink:to="loc_AMBestCRatingMember" xlink:type="arc"/>
+<link:presentationArc order="120" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditRatingAMBestDomain" xlink:to="loc_AMBestCMinusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="130" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditRatingAMBestDomain" xlink:to="loc_AMBestDRatingMember" xlink:type="arc"/>
+<link:presentationArc order="140" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditRatingAMBestDomain" xlink:to="loc_AMBestERatingMember" xlink:type="arc"/>
+<link:presentationArc order="150" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditRatingAMBestDomain" xlink:to="loc_AMBestFRatingMember" xlink:type="arc"/>
+<link:presentationArc order="160" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditRatingAMBestDomain" xlink:to="loc_AMBestSRatingMember" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditRatingFitchAxis" xlink:to="loc_ExternalCreditRatingFitchMember" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditRatingMoodysAxis" xlink:to="loc_ExternalCreditRatingMoodysMember" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_CreditRatingStandardPoorsAxis" xlink:to="loc_ExternalCreditRatingStandardPoorsMember" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchAAARatingMember" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchAAPlusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchAARatingMember" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchAAMinusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchAPlusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchARatingMember" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchAMinusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="80" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchBBBPlusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="90" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchBBBRatingMember" xlink:type="arc"/>
+<link:presentationArc order="100" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchBBBMinusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="110" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchBBPlusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="120" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchBBRatingMember" xlink:type="arc"/>
+<link:presentationArc order="130" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchBBMinusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="140" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchBPlusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="150" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchBRatingMember" xlink:type="arc"/>
+<link:presentationArc order="160" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchBMinusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="170" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchCCCPlusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="180" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchCCCRatingMember" xlink:type="arc"/>
+<link:presentationArc order="190" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchCCCMinusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="200" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchCCRatingMember" xlink:type="arc"/>
+<link:presentationArc order="210" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchCRatingMember" xlink:type="arc"/>
+<link:presentationArc order="220" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingFitchMember" xlink:to="loc_FitchDRatingMember" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingMoodysMember" xlink:to="loc_MoodysAaaRatingMember" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingMoodysMember" xlink:to="loc_MoodysAa1RatingMember" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingMoodysMember" xlink:to="loc_MoodysAa2RatingMember" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingMoodysMember" xlink:to="loc_MoodysAa3RatingMember" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingMoodysMember" xlink:to="loc_MoodysA1RatingMember" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingMoodysMember" xlink:to="loc_MoodysA2RatingMember" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingMoodysMember" xlink:to="loc_MoodysA3RatingMember" xlink:type="arc"/>
+<link:presentationArc order="80" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingMoodysMember" xlink:to="loc_MoodysBaa1RatingMember" xlink:type="arc"/>
+<link:presentationArc order="90" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingMoodysMember" xlink:to="loc_MoodysBaa2RatingMember" xlink:type="arc"/>
+<link:presentationArc order="100" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingMoodysMember" xlink:to="loc_MoodysBaa3RatingMember" xlink:type="arc"/>
+<link:presentationArc order="110" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingMoodysMember" xlink:to="loc_MoodysBa1RatingMember" xlink:type="arc"/>
+<link:presentationArc order="120" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingMoodysMember" xlink:to="loc_MoodysBa2RatingMember" xlink:type="arc"/>
+<link:presentationArc order="130" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingMoodysMember" xlink:to="loc_MoodysBa3RatingMember" xlink:type="arc"/>
+<link:presentationArc order="140" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingMoodysMember" xlink:to="loc_MoodysB1RatingMember" xlink:type="arc"/>
+<link:presentationArc order="150" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingMoodysMember" xlink:to="loc_MoodysB2RatingMember" xlink:type="arc"/>
+<link:presentationArc order="160" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingMoodysMember" xlink:to="loc_MoodysB3RatingMember" xlink:type="arc"/>
+<link:presentationArc order="170" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingMoodysMember" xlink:to="loc_MoodysCaa1RatingMember" xlink:type="arc"/>
+<link:presentationArc order="180" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingMoodysMember" xlink:to="loc_MoodysCaa2RatingMember" xlink:type="arc"/>
+<link:presentationArc order="190" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingMoodysMember" xlink:to="loc_MoodysCaa3RatingMember" xlink:type="arc"/>
+<link:presentationArc order="200" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingMoodysMember" xlink:to="loc_MoodysCaRatingMember" xlink:type="arc"/>
+<link:presentationArc order="210" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingMoodysMember" xlink:to="loc_MoodysCRatingMember" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsAAARatingMember" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsAAPlusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsAARatingMember" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsAAMinusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsAPlusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsARatingMember" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsAMinusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="80" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsBBBPlusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="90" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsBBBRatingMember" xlink:type="arc"/>
+<link:presentationArc order="100" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsBBBMinusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="110" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsBBPlusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="120" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsBBRatingMember" xlink:type="arc"/>
+<link:presentationArc order="130" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsBBMinusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="140" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsBPlusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="150" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsBRatingMember" xlink:type="arc"/>
+<link:presentationArc order="160" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsBMinusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="170" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsCCCPlusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="180" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsCCCRatingMember" xlink:type="arc"/>
+<link:presentationArc order="190" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsCCCMinusRatingMember" xlink:type="arc"/>
+<link:presentationArc order="200" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsCCRatingMember" xlink:type="arc"/>
+<link:presentationArc order="210" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsCRatingMember" xlink:type="arc"/>
+<link:presentationArc order="220" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ExternalCreditRatingStandardPoorsMember" xlink:to="loc_StandardPoorsDRatingMember" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_HealthCareOrganizationExpensesGrossAbstract" xlink:to="loc_HealthCareOrganizationStopLossInsurancePremiumExpense" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_HealthCareOrganizationExpensesGrossAbstract" xlink:to="loc_HealthCareOrganizationContractAcquisitionExpense" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_HealthCareOrganizationExpensesGrossAbstract" xlink:to="loc_HealthCareOrganizationHealthCareCostsGross" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_HealthCareOrganizationExpensesNetAbstract" xlink:to="loc_HealthCareOrganizationExpensesGrossAbstract" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_HealthCareOrganizationExpensesNetAbstract" xlink:to="loc_HealthCareOrganizationStopLossInsuranceRecoveries" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_HealthCareOrganizationExpensesNetAbstract" xlink:to="loc_HealthCareOrganizationExpensesNet" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_HealthCareOrganizationsAbstract" xlink:to="loc_MalpracticeLossContingencyDisclosureTextBlock" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyDisclosureTextBlock" xlink:to="loc_MalpracticeLossContingencyAccrualAbstract" xlink:type="arc"/>
+<link:presentationArc order="20" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyDisclosureTextBlock" xlink:to="loc_InsuranceReceivableForMalpracticeAbstract" xlink:type="arc"/>
+<link:presentationArc order="30" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyDisclosureTextBlock" xlink:to="loc_MovementInMalpracticeLossContingencyRollForward" xlink:type="arc"/>
+<link:presentationArc order="40" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyDisclosureTextBlock" xlink:to="loc_MalpracticeLossContingencyPeriodCostNetRecognizedInIncomeStatementAbstract" xlink:type="arc"/>
+<link:presentationArc order="50" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyDisclosureTextBlock" xlink:to="loc_MalpracticeInsuranceAbstract" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_HealthCareOrganizationsAbstract" xlink:to="loc_ScheduleOfHealthCareTrustFundAbstract" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_HealthCareOrganizationsAbstract" xlink:to="loc_ContractualAdjustmentsAndThirdPartySettlementsPolicyPolicyTextBlock" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_HealthCareOrganizationsAbstract" xlink:to="loc_BusinessAndContractualArrangementsDisclosureTextBlock" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_HealthCareOrganizationsAbstract" xlink:to="loc_HealthCareOrganizationExpensesNetAbstract" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_HealthCareOrganizationsAbstract" xlink:to="loc_CharityCareAbstract" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_HealthCareOrganizationsAbstract" xlink:to="loc_ContinuingCareRetirementCommunitiesAbstract" xlink:type="arc"/>
+<link:presentationArc order="80" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_HealthCareOrganizationsAbstract" xlink:to="loc_HealthCareOrganizationAccountsReceivableDueFromThirdPartyPayorRetroactiveAdjustment" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_HealthCareTrustFundAxis" xlink:to="loc_HealthCareTrustFundNameDomain" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_HealthCareTrustFundLineItems" xlink:to="loc_HealthCareTrustFundDescription" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_HealthCareTrustFundLineItems" xlink:to="loc_HealthCareTrustFundAssetsLimitedAsToUseCurrent" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_HealthCareTrustFundLineItems" xlink:to="loc_HealthCareTrustFundAssetsLimitedAsToUseNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_HealthCareTrustFundTable" xlink:to="loc_HealthCareTrustFundAxis" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_HealthCareTrustFundTable" xlink:to="loc_HealthCareTrustFundLineItems" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_InsuranceReceivableForMalpracticeAbstract" xlink:to="loc_InsuranceReceivableForMalpracticeCurrent" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_InsuranceReceivableForMalpracticeAbstract" xlink:to="loc_InsuranceReceivableForMalpracticeNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_InsuranceReceivableForMalpracticeAbstract" xlink:to="loc_InsuranceReceivableForMalpractice" xlink:type="arc"/>
+<link:presentationArc order="10" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ScheduleOfMalpracticeInsuranceTypeAndTierIdentifierAxis" xlink:to="loc_TypeAndTierIdentifierDomain" xlink:type="arc"/>
+<link:presentationArc order="10" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeInsuranceAbstract" xlink:to="loc_MalpracticeInsuranceDescription" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeInsuranceAbstract" xlink:to="loc_MalpracticeInsuranceMethodOfAccountingForInvestmentInCaptiveInsurer" xlink:type="arc"/>
+<link:presentationArc order="30" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeInsuranceAbstract" xlink:to="loc_ScheduleOfMalpracticeInsuranceTextBlock" xlink:type="arc"/>
+<link:presentationArc order="10" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ScheduleOfMalpracticeInsuranceTextBlock" xlink:to="loc_ScheduleOfMalpracticeInsuranceTable" xlink:type="arc"/>
+<link:presentationArc order="10" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeInsuranceLineItems" xlink:to="loc_MalpracticeInsuranceOccurrenceOrClaimsMade" xlink:type="arc"/>
+<link:presentationArc order="20" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeInsuranceLineItems" xlink:to="loc_MalpracticeInsuranceRetrospectivelyRated" xlink:type="arc"/>
+<link:presentationArc order="30" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeInsuranceLineItems" xlink:to="loc_MalpracticeInsuranceCoverageFloor" xlink:type="arc"/>
+<link:presentationArc order="40" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeInsuranceLineItems" xlink:to="loc_MalpracticeInsuranceAnnualCoverageLimit" xlink:type="arc"/>
+<link:presentationArc order="50" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeInsuranceLineItems" xlink:to="loc_MalpracticeInsuranceMaximumCoveragePerIncident" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeInsuranceLineItems" xlink:to="loc_MalpracticeInsuranceDeductible1" xlink:type="arc"/>
+<link:presentationArc order="70" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeInsuranceLineItems" xlink:to="loc_MalpracticeInsuranceSelfInsuredStatus" xlink:type="arc"/>
+<link:presentationArc order="80" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeInsuranceLineItems" xlink:to="loc_MalpracticeInsuranceThirdPartyCoverage" xlink:type="arc"/>
+<link:presentationArc order="90" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeInsuranceLineItems" xlink:to="loc_MalpracticeInsuranceOwnershipInCaptiveInsurer" xlink:type="arc"/>
+<link:presentationArc order="10" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeInsuranceOwnershipInCaptiveInsurer" xlink:to="loc_MalpracticeInsuranceNameOfCaptiveInsurer" xlink:type="arc"/>
+<link:presentationArc order="20" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeInsuranceOwnershipInCaptiveInsurer" xlink:to="loc_MalpracticeInsurancePercentageOfOwnershipInCaptiveInsurer" xlink:type="arc"/>
+<link:presentationArc order="30" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeInsuranceOwnershipInCaptiveInsurer" xlink:to="loc_MalpracticeInsurancePercentageOfPremiumsPaidToCaptiveInsurer" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyAccrualAbstract" xlink:to="loc_MalpracticeLossContingencyAccrualUndiscountedAbstract" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyAccrualAbstract" xlink:to="loc_MalpracticeLossContingencyAccrualDiscountedAbstract" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyAccrualAbstract" xlink:to="loc_MalpracticeLossContingencyAccrualNotRecognized1" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyAccrualAbstract" xlink:to="loc_MalpracticeLossContingencyNumberOfClaims" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyAccrualAbstract" xlink:to="loc_MalpracticeLossContingencyLettersOfCreditAndSuretyBonds" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyAccrualDiscountedAbstract" xlink:to="loc_MalpracticeLossContingencyAccrualDiscountedCurrent" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyAccrualDiscountedAbstract" xlink:to="loc_MalpracticeLossContingencyAccrualDiscountedNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyAccrualDiscountedAbstract" xlink:to="loc_MalpracticeLossContingencyAccrualDiscounted" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyAccrualUndiscountedAbstract" xlink:to="loc_MalpracticeLossContingencyAccrualUndiscountedCurrent" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyAccrualUndiscountedAbstract" xlink:to="loc_MalpracticeLossContingencyAccrualUndiscountedNoncurrent" xlink:type="arc"/>
+<link:presentationArc order="30" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyAccrualUndiscountedAbstract" xlink:to="loc_MalpracticeLossContingencyAccrualUndiscounted" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyClaimsIncurredNetAbstract" xlink:to="loc_MalpracticeLossContingencyClaimsIncurredInPeriod" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyClaimsIncurredNetAbstract" xlink:to="loc_MalpracticeLossContingencyClaimsIncurredInPriorPeriods" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyClaimsIncurredNetAbstract" xlink:to="loc_MalpracticeLossContingencyReturnOfPremiums" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyClaimsIncurredNetAbstract" xlink:to="loc_MalpracticeLossContingencyInsuranceRecoveries" xlink:type="arc"/>
+<link:presentationArc order="50" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyClaimsIncurredNetAbstract" xlink:to="loc_MalpracticeLossContingencyClaimsIncurredNet" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyPeriodCostNetRecognizedInIncomeStatementAbstract" xlink:to="loc_MalpracticeLossContingencyDescription" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MalpracticeLossContingencyPeriodCostNetRecognizedInIncomeStatementAbstract" xlink:to="loc_MalpracticeLossContingencyClaimsIncurredNetAbstract" xlink:type="arc"/>
+<link:presentationArc order="10" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MovementInMalpracticeLossContingencyRollForward" xlink:to="loc_MalpracticeLossContingencyAccrualUndiscounted" xlink:type="arc"/>
+<link:presentationArc order="20" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MovementInMalpracticeLossContingencyRollForward" xlink:to="loc_MalpracticeLossContingencyPeriodCost" xlink:type="arc"/>
+<link:presentationArc order="30" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MovementInMalpracticeLossContingencyRollForward" xlink:to="loc_MalpracticeLossContingencyPremiumCosts" xlink:type="arc"/>
+<link:presentationArc order="40" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MovementInMalpracticeLossContingencyRollForward" xlink:to="loc_MalpracticeLossContingencyPeriodIncreaseDecrease" xlink:type="arc"/>
+<link:presentationArc order="50" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_MovementInMalpracticeLossContingencyRollForward" xlink:to="loc_MalpracticeLossContingencyAccrualUndiscounted_1" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RangeAxis" xlink:to="loc_RangeMember" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RangeMember" xlink:to="loc_MaximumMember" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_RangeMember" xlink:to="loc_MinimumMember" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ScheduleOfHealthCareTrustFundAbstract" xlink:to="loc_HealthCareTrustFundTable" xlink:type="arc"/>
+<link:presentationArc order="10" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ScheduleOfMalpracticeInsuranceTable" xlink:to="loc_ScheduleOfMalpracticeInsuranceTypeAndTierIdentifierAxis" xlink:type="arc"/>
+<link:presentationArc order="20" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ScheduleOfMalpracticeInsuranceTable" xlink:to="loc_CreditRatingMoodysAxis" xlink:type="arc"/>
+<link:presentationArc order="30" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ScheduleOfMalpracticeInsuranceTable" xlink:to="loc_CreditRatingStandardPoorsAxis" xlink:type="arc"/>
+<link:presentationArc order="40" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ScheduleOfMalpracticeInsuranceTable" xlink:to="loc_CreditRatingAMBestAxis" xlink:type="arc"/>
+<link:presentationArc order="50" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ScheduleOfMalpracticeInsuranceTable" xlink:to="loc_CreditRatingFitchAxis" xlink:type="arc"/>
+<link:presentationArc order="60" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ScheduleOfMalpracticeInsuranceTable" xlink:to="loc_RangeAxis" xlink:type="arc"/>
+<link:presentationArc order="70" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_ScheduleOfMalpracticeInsuranceTable" xlink:to="loc_MalpracticeInsuranceLineItems" xlink:type="arc"/>
+<link:presentationArc order="10" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_TypeAndTierIdentifierDomain" xlink:to="loc_ProfessionalMalpracticeLiabilityMember" xlink:type="arc"/>
+<link:presentationArc order="20" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_TypeAndTierIdentifierDomain" xlink:to="loc_DirectorsAndOfficersLiabilityInsuranceMember" xlink:type="arc"/>
+<link:presentationArc order="30" use="optional" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:from="loc_TypeAndTierIdentifierDomain" xlink:to="loc_GeneralLiabilityMember" xlink:type="arc"/>
+</link:presentationLink>
+</link:linkbase>

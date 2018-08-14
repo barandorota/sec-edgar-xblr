@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+(c) 2010-2018 Financial Accounting Foundation; (c) 2007-2010 XBRL US, Inc.  All Right Reserved.
+Notice: Authorized Uses are Set Forth at http://xbrl.fasb.org/terms/TaxonomiesTermsConditions.html
+  --><link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+<link:roleRef roleURI="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesScheduleOfSharesSubjectToMandatoryRedemptionTable" xlink:type="simple" xlink:href="../elts/us-roles-2018-01-31.xsd#OtherLiabilitiesScheduleOfSharesSubjectToMandatoryRedemptionTable"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+<link:roleRef roleURI="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesOptionIndexedToIssuersEquityTable" xlink:type="simple" xlink:href="../elts/us-roles-2018-01-31.xsd#OtherLiabilitiesOptionIndexedToIssuersEquityTable"/>
+<link:roleRef roleURI="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesForwardContractIndexedToIssuersEquityTable" xlink:type="simple" xlink:href="../elts/us-roles-2018-01-31.xsd#OtherLiabilitiesForwardContractIndexedToIssuersEquityTable"/>
+<link:roleRef roleURI="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesClassOfWarrantOrRightTable" xlink:type="simple" xlink:href="../elts/us-roles-2018-01-31.xsd#OtherLiabilitiesClassOfWarrantOrRightTable"/>
+<link:roleRef roleURI="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesAcceleratedShareRepurchasesTable" xlink:type="simple" xlink:href="../elts/us-roles-2018-01-31.xsd#OtherLiabilitiesAcceleratedShareRepurchasesTable"/>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesAcceleratedShareRepurchasesTable" xlink:type="extended">
+<link:loc xlink:label="loc_AcceleratedShareRepurchasesLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AcceleratedShareRepurchasesLineItems"/>
+<link:loc xlink:label="loc_AcceleratedShareRepurchasesTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AcceleratedShareRepurchasesTable"/>
+<link:definitionArc order="1.0" xbrldt:closed="true" xbrldt:contextElement="segment" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_AcceleratedShareRepurchasesLineItems" xlink:to="loc_AcceleratedShareRepurchasesTable" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesAcceleratedShareRepurchasesTable" xlink:type="extended">
+<link:loc xlink:label="loc_AcceleratedShareRepurchasesDateAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AcceleratedShareRepurchasesDateAxis"/>
+<link:loc xlink:label="loc_AcceleratedShareRepurchasesDateDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AcceleratedShareRepurchasesDateDomain"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="loc_AcceleratedShareRepurchasesDateAxis" xlink:to="loc_AcceleratedShareRepurchasesDateDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesAcceleratedShareRepurchasesTable" xlink:type="extended">
+<link:loc xlink:label="loc_AcceleratedShareRepurchasesDateAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AcceleratedShareRepurchasesDateAxis"/>
+<link:loc xlink:label="loc_AcceleratedShareRepurchasesDateDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AcceleratedShareRepurchasesDateDomain"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_AcceleratedShareRepurchasesDateAxis" xlink:to="loc_AcceleratedShareRepurchasesDateDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesAcceleratedShareRepurchasesTable" xlink:type="extended">
+<link:loc xlink:label="loc_AcceleratedShareRepurchasesLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AcceleratedShareRepurchasesLineItems"/>
+<link:loc xlink:label="loc_AcceleratedShareRepurchasesInitialPricePaidPerShare" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AcceleratedShareRepurchasesInitialPricePaidPerShare"/>
+<link:loc xlink:label="loc_AcceleratedShareRepurchasesFinalPricePaidPerShare" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AcceleratedShareRepurchasesFinalPricePaidPerShare"/>
+<link:loc xlink:label="loc_AcceleratedShareRepurchasesSettlementPaymentOrReceipt" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AcceleratedShareRepurchasesSettlementPaymentOrReceipt"/>
+<link:loc xlink:label="loc_AcceleratedShareRepurchasesAdjustmentToRecordedAmount" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AcceleratedShareRepurchasesAdjustmentToRecordedAmount"/>
+<link:loc xlink:label="loc_AcceleratedShareRepurchasesCashOrStockSettlement" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AcceleratedShareRepurchasesCashOrStockSettlement"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_AcceleratedShareRepurchasesLineItems" xlink:to="loc_AcceleratedShareRepurchasesInitialPricePaidPerShare" xlink:type="arc"/>
+<link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_AcceleratedShareRepurchasesLineItems" xlink:to="loc_AcceleratedShareRepurchasesFinalPricePaidPerShare" xlink:type="arc"/>
+<link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_AcceleratedShareRepurchasesLineItems" xlink:to="loc_AcceleratedShareRepurchasesSettlementPaymentOrReceipt" xlink:type="arc"/>
+<link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_AcceleratedShareRepurchasesLineItems" xlink:to="loc_AcceleratedShareRepurchasesAdjustmentToRecordedAmount" xlink:type="arc"/>
+<link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_AcceleratedShareRepurchasesLineItems" xlink:to="loc_AcceleratedShareRepurchasesCashOrStockSettlement" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesAcceleratedShareRepurchasesTable" xlink:type="extended">
+<link:loc xlink:label="loc_AcceleratedShareRepurchasesTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AcceleratedShareRepurchasesTable"/>
+<link:loc xlink:label="loc_AcceleratedShareRepurchasesDateAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_AcceleratedShareRepurchasesDateAxis"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_AcceleratedShareRepurchasesTable" xlink:to="loc_AcceleratedShareRepurchasesDateAxis" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesClassOfWarrantOrRightTable" xlink:type="extended">
+<link:loc xlink:label="loc_ClassOfWarrantOrRightLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ClassOfWarrantOrRightLineItems"/>
+<link:loc xlink:label="loc_ClassOfWarrantOrRightTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ClassOfWarrantOrRightTable"/>
+<link:definitionArc order="1.0" xbrldt:closed="true" xbrldt:contextElement="segment" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_ClassOfWarrantOrRightLineItems" xlink:to="loc_ClassOfWarrantOrRightTable" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesClassOfWarrantOrRightTable" xlink:type="extended">
+<link:loc xlink:label="loc_ClassOfWarrantOrRightAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ClassOfWarrantOrRightAxis"/>
+<link:loc xlink:label="loc_ClassOfWarrantOrRightDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ClassOfWarrantOrRightDomain"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="loc_ClassOfWarrantOrRightAxis" xlink:to="loc_ClassOfWarrantOrRightDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesClassOfWarrantOrRightTable" xlink:type="extended">
+<link:loc xlink:label="loc_ClassOfWarrantOrRightAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ClassOfWarrantOrRightAxis"/>
+<link:loc xlink:label="loc_ClassOfWarrantOrRightDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ClassOfWarrantOrRightDomain"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_ClassOfWarrantOrRightAxis" xlink:to="loc_ClassOfWarrantOrRightDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesClassOfWarrantOrRightTable" xlink:type="extended">
+<link:loc xlink:label="loc_ClassOfWarrantOrRightLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ClassOfWarrantOrRightLineItems"/>
+<link:loc xlink:label="loc_ClassOfWarrantOrRightTitleOfSecurityWarrantsOrRightsOutstanding" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ClassOfWarrantOrRightTitleOfSecurityWarrantsOrRightsOutstanding"/>
+<link:loc xlink:label="loc_ClassOfWarrantOrRighstDateFromWhichWarrantsOrRightsExercisable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ClassOfWarrantOrRighstDateFromWhichWarrantsOrRightsExercisable"/>
+<link:loc xlink:label="loc_ClassOfWarrantOrRightNumberOfSecuritiesCalledByWarrantsOrRights" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ClassOfWarrantOrRightNumberOfSecuritiesCalledByWarrantsOrRights"/>
+<link:loc xlink:label="loc_ClassOfWarrantOrRightNumberOfSecuritiesCalledByEachWarrantOrRight" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ClassOfWarrantOrRightNumberOfSecuritiesCalledByEachWarrantOrRight"/>
+<link:loc xlink:label="loc_ClassOfWarrantOrRightExercisePriceOfWarrantsOrRights1" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ClassOfWarrantOrRightExercisePriceOfWarrantsOrRights1"/>
+<link:loc xlink:label="loc_ClassOfWarrantOrRightExpenseOrRevenueRecognized" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ClassOfWarrantOrRightExpenseOrRevenueRecognized"/>
+<link:loc xlink:label="loc_ClassOfWarrantOrRightReasonForIssuingToNonemployees" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ClassOfWarrantOrRightReasonForIssuingToNonemployees"/>
+<link:loc xlink:label="loc_ClassOfWarrantOrRightUnissued" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ClassOfWarrantOrRightUnissued"/>
+<link:loc xlink:label="loc_ClassOfWarrantOrRightOutstanding" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ClassOfWarrantOrRightOutstanding"/>
+<link:loc xlink:label="loc_WarrantsAndRightsOutstanding" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_WarrantsAndRightsOutstanding"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ClassOfWarrantOrRightLineItems" xlink:to="loc_ClassOfWarrantOrRightTitleOfSecurityWarrantsOrRightsOutstanding" xlink:type="arc"/>
+<link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ClassOfWarrantOrRightLineItems" xlink:to="loc_ClassOfWarrantOrRighstDateFromWhichWarrantsOrRightsExercisable" xlink:type="arc"/>
+<link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ClassOfWarrantOrRightLineItems" xlink:to="loc_ClassOfWarrantOrRightNumberOfSecuritiesCalledByWarrantsOrRights" xlink:type="arc"/>
+<link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ClassOfWarrantOrRightLineItems" xlink:to="loc_ClassOfWarrantOrRightNumberOfSecuritiesCalledByEachWarrantOrRight" xlink:type="arc"/>
+<link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ClassOfWarrantOrRightLineItems" xlink:to="loc_ClassOfWarrantOrRightExercisePriceOfWarrantsOrRights1" xlink:type="arc"/>
+<link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ClassOfWarrantOrRightLineItems" xlink:to="loc_ClassOfWarrantOrRightExpenseOrRevenueRecognized" xlink:type="arc"/>
+<link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ClassOfWarrantOrRightLineItems" xlink:to="loc_ClassOfWarrantOrRightReasonForIssuingToNonemployees" xlink:type="arc"/>
+<link:definitionArc order="8.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ClassOfWarrantOrRightLineItems" xlink:to="loc_ClassOfWarrantOrRightUnissued" xlink:type="arc"/>
+<link:definitionArc order="9.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ClassOfWarrantOrRightLineItems" xlink:to="loc_ClassOfWarrantOrRightOutstanding" xlink:type="arc"/>
+<link:definitionArc order="10.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ClassOfWarrantOrRightLineItems" xlink:to="loc_WarrantsAndRightsOutstanding" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesClassOfWarrantOrRightTable" xlink:type="extended">
+<link:loc xlink:label="loc_ClassOfWarrantOrRightTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ClassOfWarrantOrRightTable"/>
+<link:loc xlink:label="loc_ClassOfWarrantOrRightAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ClassOfWarrantOrRightAxis"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_ClassOfWarrantOrRightTable" xlink:to="loc_ClassOfWarrantOrRightAxis" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesForwardContractIndexedToIssuersEquityTable" xlink:type="extended">
+<link:loc xlink:label="loc_ForwardContractIndexedToIssuersEquityLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ForwardContractIndexedToIssuersEquityLineItems"/>
+<link:loc xlink:label="loc_ForwardContractIndexedToIssuersEquityTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ForwardContractIndexedToIssuersEquityTable"/>
+<link:definitionArc order="1.0" xbrldt:closed="true" xbrldt:contextElement="segment" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_ForwardContractIndexedToIssuersEquityLineItems" xlink:to="loc_ForwardContractIndexedToIssuersEquityTable" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesForwardContractIndexedToIssuersEquityTable" xlink:type="extended">
+<link:loc xlink:label="loc_ForwardContractIndexedToIssuersEquityTypeAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ForwardContractIndexedToIssuersEquityTypeAxis"/>
+<link:loc xlink:label="loc_ForwardContractIndexedToIssuersEquityTypeDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ForwardContractIndexedToIssuersEquityTypeDomain"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="loc_ForwardContractIndexedToIssuersEquityTypeAxis" xlink:to="loc_ForwardContractIndexedToIssuersEquityTypeDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesForwardContractIndexedToIssuersEquityTable" xlink:type="extended">
+<link:loc xlink:label="loc_ForwardContractIndexedToIssuersEquityTypeAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ForwardContractIndexedToIssuersEquityTypeAxis"/>
+<link:loc xlink:label="loc_ForwardContractIndexedToIssuersEquityTypeDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ForwardContractIndexedToIssuersEquityTypeDomain"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_ForwardContractIndexedToIssuersEquityTypeAxis" xlink:to="loc_ForwardContractIndexedToIssuersEquityTypeDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesForwardContractIndexedToIssuersEquityTable" xlink:type="extended">
+<link:loc xlink:label="loc_ForwardContractIndexedToIssuersEquityLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ForwardContractIndexedToIssuersEquityLineItems"/>
+<link:loc xlink:label="loc_ForwardContractIndexedToIssuersEquityForwardRate" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ForwardContractIndexedToIssuersEquityForwardRate"/>
+<link:loc xlink:label="loc_ForwardContractIndexedToIssuersEquityShares" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ForwardContractIndexedToIssuersEquityShares"/>
+<link:loc xlink:label="loc_ForwardContractIndexedToIssuersEquityIndexedShares" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ForwardContractIndexedToIssuersEquityIndexedShares"/>
+<link:loc xlink:label="loc_ForwardContractIndexedToIssuersEquitySettlementDateOrDates" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ForwardContractIndexedToIssuersEquitySettlementDateOrDates"/>
+<link:loc xlink:label="loc_ForwardContractIndexedToIssuersEquityClassification" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ForwardContractIndexedToIssuersEquityClassification"/>
+<link:loc xlink:label="loc_ForwardContractIndexedToIssuersEquitySettlementAlternatives" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ForwardContractIndexedToIssuersEquitySettlementAlternatives"/>
+<link:loc xlink:label="loc_ForwardContractIndexedToIssuersEquitySettlementAlternativesCashAtFairValue" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ForwardContractIndexedToIssuersEquitySettlementAlternativesCashAtFairValue"/>
+<link:loc xlink:label="loc_ForwardContractIndexedToIssuersEquitySettlementAlternativesSharesAtFairValue" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ForwardContractIndexedToIssuersEquitySettlementAlternativesSharesAtFairValue"/>
+<link:loc xlink:label="loc_ForwardContractIndexedToIssuersEquityContractReclassification" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ForwardContractIndexedToIssuersEquityContractReclassification"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ForwardContractIndexedToIssuersEquityLineItems" xlink:to="loc_ForwardContractIndexedToIssuersEquityForwardRate" xlink:type="arc"/>
+<link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ForwardContractIndexedToIssuersEquityLineItems" xlink:to="loc_ForwardContractIndexedToIssuersEquityShares" xlink:type="arc"/>
+<link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ForwardContractIndexedToIssuersEquityLineItems" xlink:to="loc_ForwardContractIndexedToIssuersEquityIndexedShares" xlink:type="arc"/>
+<link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ForwardContractIndexedToIssuersEquityLineItems" xlink:to="loc_ForwardContractIndexedToIssuersEquitySettlementDateOrDates" xlink:type="arc"/>
+<link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ForwardContractIndexedToIssuersEquityLineItems" xlink:to="loc_ForwardContractIndexedToIssuersEquityClassification" xlink:type="arc"/>
+<link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ForwardContractIndexedToIssuersEquityLineItems" xlink:to="loc_ForwardContractIndexedToIssuersEquitySettlementAlternatives" xlink:type="arc"/>
+<link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ForwardContractIndexedToIssuersEquityLineItems" xlink:to="loc_ForwardContractIndexedToIssuersEquitySettlementAlternativesCashAtFairValue" xlink:type="arc"/>
+<link:definitionArc order="8.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ForwardContractIndexedToIssuersEquityLineItems" xlink:to="loc_ForwardContractIndexedToIssuersEquitySettlementAlternativesSharesAtFairValue" xlink:type="arc"/>
+<link:definitionArc order="9.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_ForwardContractIndexedToIssuersEquityLineItems" xlink:to="loc_ForwardContractIndexedToIssuersEquityContractReclassification" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesForwardContractIndexedToIssuersEquityTable" xlink:type="extended">
+<link:loc xlink:label="loc_ForwardContractIndexedToIssuersEquityTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ForwardContractIndexedToIssuersEquityTable"/>
+<link:loc xlink:label="loc_ForwardContractIndexedToIssuersEquityTypeAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ForwardContractIndexedToIssuersEquityTypeAxis"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_ForwardContractIndexedToIssuersEquityTable" xlink:to="loc_ForwardContractIndexedToIssuersEquityTypeAxis" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesOptionIndexedToIssuersEquityTable" xlink:type="extended">
+<link:loc xlink:label="loc_OptionIndexedToIssuersEquityLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OptionIndexedToIssuersEquityLineItems"/>
+<link:loc xlink:label="loc_OptionIndexedToIssuersEquityTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OptionIndexedToIssuersEquityTable"/>
+<link:definitionArc order="1.0" xbrldt:closed="true" xbrldt:contextElement="segment" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_OptionIndexedToIssuersEquityLineItems" xlink:to="loc_OptionIndexedToIssuersEquityTable" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesOptionIndexedToIssuersEquityTable" xlink:type="extended">
+<link:loc xlink:label="loc_OptionIndexedToIssuersEquityTypeAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OptionIndexedToIssuersEquityTypeAxis"/>
+<link:loc xlink:label="loc_OptionIndexedToIssuersEquityTypeDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OptionIndexedToIssuersEquityTypeDomain"/>
+<link:loc xlink:label="loc_PositionAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PositionAxis"/>
+<link:loc xlink:label="loc_PositionDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PositionDomain"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="loc_OptionIndexedToIssuersEquityTypeAxis" xlink:to="loc_OptionIndexedToIssuersEquityTypeDomain" xlink:type="arc"/>
+<link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="loc_PositionAxis" xlink:to="loc_PositionDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesOptionIndexedToIssuersEquityTable" xlink:type="extended">
+<link:loc xlink:label="loc_OptionIndexedToIssuersEquityTypeAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OptionIndexedToIssuersEquityTypeAxis"/>
+<link:loc xlink:label="loc_OptionIndexedToIssuersEquityTypeDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OptionIndexedToIssuersEquityTypeDomain"/>
+<link:loc xlink:label="loc_PositionAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PositionAxis"/>
+<link:loc xlink:label="loc_PositionDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PositionDomain"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_OptionIndexedToIssuersEquityTypeAxis" xlink:to="loc_OptionIndexedToIssuersEquityTypeDomain" xlink:type="arc"/>
+<link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_PositionAxis" xlink:to="loc_PositionDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesOptionIndexedToIssuersEquityTable" xlink:type="extended">
+<link:loc xlink:label="loc_OptionIndexedToIssuersEquityLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OptionIndexedToIssuersEquityLineItems"/>
+<link:loc xlink:label="loc_OptionIndexedToIssuersEquityStrikePrice1" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OptionIndexedToIssuersEquityStrikePrice1"/>
+<link:loc xlink:label="loc_OptionIndexedToIssuersEquityShares" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OptionIndexedToIssuersEquityShares"/>
+<link:loc xlink:label="loc_OptionIndexedToIssuersEquityIndexedShares" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OptionIndexedToIssuersEquityIndexedShares"/>
+<link:loc xlink:label="loc_OptionIndexedToIssuersEquitySettlementDateOrDates" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OptionIndexedToIssuersEquitySettlementDateOrDates"/>
+<link:loc xlink:label="loc_OptionIndexedToIssuersEquityClassification" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OptionIndexedToIssuersEquityClassification"/>
+<link:loc xlink:label="loc_OptionIndexedToIssuersEquitySettlementAlternatives" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OptionIndexedToIssuersEquitySettlementAlternatives"/>
+<link:loc xlink:label="loc_OptionIndexedToIssuersEquitySettlementAlternativesCashAtFairValue" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OptionIndexedToIssuersEquitySettlementAlternativesCashAtFairValue"/>
+<link:loc xlink:label="loc_OptionIndexedToIssuersEquitySettlementAlternativesSharesAtFairValue" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OptionIndexedToIssuersEquitySettlementAlternativesSharesAtFairValue"/>
+<link:loc xlink:label="loc_OptionIndexedToIssuersEquityContractReclassification" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OptionIndexedToIssuersEquityContractReclassification"/>
+<link:loc xlink:label="loc_OptionIndexedToIssuersEquityRedeemableStockRedemptionRequirementsAmount1" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OptionIndexedToIssuersEquityRedeemableStockRedemptionRequirementsAmount1"/>
+<link:loc xlink:label="loc_OptionIndexedToIssuersEquityTypeDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OptionIndexedToIssuersEquityTypeDomain"/>
+<link:loc xlink:label="loc_CallOptionMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CallOptionMember"/>
+<link:loc xlink:label="loc_PutOptionMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PutOptionMember"/>
+<link:loc xlink:label="loc_ExchangeTradedOptionsMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ExchangeTradedOptionsMember"/>
+<link:loc xlink:label="loc_EmployeeStockOptionMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_EmployeeStockOptionMember"/>
+<link:loc xlink:label="loc_PositionDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PositionDomain"/>
+<link:loc xlink:label="loc_LongMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_LongMember"/>
+<link:loc xlink:label="loc_ShortMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ShortMember"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_OptionIndexedToIssuersEquityLineItems" xlink:to="loc_OptionIndexedToIssuersEquityStrikePrice1" xlink:type="arc"/>
+<link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_OptionIndexedToIssuersEquityLineItems" xlink:to="loc_OptionIndexedToIssuersEquityShares" xlink:type="arc"/>
+<link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_OptionIndexedToIssuersEquityLineItems" xlink:to="loc_OptionIndexedToIssuersEquityIndexedShares" xlink:type="arc"/>
+<link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_OptionIndexedToIssuersEquityLineItems" xlink:to="loc_OptionIndexedToIssuersEquitySettlementDateOrDates" xlink:type="arc"/>
+<link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_OptionIndexedToIssuersEquityLineItems" xlink:to="loc_OptionIndexedToIssuersEquityClassification" xlink:type="arc"/>
+<link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_OptionIndexedToIssuersEquityLineItems" xlink:to="loc_OptionIndexedToIssuersEquitySettlementAlternatives" xlink:type="arc"/>
+<link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_OptionIndexedToIssuersEquityLineItems" xlink:to="loc_OptionIndexedToIssuersEquitySettlementAlternativesCashAtFairValue" xlink:type="arc"/>
+<link:definitionArc order="8.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_OptionIndexedToIssuersEquityLineItems" xlink:to="loc_OptionIndexedToIssuersEquitySettlementAlternativesSharesAtFairValue" xlink:type="arc"/>
+<link:definitionArc order="9.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_OptionIndexedToIssuersEquityLineItems" xlink:to="loc_OptionIndexedToIssuersEquityContractReclassification" xlink:type="arc"/>
+<link:definitionArc order="10.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_OptionIndexedToIssuersEquityLineItems" xlink:to="loc_OptionIndexedToIssuersEquityRedeemableStockRedemptionRequirementsAmount1" xlink:type="arc"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_OptionIndexedToIssuersEquityTypeDomain" xlink:to="loc_CallOptionMember" xlink:type="arc"/>
+<link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_OptionIndexedToIssuersEquityTypeDomain" xlink:to="loc_PutOptionMember" xlink:type="arc"/>
+<link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_OptionIndexedToIssuersEquityTypeDomain" xlink:to="loc_ExchangeTradedOptionsMember" xlink:type="arc"/>
+<link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_OptionIndexedToIssuersEquityTypeDomain" xlink:to="loc_EmployeeStockOptionMember" xlink:type="arc"/>
+<link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_PositionDomain" xlink:to="loc_LongMember" xlink:type="arc"/>
+<link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_PositionDomain" xlink:to="loc_ShortMember" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesOptionIndexedToIssuersEquityTable" xlink:type="extended">
+<link:loc xlink:label="loc_OptionIndexedToIssuersEquityTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OptionIndexedToIssuersEquityTable"/>
+<link:loc xlink:label="loc_OptionIndexedToIssuersEquityTypeAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_OptionIndexedToIssuersEquityTypeAxis"/>
+<link:loc xlink:label="loc_PositionAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_PositionAxis"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_OptionIndexedToIssuersEquityTable" xlink:to="loc_OptionIndexedToIssuersEquityTypeAxis" xlink:type="arc"/>
+<link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_OptionIndexedToIssuersEquityTable" xlink:to="loc_PositionAxis" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesScheduleOfSharesSubjectToMandatoryRedemptionTable" xlink:type="extended">
+<link:loc xlink:label="loc_SharesSubjectToMandatoryRedemptionBySettlementTermsLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SharesSubjectToMandatoryRedemptionBySettlementTermsLineItems"/>
+<link:loc xlink:label="loc_ScheduleOfSharesSubjectToMandatoryRedemptionTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ScheduleOfSharesSubjectToMandatoryRedemptionTable"/>
+<link:definitionArc order="1.0" xbrldt:closed="true" xbrldt:contextElement="segment" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_SharesSubjectToMandatoryRedemptionBySettlementTermsLineItems" xlink:to="loc_ScheduleOfSharesSubjectToMandatoryRedemptionTable" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesScheduleOfSharesSubjectToMandatoryRedemptionTable" xlink:type="extended">
+<link:loc xlink:label="loc_ScheduleOfSharesSubjectToMandatoryRedemptionBySettlementTermsAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ScheduleOfSharesSubjectToMandatoryRedemptionBySettlementTermsAxis"/>
+<link:loc xlink:label="loc_SharesSubjectToMandatoryRedemptionFinancialInstrumentDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SharesSubjectToMandatoryRedemptionFinancialInstrumentDomain"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="loc_ScheduleOfSharesSubjectToMandatoryRedemptionBySettlementTermsAxis" xlink:to="loc_SharesSubjectToMandatoryRedemptionFinancialInstrumentDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesScheduleOfSharesSubjectToMandatoryRedemptionTable" xlink:type="extended">
+<link:loc xlink:label="loc_ScheduleOfSharesSubjectToMandatoryRedemptionBySettlementTermsAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ScheduleOfSharesSubjectToMandatoryRedemptionBySettlementTermsAxis"/>
+<link:loc xlink:label="loc_SharesSubjectToMandatoryRedemptionFinancialInstrumentDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SharesSubjectToMandatoryRedemptionFinancialInstrumentDomain"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_ScheduleOfSharesSubjectToMandatoryRedemptionBySettlementTermsAxis" xlink:to="loc_SharesSubjectToMandatoryRedemptionFinancialInstrumentDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesScheduleOfSharesSubjectToMandatoryRedemptionTable" xlink:type="extended">
+<link:loc xlink:label="loc_SharesSubjectToMandatoryRedemptionBySettlementTermsLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SharesSubjectToMandatoryRedemptionBySettlementTermsLineItems"/>
+<link:loc xlink:label="loc_SharesSubjectToMandatoryRedemptionSettlementTermsDescription" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SharesSubjectToMandatoryRedemptionSettlementTermsDescription"/>
+<link:loc xlink:label="loc_SharesSubjectToMandatoryRedemptionSettlementTermsAmountAbstract" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SharesSubjectToMandatoryRedemptionSettlementTermsAmountAbstract"/>
+<link:loc xlink:label="loc_SharesSubjectToMandatoryRedemptionSettlementTermsNumberOfShares" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SharesSubjectToMandatoryRedemptionSettlementTermsNumberOfShares"/>
+<link:loc xlink:label="loc_SharesSubjectToMandatoryRedemptionSettlementTermsFairValueOfShares" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SharesSubjectToMandatoryRedemptionSettlementTermsFairValueOfShares"/>
+<link:loc xlink:label="loc_SharesSubjectToMandatoryRedemptionSettlementTermsImpactOfChangesInFairValueOfSharesOnAmount" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SharesSubjectToMandatoryRedemptionSettlementTermsImpactOfChangesInFairValueOfSharesOnAmount"/>
+<link:loc xlink:label="loc_FinancialInstrumentsSubjectToMandatoryRedemptionSettlementTermsImpactOfChangesInFairValueOfSharesOnNumberOfShares" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_FinancialInstrumentsSubjectToMandatoryRedemptionSettlementTermsImpactOfChangesInFairValueOfSharesOnNumberOfShares"/>
+<link:loc xlink:label="loc_SharesSubjectToMandatoryRedemptionSettlementTermsMaximumAmount" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SharesSubjectToMandatoryRedemptionSettlementTermsMaximumAmount"/>
+<link:loc xlink:label="loc_SharesSubjectToMandatoryRedemptionSettlementTermsMaximumNumberOfShares" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SharesSubjectToMandatoryRedemptionSettlementTermsMaximumNumberOfShares"/>
+<link:loc xlink:label="loc_SharesSubjectToMandatoryRedemptionSettlementTermsContractLimit" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SharesSubjectToMandatoryRedemptionSettlementTermsContractLimit"/>
+<link:loc xlink:label="loc_SharesSubjectToMandatoryRedemptionSettlementTermsNumberOfSharesIndexed" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SharesSubjectToMandatoryRedemptionSettlementTermsNumberOfSharesIndexed"/>
+<link:loc xlink:label="loc_FinancialInstrumentsSubjectToMandatoryRedemptionSettlementTermsForwardPriceOrOptionStrikePriceSharesSettlementDate" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_FinancialInstrumentsSubjectToMandatoryRedemptionSettlementTermsForwardPriceOrOptionStrikePriceSharesSettlementDate"/>
+<link:loc xlink:label="loc_SharesSubjectToMandatoryRedemptionSettlementTermsReasonForUncertainRedemption" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SharesSubjectToMandatoryRedemptionSettlementTermsReasonForUncertainRedemption"/>
+<link:loc xlink:label="loc_SharesSubjectToMandatoryRedemptionSettlementTermsExcessOfLiabilitiesOverAssets" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SharesSubjectToMandatoryRedemptionSettlementTermsExcessOfLiabilitiesOverAssets"/>
+<link:loc xlink:label="loc_SharesSubjectToMandatoryRedemptionSettlementTermsExcessOfAssetsOverLiabilities" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SharesSubjectToMandatoryRedemptionSettlementTermsExcessOfAssetsOverLiabilities"/>
+<link:loc xlink:label="loc_SharesSubjectToMandatoryRedemptionFinancialInstrumentDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SharesSubjectToMandatoryRedemptionFinancialInstrumentDomain"/>
+<link:loc xlink:label="loc_SecuritiesSubjectToMandatoryRedemptionMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SecuritiesSubjectToMandatoryRedemptionMember"/>
+<link:loc xlink:label="loc_SubordinatedDebenturesSubjectToMandatoryRedemptionMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SubordinatedDebenturesSubjectToMandatoryRedemptionMember"/>
+<link:loc xlink:label="loc_WarrantsAndRightsSubjectToMandatoryRedemptionMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_WarrantsAndRightsSubjectToMandatoryRedemptionMember"/>
+<link:loc xlink:label="loc_TrustPreferredSecuritiesSubjectToMandatoryRedemptionMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_TrustPreferredSecuritiesSubjectToMandatoryRedemptionMember"/>
+<link:loc xlink:label="loc_SharesSubjectToMandatoryRedemptionSettlementTermsAmountCurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SharesSubjectToMandatoryRedemptionSettlementTermsAmountCurrent"/>
+<link:loc xlink:label="loc_SharesSubjectToMandatoryRedemptionSettlementTermsAmountNoncurrent" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SharesSubjectToMandatoryRedemptionSettlementTermsAmountNoncurrent"/>
+<link:loc xlink:label="loc_SharesSubjectToMandatoryRedemptionSettlementTermsAmount" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_SharesSubjectToMandatoryRedemptionSettlementTermsAmount"/>
+<link:loc xlink:label="loc_MandatorilyRedeemablePreferredStockMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_MandatorilyRedeemablePreferredStockMember"/>
+<link:loc xlink:label="loc_ConvertiblePreferredStockSubjectToMandatoryRedemptionMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ConvertiblePreferredStockSubjectToMandatoryRedemptionMember"/>
+<link:loc xlink:label="loc_CumulativePreferredStockSubjectToMandatoryRedemptionMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CumulativePreferredStockSubjectToMandatoryRedemptionMember"/>
+<link:loc xlink:label="loc_NoncumulativePreferredStockSubjectToMandatoryRedemptionMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_NoncumulativePreferredStockSubjectToMandatoryRedemptionMember"/>
+<link:loc xlink:label="loc_ParticipatingPreferredStockSubjectToMandatoryRedemptionMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ParticipatingPreferredStockSubjectToMandatoryRedemptionMember"/>
+<link:loc xlink:label="loc_CommonStockSubjectToMandatoryRedemptionMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_CommonStockSubjectToMandatoryRedemptionMember"/>
+<link:loc xlink:label="loc_DebenturesSubjectToMandatoryRedemptionMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DebenturesSubjectToMandatoryRedemptionMember"/>
+<link:loc xlink:label="loc_DerivativesSubjectToMandatoryRedemptionMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DerivativesSubjectToMandatoryRedemptionMember"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SharesSubjectToMandatoryRedemptionBySettlementTermsLineItems" xlink:to="loc_SharesSubjectToMandatoryRedemptionSettlementTermsDescription" xlink:type="arc"/>
+<link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SharesSubjectToMandatoryRedemptionBySettlementTermsLineItems" xlink:to="loc_SharesSubjectToMandatoryRedemptionSettlementTermsAmountAbstract" xlink:type="arc"/>
+<link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SharesSubjectToMandatoryRedemptionBySettlementTermsLineItems" xlink:to="loc_SharesSubjectToMandatoryRedemptionSettlementTermsNumberOfShares" xlink:type="arc"/>
+<link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SharesSubjectToMandatoryRedemptionBySettlementTermsLineItems" xlink:to="loc_SharesSubjectToMandatoryRedemptionSettlementTermsFairValueOfShares" xlink:type="arc"/>
+<link:definitionArc order="8.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SharesSubjectToMandatoryRedemptionBySettlementTermsLineItems" xlink:to="loc_SharesSubjectToMandatoryRedemptionSettlementTermsImpactOfChangesInFairValueOfSharesOnAmount" xlink:type="arc"/>
+<link:definitionArc order="9.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SharesSubjectToMandatoryRedemptionBySettlementTermsLineItems" xlink:to="loc_FinancialInstrumentsSubjectToMandatoryRedemptionSettlementTermsImpactOfChangesInFairValueOfSharesOnNumberOfShares" xlink:type="arc"/>
+<link:definitionArc order="10.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SharesSubjectToMandatoryRedemptionBySettlementTermsLineItems" xlink:to="loc_SharesSubjectToMandatoryRedemptionSettlementTermsMaximumAmount" xlink:type="arc"/>
+<link:definitionArc order="11.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SharesSubjectToMandatoryRedemptionBySettlementTermsLineItems" xlink:to="loc_SharesSubjectToMandatoryRedemptionSettlementTermsMaximumNumberOfShares" xlink:type="arc"/>
+<link:definitionArc order="12.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SharesSubjectToMandatoryRedemptionBySettlementTermsLineItems" xlink:to="loc_SharesSubjectToMandatoryRedemptionSettlementTermsContractLimit" xlink:type="arc"/>
+<link:definitionArc order="13.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SharesSubjectToMandatoryRedemptionBySettlementTermsLineItems" xlink:to="loc_SharesSubjectToMandatoryRedemptionSettlementTermsNumberOfSharesIndexed" xlink:type="arc"/>
+<link:definitionArc order="14.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SharesSubjectToMandatoryRedemptionBySettlementTermsLineItems" xlink:to="loc_FinancialInstrumentsSubjectToMandatoryRedemptionSettlementTermsForwardPriceOrOptionStrikePriceSharesSettlementDate" xlink:type="arc"/>
+<link:definitionArc order="15.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SharesSubjectToMandatoryRedemptionBySettlementTermsLineItems" xlink:to="loc_SharesSubjectToMandatoryRedemptionSettlementTermsReasonForUncertainRedemption" xlink:type="arc"/>
+<link:definitionArc order="16.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SharesSubjectToMandatoryRedemptionBySettlementTermsLineItems" xlink:to="loc_SharesSubjectToMandatoryRedemptionSettlementTermsExcessOfLiabilitiesOverAssets" xlink:type="arc"/>
+<link:definitionArc order="17.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SharesSubjectToMandatoryRedemptionBySettlementTermsLineItems" xlink:to="loc_SharesSubjectToMandatoryRedemptionSettlementTermsExcessOfAssetsOverLiabilities" xlink:type="arc"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SharesSubjectToMandatoryRedemptionFinancialInstrumentDomain" xlink:to="loc_SecuritiesSubjectToMandatoryRedemptionMember" xlink:type="arc"/>
+<link:definitionArc order="10.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SharesSubjectToMandatoryRedemptionFinancialInstrumentDomain" xlink:to="loc_SubordinatedDebenturesSubjectToMandatoryRedemptionMember" xlink:type="arc"/>
+<link:definitionArc order="11.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SharesSubjectToMandatoryRedemptionFinancialInstrumentDomain" xlink:to="loc_WarrantsAndRightsSubjectToMandatoryRedemptionMember" xlink:type="arc"/>
+<link:definitionArc order="12.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SharesSubjectToMandatoryRedemptionFinancialInstrumentDomain" xlink:to="loc_TrustPreferredSecuritiesSubjectToMandatoryRedemptionMember" xlink:type="arc"/>
+<link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SharesSubjectToMandatoryRedemptionSettlementTermsAmountAbstract" xlink:to="loc_SharesSubjectToMandatoryRedemptionSettlementTermsAmountCurrent" xlink:type="arc"/>
+<link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SharesSubjectToMandatoryRedemptionSettlementTermsAmountAbstract" xlink:to="loc_SharesSubjectToMandatoryRedemptionSettlementTermsAmountNoncurrent" xlink:type="arc"/>
+<link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SharesSubjectToMandatoryRedemptionSettlementTermsAmountAbstract" xlink:to="loc_SharesSubjectToMandatoryRedemptionSettlementTermsAmount" xlink:type="arc"/>
+<link:definitionArc order="6.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_MandatorilyRedeemablePreferredStockMember" xlink:to="loc_ConvertiblePreferredStockSubjectToMandatoryRedemptionMember" xlink:type="arc"/>
+<link:definitionArc order="7.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_MandatorilyRedeemablePreferredStockMember" xlink:to="loc_CumulativePreferredStockSubjectToMandatoryRedemptionMember" xlink:type="arc"/>
+<link:definitionArc order="8.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_MandatorilyRedeemablePreferredStockMember" xlink:to="loc_NoncumulativePreferredStockSubjectToMandatoryRedemptionMember" xlink:type="arc"/>
+<link:definitionArc order="9.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_MandatorilyRedeemablePreferredStockMember" xlink:to="loc_ParticipatingPreferredStockSubjectToMandatoryRedemptionMember" xlink:type="arc"/>
+<link:definitionArc order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SecuritiesSubjectToMandatoryRedemptionMember" xlink:to="loc_CommonStockSubjectToMandatoryRedemptionMember" xlink:type="arc"/>
+<link:definitionArc order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SecuritiesSubjectToMandatoryRedemptionMember" xlink:to="loc_DebenturesSubjectToMandatoryRedemptionMember" xlink:type="arc"/>
+<link:definitionArc order="4.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SecuritiesSubjectToMandatoryRedemptionMember" xlink:to="loc_DerivativesSubjectToMandatoryRedemptionMember" xlink:type="arc"/>
+<link:definitionArc order="5.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_SecuritiesSubjectToMandatoryRedemptionMember" xlink:to="loc_MandatorilyRedeemablePreferredStockMember" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/OtherLiabilitiesScheduleOfSharesSubjectToMandatoryRedemptionTable" xlink:type="extended">
+<link:loc xlink:label="loc_ScheduleOfSharesSubjectToMandatoryRedemptionTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ScheduleOfSharesSubjectToMandatoryRedemptionTable"/>
+<link:loc xlink:label="loc_ScheduleOfSharesSubjectToMandatoryRedemptionBySettlementTermsAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ScheduleOfSharesSubjectToMandatoryRedemptionBySettlementTermsAxis"/>
+<link:definitionArc order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_ScheduleOfSharesSubjectToMandatoryRedemptionTable" xlink:to="loc_ScheduleOfSharesSubjectToMandatoryRedemptionBySettlementTermsAxis" xlink:type="arc"/>
+</link:definitionLink>
+</link:linkbase>

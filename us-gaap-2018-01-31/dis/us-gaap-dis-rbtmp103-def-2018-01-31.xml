@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+(c) 2010-2018 Financial Accounting Foundation; (c) 2007-2010 XBRL US, Inc.  All Right Reserved.
+Notice: Authorized Uses are Set Forth at http://xbrl.fasb.org/terms/TaxonomiesTermsConditions.html
+  -->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+<link:roleRef roleURI="http://fasb.org/us-gaap/role/disclosure/RetirementBenefitsTmp103DefinedContributionPlanTable" xlink:type="simple" xlink:href="../elts/us-roles-2018-01-31.xsd#RetirementBenefitsTmp103DefinedContributionPlanTable"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/RetirementBenefitsTmp103DefinedContributionPlanTable" xlink:type="extended">
+<link:loc xlink:label="loc_DefinedContributionPlanDisclosureLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DefinedContributionPlanDisclosureLineItems"/>
+<link:loc xlink:label="loc_DefinedContributionPlanTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DefinedContributionPlanTable"/>
+<link:definitionArc priority="10" order="1.0" xbrldt:closed="true" xbrldt:contextElement="segment" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="loc_DefinedContributionPlanDisclosureLineItems" xlink:to="loc_DefinedContributionPlanTable" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/RetirementBenefitsTmp103DefinedContributionPlanTable" xlink:type="extended">
+<link:loc xlink:label="loc_RetirementPlanSponsorLocationAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RetirementPlanSponsorLocationAxis"/>
+<link:loc xlink:label="loc_RetirementPlanSponsorLocationDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RetirementPlanSponsorLocationDomain"/>
+<link:definitionArc priority="10" order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="loc_RetirementPlanSponsorLocationAxis" xlink:to="loc_RetirementPlanSponsorLocationDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/RetirementBenefitsTmp103DefinedContributionPlanTable" xlink:type="extended">
+<link:loc xlink:label="loc_RetirementPlanSponsorLocationAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RetirementPlanSponsorLocationAxis"/>
+<link:loc xlink:label="loc_RetirementPlanSponsorLocationDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RetirementPlanSponsorLocationDomain"/>
+<link:definitionArc priority="10" order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="loc_RetirementPlanSponsorLocationAxis" xlink:to="loc_RetirementPlanSponsorLocationDomain" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/RetirementBenefitsTmp103DefinedContributionPlanTable" xlink:type="extended">
+<link:loc xlink:label="loc_DefinedContributionPlanDisclosureLineItems" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DefinedContributionPlanDisclosureLineItems"/>
+<link:loc xlink:label="loc_DefinedContributionPlanCostRecognized" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DefinedContributionPlanCostRecognized"/>
+<link:loc xlink:label="loc_DomesticPlanMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DomesticPlanMember"/>
+<link:loc xlink:label="loc_GB" xlink:type="locator" xlink:href="http://xbrl.sec.gov/country/2017/country-2017-01-31.xsd#country_GB"/>
+<link:loc xlink:label="loc_RetirementPlanSponsorLocationDomain" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RetirementPlanSponsorLocationDomain"/>
+<link:loc xlink:label="loc_ForeignPlanMember" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_ForeignPlanMember"/>
+<link:definitionArc priority="10" order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_DefinedContributionPlanDisclosureLineItems" xlink:to="loc_DefinedContributionPlanCostRecognized" xlink:type="arc"/>
+<link:definitionArc priority="10" order="2.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_DomesticPlanMember" xlink:to="loc_GB" xlink:type="arc"/>
+<link:definitionArc priority="10" order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RetirementPlanSponsorLocationDomain" xlink:to="loc_DomesticPlanMember" xlink:type="arc"/>
+<link:definitionArc priority="10" order="3.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="loc_RetirementPlanSponsorLocationDomain" xlink:to="loc_ForeignPlanMember" xlink:type="arc"/>
+</link:definitionLink>
+<link:definitionLink xlink:role="http://fasb.org/us-gaap/role/disclosure/RetirementBenefitsTmp103DefinedContributionPlanTable" xlink:type="extended">
+<link:loc xlink:label="loc_DefinedContributionPlanTable" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_DefinedContributionPlanTable"/>
+<link:loc xlink:label="loc_RetirementPlanSponsorLocationAxis" xlink:type="locator" xlink:href="../elts/us-gaap-2018-01-31.xsd#us-gaap_RetirementPlanSponsorLocationAxis"/>
+<link:definitionArc priority="10" order="1.0" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="loc_DefinedContributionPlanTable" xlink:to="loc_RetirementPlanSponsorLocationAxis" xlink:type="arc"/>
+</link:definitionLink>
+</link:linkbase>
