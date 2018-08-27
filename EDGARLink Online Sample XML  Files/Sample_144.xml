@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<own:edgarSubmission xmlns:own="http://www.sec.gov/edgar/ownership" xmlns:com="http://www.sec.gov/edgar/common"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sec.gov/edgar/ownership eis_Ownership.xsd">
+<!-- DISCLAIMER:  This is a sample XML submission document for demonstration purposes only and should not be copied verbatim as part of a submission.  Please refer to the EDGARLink Online XML Technical Specification and the related EDGARLink Online Schemas for complete filer-constructed submission information.-->
+<!-- Please be aware that these schema locations are for informational purposes only and should not be considered as required items in the EDGARLink Online Schema. -->
+<!-- If a reference to a style sheet is included the submission will be suspended by EDGAR.  Please do not include any references to style sheets.-->
+  <own:liveTestFlag>LIVE</own:liveTestFlag>
+  <own:flag>
+    <own:overrideInternetFlag>true</own:overrideInternetFlag>
+    <own:returnCopyFlag>true</own:returnCopyFlag>
+  </own:flag>
+  <own:submissionType>144</own:submissionType>
+  <own:contact>
+    <com:name>Joe Smith</com:name>
+    <com:phoneNumber>202-333-4444</com:phoneNumber>
+  </own:contact>
+  <own:filer>
+    <own:filerId>1305274</own:filerId>
+    <own:filerCcc>CCC@Test</own:filerCcc>
+    <own:filerRelationship>DIRECTOR</own:filerRelationship>
+  </own:filer>
+  <own:subCompanyFiler>
+    <own:filerId>1305274</own:filerId>
+    <own:irsNumber>22-7777777</own:irsNumber>
+    <own:filerName>Company Name</own:filerName>
+  </own:subCompanyFiler>
+  <own:sros>
+    <com:sroId>NONE</com:sroId>
+    <com:sroId>ARCA</com:sroId>
+  </own:sros>
+  <own:notifications>
+    <com:internetNotificationAddress>doej@sec.gov</com:internetNotificationAddress>
+  </own:notifications>
+  <own:moduleSegments>
+    <com:moduleSegment>
+      <com:modOrSegFlag>M</com:modOrSegFlag>
+      <com:nickName>A123456789</com:nickName>
+      <com:cik>1305274</com:cik>
+      <com:ccc>CCC@Test</com:ccc>
+      <com:documentType>144</com:documentType>
+    </com:moduleSegment>
+  </own:moduleSegments>
+  <own:documents>
+    <com:document>
+      <com:conformedName>test2.txt</com:conformedName>
+      <com:conformedDocumentType>144</com:conformedDocumentType>
+      <com:contents>dGVzdCA=
+</com:contents>
+    </com:document>
+  </own:documents>
+</own:edgarSubmission>

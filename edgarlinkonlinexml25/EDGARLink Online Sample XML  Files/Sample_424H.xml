@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns:ns1="http://www.sec.gov/edgar/common" xmlns="http://www.sec.gov/edgar/coregserial" xmlns:ns2="http://www.sec.gov/edgar/feecommon" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sec.gov/edgar/coregserial eis_CoReg_Serial.xsd">
+<!-- DISCLAIMER:  This is a sample XML submission document for demonstration purposes only and should not be copied verbatim as part of a submission.  Please refer to the EDGARLink Online XML Technical Specification and the related EDGARLink Online Schemas for complete filer-constructed submission information.-->
+<!-- Please be aware that these schema locations are for informational purposes only and should not be considered as required items in the EDGARLink Online Schema. -->
+<!-- If a reference to a style sheet is included the submission will be suspended by EDGAR.  Please do not include any references to style sheets.-->
+	<liveTestFlag>TEST</liveTestFlag>
+	<flags>
+		<confirmingCopyFlag>true</confirmingCopyFlag>
+		<returnCopyFlag>true</returnCopyFlag>
+		<overrideInternetFlag>true</overrideInternetFlag>
+		<serialFlag>true</serialFlag>
+	</flags>
+	<submissionType>424H</submissionType>
+	<contact>
+		<ns1:name>a</ns1:name>
+		<ns1:phoneNumber>-</ns1:phoneNumber>
+	</contact>
+	<filer>
+		<filerId>0000350001</filerId>
+		<filerCcc>pasccc%1</filerCcc>
+		<fileNumber>333-00000-1</fileNumber>
+	</filer>
+	<depositorId>0000350002</depositorId>
+	<sponsorId>0000350003</sponsorId>
+	<absAssetClasses>
+		<ns1:absAssetClass>Residential mortgages - Prime</ns1:absAssetClass>
+		<ns1:absAssetClass>Debt Securities</ns1:absAssetClass>
+		<ns1:absAssetClass>Residential mortgages - Manufactured Housing</ns1:absAssetClass>
+		<ns1:absAssetClass>Resecuritization</ns1:absAssetClass>
+	</absAssetClasses>
+	<absSubAssetClasses>
+		<ns1:absSubAssetClass>Commercial mortgages</ns1:absSubAssetClass>
+		<ns1:absSubAssetClass>Residential mortgages - Other/Combined</ns1:absSubAssetClass>
+	</absSubAssetClasses>
+	<accessionNumber/>
+	<coregs>
+		<filer>
+			<filerId>23234455</filerId>
+			<filerCcc>pasccc%5</filerCcc>
+			<fileNumber>333-00000-1</fileNumber>
+		</filer>
+		<filer>
+			<filerId>0</filerId>
+			<filerCcc>pasccc%3</filerCcc>
+			<fileNumber>333-00000-2</fileNumber>
+		</filer>
+	</coregs>
+	<serials>
+		<serialCompanyName>Company Name 1</serialCompanyName>
+	</serials>
+	<sros>
+		<ns1:sroId>NASD</ns1:sroId>
+	</sros>
+	<feeTableInProspectusFlag>true</feeTableInProspectusFlag>
+	<notifications>
+		<ns1:internetNotificationAddress>doej@example.com</ns1:internetNotificationAddress>
+		<ns1:internetNotificationAddress>doej2@example.com</ns1:internetNotificationAddress>
+	</notifications>
+	<moduleSegments>
+		<ns1:moduleSegment>
+			<ns1:modOrSegFlag>M</ns1:modOrSegFlag>
+			<ns1:nickName>A123455678</ns1:nickName>
+			<ns1:cik>0001239991</ns1:cik>
+			<ns1:ccc>test@888</ns1:ccc>
+			<ns1:documentType>424H</ns1:documentType>
+		</ns1:moduleSegment>
+	</moduleSegments>
+	<documents>
+		<ns1:document>
+			<ns1:conformedName>test.txt</ns1:conformedName>
+			<ns1:conformedDocumentType>424H</ns1:conformedDocumentType>
+			<ns1:description>Primary Doc</ns1:description>
+			<ns1:contents>dGVzdCA= </ns1:contents>
+		</ns1:document>
+	</documents>
+	<edgarFee>
+		<submissionFee>
+			<ns2:feePayorInformation>
+				<ns2:filerId>0003445550</ns2:filerId>
+				<ns2:filerCcc>pasccc%3</ns2:filerCcc>
+			</ns2:feePayorInformation>
+			<ns2:feePaymentMethod>FEDWIRE</ns2:feePaymentMethod>
+			<ns2:feeAmount>500000</ns2:feeAmount>
+			<ns2:feeBasis>432.22</ns2:feeBasis>
+		</submissionFee>
+		<submissionOffering>
+			<ns2:feeOfferingTypeOfPayment>Pay As You Go</ns2:feeOfferingTypeOfPayment>
+			<ns2:feeOfferingSecurityName>Debt</ns2:feeOfferingSecurityName>
+			<ns2:feeOfferingShares>2</ns2:feeOfferingShares>
+			<ns2:feeOfferingAmountPerShare>333.22</ns2:feeOfferingAmountPerShare>
+			<ns2:feeOfferingAggregatePrice>223.00</ns2:feeOfferingAggregatePrice>
+		</submissionOffering>
+		<submissionOffset>
+			<ns2:offsetCik>0</ns2:offsetCik>
+			<ns2:offsetFormType>N-23C-2/A</ns2:offsetFormType>
+			<ns2:offsetFileNumber>0-0</ns2:offsetFileNumber>
+			<ns2:offsetFilingDate>07-24-2012</ns2:offsetFilingDate>
+			<ns2:offsetAmount>30000.99</ns2:offsetAmount>
+		</submissionOffset>
+	</edgarFee>
+</edgarSubmission>

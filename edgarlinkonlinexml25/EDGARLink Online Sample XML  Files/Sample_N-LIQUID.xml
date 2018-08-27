@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><sin:edgarSubmission xmlns:sin="http://www.sec.gov/edgar/singlefilersc" xmlns:com="http://www.sec.gov/edgar/common" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scc="http://www.sec.gov/edgar/sccommon" xsi:schemaLocation="http://www.sec.gov/edgar/singlefilersc eis_SingleFiler_SC.xsd">
+ <!-- DISCLAIMER:  This is a sample XML submission document for demonstration purposes only and should not be copied verbatim as part of a submission.  Please refer to the EDGARLink Online XML Technical Specification and the related EDGARLink Online Schemas for complete filer-constructed submission information.-->
+<!-- Please be aware that these schema locations are for informational purposes only and should not be considered as required items in the EDGARLink Online Schema. -->
+<!-- If a reference to a style sheet is included the submission will be suspended by EDGAR.  Please do not include any references to style sheets.-->
+  <sin:liveTestFlag>LIVE</sin:liveTestFlag>
+  <sin:flag>
+    <sin:confirmingCopyFlag>false</sin:confirmingCopyFlag>
+    <sin:returnCopyFlag>true</sin:returnCopyFlag>
+    <sin:overrideInternetFlag>false</sin:overrideInternetFlag>
+  </sin:flag>
+  <sin:submissionType>N-LIQUID</sin:submissionType>
+  <sin:contact>
+    <com:name>name1</com:name>
+    <com:phoneNumber>123456789</com:phoneNumber>
+  </sin:contact>
+  <sin:contactEmail>test@test-test.com</sin:contactEmail>
+  <sin:filer>
+    <sin:filerId>0000350001</sin:filerId>
+    <sin:filerCcc>dazzle#1</sin:filerCcc>
+  </sin:filer>
+  <sin:sros>
+    <com:sroId>NONE</com:sroId>
+  </sin:sros>
+  <sin:invCompany>N-1A</sin:invCompany>
+  <sin:documents>
+    <com:document>
+      <com:conformedName>doc1.txt</com:conformedName>
+      <com:conformedDocumentType>N-LIQUID</com:conformedDocumentType>
+      <com:contents>ZG9jMQ==
+</com:contents>
+    </com:document>
+  </sin:documents>
+  <sin:seriesClasses>
+    <sin:reportSeriesClass>
+      <scc:rptSeriesClassInfo>
+        <scc:seriesId>S000002112</scc:seriesId>
+        <scc:classId>C000000309</scc:classId>
+      </scc:rptSeriesClassInfo>
+    </sin:reportSeriesClass>
+  </sin:seriesClasses>
+</sin:edgarSubmission>
